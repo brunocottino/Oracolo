@@ -1,0 +1,9 @@
+# Python 3.11+
+numpy>=1.26
+pandas>=2.1
+yfinance>=0.2.51
+scikit-learn>=1.4
+streamlit>=1.50
+plotly>=5.22
+# solo per i test
+pytest>=8.0
