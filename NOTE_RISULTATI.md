@@ -31,3 +31,9 @@ Lettura:
 - **Non** si inverte il segno a posteriori: sarebbe data snooping. Un'eventuale ipotesi "attenzione = momentum a breve" va dichiarata prima e testata sul prossimo blocco di dati, con soglia t ≥ 3.
 - Aggiungere misure deboli abbassa l'IC del modello complessivo (da +0,016 a +0,011): l'ablation le esclude correttamente.
 - Limiti: universo di 73 grandi titoli, attuali (survivorship bias); i cambi di nome delle pagine Wikipedia (es. Meta, RTX) creano picchi artificiali; la rotazione del CGO è stimata dal volume relativo perché le azioni in circolazione storiche non sono gratuite.
+
+### 2026-10-24: IFC, Indice di Fragilità Comportamentale (pre-registrato, `PREREG_IFC.md`, `python -m lab.fragility`)
+Criteri formali superati (IC con NCSKEW futura +0,076, t 6,1; parziale +0,079, t 5,8; holdout +0,050), ma
+le diagnostiche mostrano che predice **meno balzi al rialzo**, non più crolli, e che il segnale viene solo
+da corsa passata e guadagno latente (Chen-Hong-Stein 2001). Attenzione, volume anomalo e calma: IC -0,006.
+Effetto robusto in Europa e Asia/Emergenti. Nessuna previsione di direzione dei prezzi.

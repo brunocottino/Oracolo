@@ -42,3 +42,32 @@ holdout = ultime 504 sedute, valutato **una sola volta**.
 - S3: IC medio annuo positivo in almeno il 60% degli anni.
 Holdout: si riporta l'IC con il suo segno, qualunque sia.
 Precisione attesa realistica: IC 0,02-0,05. Un IC molto più alto va trattato come sospetto di errore.
+
+---
+## Esito (aggiunto dopo il test, 24/10/2026; la parte sopra è invariata, commit ac583d7)
+Campione: 72 titoli (ROG.SW non scaricabile: 404 Yahoo), 510 origini di sviluppo dal 1963, 17 di holdout.
+
+| Criterio | Risultato | Esito |
+|---|---|---|
+| S1 IC IFC vs NCSKEW futura | +0,076, t 6,11 | superato |
+| S2 IC parziale sui controlli | +0,079, t 5,80 | superato |
+| S3 anni positivi | 86% di 43 | superato |
+| Holdout (16 date) | +0,050, t 1,55 | segno positivo |
+| Secondario: crolli (CRASH) | -0,019, t -1,55 | nessun effetto |
+
+Benchmark: NCSKEW passata +0,017 (t 1,52), volatilità passata -0,023 (t -1,68).
+Componenti: run +0,077 (t 6,1), cgo +0,085 (t 6,8), attn +0,022 (t 1,6, 9 anni), calm +0,005, dturn -0,001.
+
+**Diagnostiche (dopo il test, non cambiano i criteri):**
+- Regge nel tempo e fuori dagli USA: 2005-24 IC +0,093 (t 9,2, 20 anni positivi su 20); 1990-2004 +0,085;
+  1963-89 +0,015 (circa 11 titoli per data). USA +0,057, Italia/Europa +0,083, Asia/Emergenti +0,153.
+- **Non è fragilità.** Con IFC alto i crolli non aumentano (IC con CRASH +0,012, t 0,96; minimo futuro -0,027, t -1,9);
+  diminuiscono i balzi al rialzo (massimo futuro -0,076, t -5,6; salti > 3σ -0,060, t -4,7).
+- Tutto il segnale viene da `run` e `cgo` (correlazione dei ranghi 0,65): è l'effetto noto di Chen-Hong-Stein 2001
+  (rendimenti passati alti → asimmetria futura più negativa). Le tre componenti nuove (dturn, attn, calm)
+  insieme hanno IC -0,006.
+
+**Conclusione onesta:** criteri formali superati, ipotesi comportamentale NON confermata. L'indice misura
+"esaurimento del potenziale di rialzo" (meno balzi positivi dopo una corsa), non il rischio di crollo, e le parti
+nuove non contribuiscono. Rinominarlo o ricombinarlo adesso sarebbe data snooping: un indice
+"esaurimento del rialzo" va pre-registrato da capo e verificato solo su dati futuri.
