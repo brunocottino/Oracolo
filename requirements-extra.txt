@@ -1,0 +1,4 @@
+# Agenti opzionali (pesanti). Installa solo se il server ha RAM sufficiente (>= 2 GB).
+prophet>=1.1            # github.com/facebook/prophet
+chronos-forecasting>=1.4  # github.com/amazon-science/chronos-forecasting
+torch>=2.2

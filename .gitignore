@@ -1,0 +1,6 @@
+data/*.sqlite
+data/*.pkl
+__pycache__/
+.venv/
+.env
+*.parquet

@@ -1,0 +1,1 @@
+Analizza $ARGUMENTS con `python -c "import engine,json;o=engine.analyze('$ARGUMENTS');print('\n'.join(o['story'] if isinstance(o.get('story'),list) else [str(o.get('story'))]));print(o['plan']['signal'])"` e riporta in italiano: segnale, cosa prezza il mercato, cosa non ancora, piano (ingresso/stop/obiettivo). Massimo 8 righe. Ricorda che è uno strumento di studio.

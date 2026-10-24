@@ -1,0 +1,11 @@
+flask>=3.0
+gunicorn>=22.0
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+requests>=2.31
+# annunci utili, giudizi degli analisti, opzioni, fondamentali (se manca la piattaforma degrada con eleganza)
+yfinance>=0.2.40
+# motore "ufficiale" GARCH del modello di base (facoltativo: altrimenti MLE in scipy)
+arch>=6.3

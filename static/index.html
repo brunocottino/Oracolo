@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Oracolo – Cosa c'è nel prezzo</title>
+<meta name="theme-color" content="#0f1720">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo">◎</span> Oracolo <small>previsioni multi-agente</small></div>
+  <button id="themeBtn" class="ghost" aria-label="Tema">◐</button>
+</header>
+<div id="demoBanner" class="banner hidden">MODALITÀ DEMO: i prezzi sono sintetici, non reali.</div>
+
+<main>
+  <!-- MERCATI -->
+  <section id="tab-home" class="tab active">
+    <div id="labBanner" class="card lab-banner hidden" data-goto="lab"></div>
+    <h2>Indici <span class="sub">previsione a 3 mesi</span></h2>
+    <div id="indices" class="grid"></div>
+    <div class="row-between">
+      <h2>Segnali azioni <span class="sub">orizzonte 45 giorni</span></h2>
+    </div>
+    <div class="card">
+      <h3>Migliori occasioni</h3>
+      <div id="topBuy" class="list"></div>
+    </div>
+    <div class="card">
+      <h3>Da alleggerire</h3>
+      <div id="topSell" class="list"></div>
+    </div>
+    <div class="card scan">
+      <div id="scanInfo" class="muted"></div>
+      <div class="progress hidden" id="scanProg"><div></div></div>
+      <button id="scanBtn" class="primary">Avvia scansione completa</button>
+      <p class="tiny muted">La scansione gira da sola ogni notte. Una scansione completa richiede alcuni minuti.</p>
+    </div>
+  </section>
+
+  <!-- ANALIZZA -->
+  <section id="tab-analyze" class="tab">
+    <form id="searchForm" class="search">
+      <input id="q" placeholder="Ticker o nome (es. RACE.MI, Ferrari, ^GSPC)" autocomplete="off" autocapitalize="characters">
+      <button class="primary">Analizza</button>
+    </form>
+    <div id="suggest" class="list"></div>
+    <div id="result"></div>
+  </section>
+
+  <!-- SCANNER -->
+  <section id="tab-scan" class="tab">
+    <h2>Scanner</h2>
+    <div id="mkts" class="chips"></div>
+    <div id="sigList" class="list"></div>
+  </section>
+
+  <!-- PORTAFOGLIO -->
+  <section id="tab-pf" class="tab">
+    <h2>Il mio portafoglio</h2>
+    <div id="pfSummary" class="grid"></div>
+    <div id="pfRisk" class="card"></div>
+    <div id="pfList" class="list"></div>
+    <div class="card">
+      <h3>Aggiungi un titolo posseduto</h3>
+      <form id="pfForm" class="form">
+        <input name="ticker" placeholder="Ticker (es. ENI.MI)" required autocapitalize="characters">
+        <input name="qty" type="number" step="any" placeholder="Quantità" required>
+        <input name="avg_price" type="number" step="any" placeholder="Prezzo medio di carico (valuta del titolo)" required>
+        <input name="buy_date" type="date">
+        <button class="primary">Aggiungi</button>
+      </form>
+    </div>
+    <button id="pfRefresh" class="secondary">Aggiorna segnali del portafoglio</button>
+  </section>
+
+  <!-- LABORATORIO -->
+  <section id="tab-lab" class="tab">
+    <h2>Laboratorio <span class="sub">il banco di prova</span></h2>
+    <div id="labChips" class="chips"></div>
+    <div id="labBody"><div class="loading"><span class="spin"></span>Carico i risultati dei test…</div></div>
+    <div class="card scan">
+      <div id="labRunInfo" class="muted tiny"></div>
+      <div class="progress hidden" id="labProg"><div></div></div>
+      <button id="labRun" class="primary">Rilancia i test</button>
+      <p class="tiny muted">I test girano da soli ogni notte. Rilanciarli richiede qualche minuto.</p>
+    </div>
+  </section>
+
+  <!-- METODO -->
+  <section id="tab-method" class="tab">
+    <h2>Come funziona</h2>
+    <div class="card prose">
+      <p><b>L'idea.</b> I dati già noti a tutti sono già nel prezzo. Per ogni titolo la piattaforma
+      separa <i>cosa il mercato prezza già</i> (probabilità implicita nelle opzioni, crescita implicita nel
+      prezzo, volatilità implicita) da <i>cosa non è ancora nel prezzo</i> (segnali che, nei test sul
+      passato, hanno anticipato i rendimenti). Si muove solo se la seconda parte è abbastanza grande.</p>
+      <p><b>Tre classi di dati.</b> <b>A</b>: hanno una data storica (prezzi, VIX, annunci degli utili,
+      upgrade e downgrade) e si possono testare sul passato. <b>B</b>: esistono solo come fotografia di oggi
+      (revisioni delle stime, consenso, short interest, prezzo obiettivo, opzioni): si raccolgono ogni notte
+      e contano zero finché non accumulano almeno 12 periodi indipendenti (circa 18 mesi) e superano i test.
+      <b>C</b>: bilanci, solo informativi.</p>
+      <p><b>Il banco di prova.</b> Tutte le azioni dell'universo in un'unica tabella, una fotografia ogni
+      5 sedute, per tutta la storia disponibile. Il modello impara solo dal passato (almeno 3 anni), si
+      riaddestra ogni 63 sedute e tra addestramento e verifica c'è una "pausa" pari all'orizzonte più
+      10 sedute, così nessun risultato futuro rientra nell'addestramento. Le ultime 504 sedute (2 anni)
+      sono tenute da parte: non servono a scegliere nulla, solo a controllare che il risultato regga.</p>
+      <p><b>Cosa si prevede.</b> Per le azioni: se il titolo farà meglio del suo indice nei prossimi 31 giorni
+      di borsa, al netto del beta (rendimento "residuo"). Per gli indici: se renderanno più del tasso a breve
+      in 3 mesi. Il modello principale è una regressione logistica regolarizzata: una somma pesata e
+      trasparente dei segnali. Un modello più complesso (gradient boosting) lo sostituisce solo se è
+      statisticamente migliore.</p>
+      <p><b>Onestà statistica.</b> Il campione è contato in periodi indipendenti, non in righe. Ogni segnale
+      deve avere t ≥ 2 (≥ 3 se non c'è letteratura), superare il controllo dei falsi positivi
+      (Benjamini-Hochberg al 10%), funzionare nella maggior parte degli anni e migliorare davvero la
+      previsione. Ogni configurazione provata viene registrata e pesa sul Deflated Sharpe.</p>
+      <p><b>Interruttore.</b> Il modello è "attivo" solo se fuori campione batte la frequenza storica e tutti
+      i benchmark (Brier), è ben calibrato (errore ≤ 3 punti), lo spread tra il 20% migliore e il 20%
+      peggiore è positivo al netto dei costi e l'holdout non lo smentisce. Altrimenti è "spento" e nessun
+      titolo riceve segnali. Una precisione realistica, quando c'è, è del 52-55%.</p>
+      <p><b>Segnale.</b> Il riferimento è il maggiore tra frequenza storica dei rialzi e probabilità implicita
+      nel mercato. COMPRA se la nostra stima lo supera di almeno 5 punti, la sua classe di probabilità è
+      storicamente affidabile (intervallo di Wilson al 95%), il titolo è nel 10% migliore dell'alfa previsto
+      e il valore atteso è positivo al netto di commissioni (0,10%), spread (0,05%) e Tobin tax (0,1% sui
+      titoli italiani). ACCUMULA SU DEBOLEZZA con almeno 3 punti, solo con ordine limite. ALLEGGERISCI in modo
+      speculare. Altrimenti NESSUN SEGNALE: il prezzo riflette già ciò che sappiamo.</p>
+      <p><b>Piano e dimensione.</b> Stop a 2,5 ATR, obiettivo al 75° percentile, probabilità obiettivo/stop
+      da 6.000 simulazioni. Peso = un quarto di Kelly su una probabilità prudenzialmente ridotta, massimo 10%.</p>
+      <p><b>Gli agenti di prima.</b> Monte Carlo, GARCH e ARIMA sono diventati un unico modello di base che
+      fornisce volatilità e punto di partenza CAPM. Holt, Momentum, Mean reversion, Regimi, Gradient Boosting
+      per singolo titolo e Valutazione CFA restano visibili come informazione, a peso 0, perché non sono stati
+      validati dal banco di prova.</p>
+    </div>
+    <h2>Gli agenti</h2>
+    <div id="agentsDoc" class="list"></div>
+    <h2>Avvertenze</h2>
+    <div class="card prose disclaimer-full" id="discFull"></div>
+  </section>
+</main>
+
+<nav class="bottom">
+  <button data-tab="home" class="active"><span>▦</span>Mercati</button>
+  <button data-tab="analyze"><span>⌕</span>Analizza</button>
+  <button data-tab="scan"><span>≡</span>Scanner</button>
+  <button data-tab="pf"><span>€</span>Portafoglio</button>
+  <button data-tab="lab"><span>⚗</span>Lab</button>
+  <button data-tab="method"><span>ⓘ</span>Metodo</button>
+</nav>
+
+<footer class="foot">Strumento di studio a uso personale. Non costituisce consulenza finanziaria né raccomandazione d'investimento.</footer>
+
+<div id="discModal" class="modal hidden">
+  <div class="modal-box">
+    <h2>Prima di iniziare</h2>
+    <div class="prose" id="discText"></div>
+    <button id="discOk" class="primary">Ho letto e accetto</button>
+  </div>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

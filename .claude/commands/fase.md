@@ -1,0 +1,1 @@
+Leggi ROADMAP.md e CLAUDE.md. Lavora sulla prossima casella non spuntata della fase $ARGUMENTS (o della prima fase incompleta). Fai solo quella casella, esegui i test, spunta la casella e riassumi in 5 righe cosa hai cambiato e il prossimo passo. Non leggere file non necessari.

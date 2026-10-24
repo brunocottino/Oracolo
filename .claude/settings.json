@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)", "Bash(python3:*)", "Bash(pip install:*)", "Bash(pip list:*)",
+      "Bash(ls:*)", "Bash(grep:*)", "Bash(tail:*)", "Bash(head:*)",
+      "Read", "Edit", "Write"
+    ],
+    "deny": ["Read(.env)"]
+  }
+}

@@ -1,0 +1,1 @@
+Lancia il banco di prova: `python -m research $ARGUMENTS` (usa `--fast` se non specificato altro). Poi riporta in massimo 8 righe: stato azioni/indici (acceso/spento e perché), periodi indipendenti, IC con t, Brier Skill Score, ECE, spread netto, misure attive. Aggiungi una riga datata in NOTE_RISULTATI.md con gli stessi numeri.
