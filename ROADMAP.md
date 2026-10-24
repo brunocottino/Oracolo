@@ -4,8 +4,8 @@ Regola fissa: niente abbonamenti, account, chiavi API o siti a cui iscriversi.
 Si usano solo download pubblici senza login.
 
 ## Fase 0: avvio sui dati veri
-- [ ] `python tests/run_all.py` (deve passare).
-- [ ] `python -m research --fast` con Yahoo: annota stato, IC (t), BSS ed ECE in `NOTE_RISULTATI.md`.
+- [x] `python tests/run_all.py` (deve passare).
+- [x] `python -m research --fast` con Yahoo: annota stato, IC (t), BSS ed ECE in `NOTE_RISULTATI.md`.
 
 ## Fase 1: fonti pubbliche senza chiave (`sources/`, con cache SQLite e ripiego su Yahoo)
 - [ ] **FRED via CSV pubblico, senza chiave:** `https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS` (anche VXVCLS, DGS10, DTB3). Sostituisce ^VIX, ^VIX3M, ^TNX e ^IRX con storico completo.
