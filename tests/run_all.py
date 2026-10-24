@@ -7,7 +7,7 @@ import tempfile
 import time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FILES = ["test_smoke.py", "test_lookahead.py", "test_stats.py", "test_recovery.py"]
+FILES = ["test_smoke.py", "test_lookahead.py", "test_behavior.py", "test_stats.py", "test_recovery.py"]
 
 
 def main():

@@ -38,6 +38,8 @@ def init():
                 ticker TEXT PRIMARY KEY, ts REAL, payload TEXT);
             CREATE TABLE IF NOT EXISTS options_cache (
                 ticker TEXT PRIMARY KEY, ts REAL, payload TEXT);
+            CREATE TABLE IF NOT EXISTS source_cache (
+                ticker TEXT PRIMARY KEY, ts REAL, payload TEXT);
             CREATE TABLE IF NOT EXISTS snapshots (
                 date TEXT, ticker TEXT, field TEXT, value REAL,
                 PRIMARY KEY (date, ticker, field));

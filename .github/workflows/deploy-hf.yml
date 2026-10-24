@@ -1,0 +1,28 @@
+# Copia il codice nello Space di Hugging Face a ogni push su main.
+# Serve una volta: segreto HF_TOKEN (token "write" di Hugging Face) e variabile HF_SPACE
+# (es. brunocottino/oracolo) in Settings > Secrets and variables > Actions. Vedi AVVIO_HF.md.
+name: Deploy su Hugging Face
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: ${{ vars.HF_SPACE != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Push allo Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_SPACE: ${{ vars.HF_SPACE }}
+        run: |
+          cp hf/README.md README.md
+          rm -rf .git data/*.sqlite
+          git init -q -b main
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git add -A
+          git commit -q -m "Deploy da GitHub ${GITHUB_SHA::7}"
+          git push --force "https://user:${HF_TOKEN}@huggingface.co/spaces/${HF_SPACE}" main

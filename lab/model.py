@@ -16,6 +16,7 @@ from scipy.stats import norm
 
 import config
 import db
+from sources import behavior
 
 from . import features as F
 
@@ -148,7 +149,7 @@ def stock_view(ticker, df, bench_df, events):
                       "stocks")
     R = R0["stocks"]
     A = arts()
-    raw = F.stock_raw(df["adj"], bench_df["adj"], events)
+    raw = F.stock_raw(df["adj"], bench_df["adj"], events, behavior.extra_for(ticker, df))
     last = raw.iloc[-1]
     raw_now = {k: (float(last[k]) if np.isfinite(last[k]) else None) for k in raw.columns
                if isinstance(last[k], (float, np.floating, int))}
@@ -157,6 +158,8 @@ def stock_view(ticker, df, bench_df, events):
              for fd in F.STOCK_FEATURES}
     x_now["f_events"] = 1.0 if raw_now.get("sue") is None else 0.0
     x_now["f_grades"] = 1.0 if raw_now.get("upg_30") is None else 0.0
+    x_now["f_wiki"] = 1.0 if raw_now.get("attn") is None else 0.0
+    x_now["f_lazy"] = 1.0 if raw_now.get("lazy") is None else 0.0
     out = _predict("stocks", x_now, raw_now, R, A, F.STOCK_FEATURES)
     h = config.HORIZON_STOCK
     out["beta"] = raw_now.get("beta")

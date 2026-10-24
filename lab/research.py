@@ -270,6 +270,10 @@ def flag_cols(kind, keys):
             out.append("f_events")
         if any(k in F.GRADE_KEYS for k in keys):
             out.append("f_grades")
+        if any(k in F.WIKI_KEYS for k in keys):
+            out.append("f_wiki")
+        if any(k in F.LAZY_KEYS for k in keys):
+            out.append("f_lazy")
     elif any(k in ("vrp", "vix_term") for k in keys):
         out.append("f_vix")
     return out

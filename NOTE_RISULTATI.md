@@ -12,3 +12,22 @@
   - Copertura eventi: i fondamentali Yahoo (quoteSummary) danno 404 per i titoli non USA e "Invalid Crumb" su alcune chiamate → SUE e giudizi analisti scarsi fuori dagli USA.
 - **Indici, SPENTO**: 151 periodi indipendenti, 27.008 osservazioni, 89,3 anni. IC +0,035 (t 1,59), BSS -1,95%, ECE 6,0 punti (massimo 3), battuti 0 benchmark su 3. Misure: tsmom_12 t +0,04, tsmom_3 t -1,81, vrp t +1,37, vix_term t -1,50; nessuna attiva.
 - Esito valido (principio 5): tutti i titoli mostrano NESSUN SEGNALE.
+| 2026-10-24 | Yahoo + Wikipedia + SEC, `--fast` | SPENTO | 267 | +0,011 (t 1,02) | -0,37% | 1,9 pt | Con 5 misure comportamentali nuove; nessuna attiva. Indici invariati. |
+
+### 2026-10-24: misure di finanza comportamentale (fonti gratuite senza chiave)
+Copertura: Wikipedia 70/73 titoli nella lingua del mercato (dal luglio 2015); SEC EDGAR 31 titoli quotati negli USA, comprese 9 ADR di mercati emergenti (10-K/10-Q/20-F dal 2009, CIK storici per XOM, GOOGL, AVGO).
+
+| Misura | Rif. | IC | t | Esito |
+|---|---|---|---|---|
+| `cgo` guadagno latente sul prezzo di carico | Grinblatt-Han 2005 | +0,0093 | +0,72 | spenta |
+| `pt_value` prospect theory (inverso) | Barberis-Mukherjee-Wang 2016 | -0,0014 | -0,13 | spenta |
+| `attn` choc di attenzione Wikipedia (inverso) | Barber-Odean 2008 | -0,0169 | -1,75 | spenta, segno opposto |
+| `lazy` somiglianza testo bilanci | Cohen-Malloy-Nguyen 2020 | -0,0172 | -1,67 | spenta, segno opposto |
+| `press` cgo x choc di attenzione (ipotesi nuova, soglia t ≥ 3) | Oracolo | +0,0077 | +0,62 | spenta |
+
+Lettura:
+- Sull'orizzonte di 31 sedute l'attenzione anomala precede rendimenti più **alti**, non più bassi. È coerente con Da-Engelberg-Gao (pressione di acquisto a breve, inversione oltre l'anno), non con Barber-Odean.
+- Le società che cambiano poco il testo dei bilanci hanno reso **meno**, al contrario di CMN. Con 31 titoli mega-cap e t -1,67 il risultato non è distinguibile dal rumore.
+- **Non** si inverte il segno a posteriori: sarebbe data snooping. Un'eventuale ipotesi "attenzione = momentum a breve" va dichiarata prima e testata sul prossimo blocco di dati, con soglia t ≥ 3.
+- Aggiungere misure deboli abbassa l'IC del modello complessivo (da +0,016 a +0,011): l'ablation le esclude correttamente.
+- Limiti: universo di 73 grandi titoli, attuali (survivorship bias); i cambi di nome delle pagine Wikipedia (es. Meta, RTX) creano picchi artificiali; la rotazione del CGO è stimata dal volume relativo perché le azioni in circolazione storiche non sono gratuite.

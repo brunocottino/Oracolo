@@ -83,3 +83,34 @@ def all_tickers():
     for m in MARKETS.values():
         out += list(m.keys())
     return out
+
+
+# Pagina Wikipedia per l'attenzione degli investitori: nella lingua del mercato di casa
+# (chi compra ENI.MI legge it.wikipedia), in inglese per USA e ADR.
+WIKI = {
+    "AAPL": ("en", "Apple_Inc."), "MSFT": ("en", "Microsoft"), "NVDA": ("en", "Nvidia"),
+    "AMZN": ("en", "Amazon_(company)"), "GOOGL": ("en", "Alphabet_Inc."), "META": ("en", "Meta_Platforms"),
+    "AVGO": ("en", "Broadcom"), "TSLA": ("en", "Tesla,_Inc."), "JPM": ("en", "JPMorgan_Chase"),
+    "V": ("en", "Visa_Inc."), "LLY": ("en", "Eli_Lilly_and_Company"), "UNH": ("en", "UnitedHealth_Group"),
+    "XOM": ("en", "ExxonMobil"), "JNJ": ("en", "Johnson_&_Johnson"), "PG": ("en", "Procter_&_Gamble"),
+    "LMT": ("en", "Lockheed_Martin"), "RTX": ("en", "RTX_Corporation"), "NOC": ("en", "Northrop_Grumman"),
+    "AMD": ("en", "AMD"), "ASML": ("en", "ASML_Holding"), "COST": ("en", "Costco"),
+    "KO": ("en", "The_Coca-Cola_Company"),
+    "ENI.MI": ("it", "Eni"), "ENEL.MI": ("it", "Enel"), "ISP.MI": ("it", "Intesa_Sanpaolo"),
+    "UCG.MI": ("it", "UniCredit"), "RACE.MI": ("it", "Ferrari_(azienda)"), "STLAM.MI": ("it", "Stellantis"),
+    "G.MI": ("it", "Assicurazioni_Generali"), "LDO.MI": ("it", "Leonardo_(azienda)"), "PRY.MI": ("it", "Prysmian"),
+    "MONC.MI": ("it", "Moncler"), "STMMI.MI": ("it", "STMicroelectronics"), "TIT.MI": ("it", "TIM_(azienda)"),
+    "MB.MI": ("it", "Mediobanca"), "BMED.MI": ("it", "Banca_Mediolanum"), "FBK.MI": ("it", "FinecoBank"),
+    "SRG.MI": ("it", "Snam"), "TRN.MI": ("it", "Terna_(azienda)"), "PST.MI": ("it", "Poste_italiane"),
+    "ASML.AS": ("nl", "ASML"), "MC.PA": ("fr", "LVMH"), "SAP.DE": ("de", "SAP"), "SIE.DE": ("de", "Siemens"),
+    "TTE.PA": ("fr", "TotalEnergies"), "AIR.PA": ("fr", "Airbus"), "RMS.PA": ("fr", "Hermès_International"),
+    "OR.PA": ("fr", "L'Oréal"), "NOVO-B.CO": ("da", "Novo_Nordisk"), "NESN.SW": ("de", "Nestlé"),
+    "ROG.SW": ("de", "Roche_Holding"), "RHM.DE": ("de", "Rheinmetall"), "SAF.PA": ("fr", "Safran"),
+    "ALV.DE": ("de", "Allianz"), "BNP.PA": ("fr", "BNP_Paribas"), "SAN.MC": ("es", "Banco_Santander"),
+    "SHEL.L": ("en", "Shell_plc"), "AZN.L": ("en", "AstraZeneca"), "BA.L": ("en", "BAE_Systems"),
+    "BABA": ("en", "Alibaba_Group"), "0700.HK": ("zh", "腾讯"), "PDD": ("en", "PDD_Holdings"),
+    "JD": ("en", "JD.com"), "TSM": ("en", "TSMC"), "7203.T": ("ja", "トヨタ自動車"), "6758.T": ("ja", "ソニー"),
+    "9984.T": ("ja", "ソフトバンクグループ"), "005930.KS": ("ko", "삼성전자"), "INFY": ("en", "Infosys"),
+    "HDB": ("en", "HDFC_Bank"), "MELI": ("es", "Mercado_Libre"), "VALE": ("en", "Vale_(company)"),
+    "BIDU": ("en", "Baidu"),
+}

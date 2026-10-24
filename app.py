@@ -216,5 +216,10 @@ def api_universe():
 if config.AUTO_SCAN and os.environ.get("WERKZEUG_RUN_MAIN") != "false":
     scanner.start_scheduler()
 
+# Hosting con disco temporaneo (Hugging Face Space): al primo avvio il Laboratorio non ha
+# ancora un report; lo si lancia subito in background, versione rapida.
+if os.environ.get("ORACOLO_LAB_ON_START") == "1" and not lab_model.report():
+    lab_research.run_async(fast=True)
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8000)), threaded=True)

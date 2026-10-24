@@ -33,10 +33,23 @@ STOCK_FEATURES = [
     {"key": "upg_30", "label": "Upgrade netti 30 giorni", "lit": True, "ref": "Womack 1996"},
     {"key": "upg_90", "label": "Upgrade netti 90 giorni", "lit": True, "ref": "Jegadeesh-Kim-Krische-Lee 2004"},
     {"key": "tgt_chg_30", "label": "Variazione prezzo obiettivo 30 giorni", "lit": True, "ref": "Brav-Lehavy 2003"},
+    # ---- finanza comportamentale (sources/) ----
+    {"key": "cgo", "label": "Guadagno latente sul prezzo di carico (effetto disposizione)", "lit": True,
+     "ref": "Grinblatt-Han 2005"},
+    {"key": "pt_value", "label": "Attrattiva secondo la prospect theory (inverso)", "lit": True,
+     "ref": "Barberis-Mukherjee-Wang 2016"},
+    {"key": "attn", "label": "Choc di attenzione su Wikipedia (inverso)", "lit": True,
+     "ref": "Barber-Odean 2008; Da-Engelberg-Gao 2011"},
+    {"key": "lazy", "label": "Somiglianza del testo del bilancio col precedente (SEC)", "lit": True,
+     "ref": "Cohen-Malloy-Nguyen 2020"},
+    {"key": "press", "label": "Pressione comportamentale: guadagno latente x choc di attenzione", "lit": False,
+     "ref": "ipotesi nuova di Oracolo"},
 ]
-STOCK_FLAGS = ["f_events", "f_grades"]
+STOCK_FLAGS = ["f_events", "f_grades", "f_wiki", "f_lazy"]
 EVENT_KEYS = {"sue", "ear", "ea_recent"}
 GRADE_KEYS = {"upg_30", "upg_90", "tgt_chg_30"}
+WIKI_KEYS = {"attn", "press"}
+LAZY_KEYS = {"lazy"}
 
 INDEX_FEATURES = [
     {"key": "tsmom_12", "label": "Trend 12 mesi (time-series)", "lit": True, "ref": "Moskowitz-Ooi-Pedersen 2012"},
@@ -80,9 +93,11 @@ def rolling_beta(r: pd.Series, rb: pd.Series, n=252, min_periods=200) -> pd.Seri
     return cov / var.replace(0, np.nan)
 
 
-def stock_raw(px: pd.Series, bench: pd.Series, events: dict | None) -> pd.DataFrame:
+def stock_raw(px: pd.Series, bench: pd.Series, events: dict | None, extra: dict | None = None) -> pd.DataFrame:
     """Misure grezze per un titolo, una riga per seduta del titolo.
-    px = prezzi rettificati del titolo, bench = indice locale (qualsiasi calendario)."""
+    px = prezzi rettificati del titolo, bench = indice locale (qualsiasi calendario).
+    extra (facoltativo, da sources/behavior.py) = {"volume": Series, "wiki": Series di visite
+    giornaliere, "lazy": [{"date", "sim"}]}."""
     px = px.astype(float)
     idx = px.index
     b = align(bench.astype(float), idx)
@@ -120,7 +135,95 @@ def stock_raw(px: pd.Series, bench: pd.Series, events: dict | None) -> pd.DataFr
     ev = events or {}
     _event_features(f, px, e, ev.get("earnings") or [])
     _grade_features(f, ev.get("grades") or [])
+    _behavior_features(f, px, extra or {})
     return f
+
+
+# --------------------------------------------------------------------------
+# Finanza comportamentale
+# --------------------------------------------------------------------------
+def capital_gains_overhang(px: pd.Series, volume: pd.Series | None, lag=5) -> pd.Series:
+    """Grinblatt-Han: prezzo di carico medio RP_t = (1 - v_t) RP_{t-1} + v_t P_t con v_t =
+    rotazione giornaliera. Senza azioni in circolazione storiche (non gratuite) la rotazione è
+    stimata come 0,4% al giorno (≈ 100% l'anno) scalata per il volume relativo all'ultimo anno.
+    CGO = (P - RP) / P, con una settimana di ritardo come nell'articolo."""
+    p = px.astype(float).values
+    if volume is not None:
+        v = align(volume.astype(float), px.index)
+        rel = (v / v.rolling(252, min_periods=60).mean().replace(0, np.nan)).fillna(1.0).clip(0, 10).values
+    else:
+        rel = np.ones(len(p))
+    tau = np.clip(0.004 * rel, 0.0, 0.2)
+    rp = np.empty(len(p))
+    rp[0] = p[0]
+    for i in range(1, len(p)):
+        rp[i] = (1 - tau[i]) * rp[i - 1] + tau[i] * p[i]
+    cgo = pd.Series((p - rp) / p, index=px.index)
+    cgo.iloc[:500] = np.nan   # serve circa due anni perché il prezzo di carico si stabilizzi
+    return cgo.shift(lag)
+
+
+def _pw(P, g):
+    return P ** g / (P ** g + (1 - P) ** g) ** (1 / g)
+
+
+def prospect_value(px: pd.Series, n=60, step=21, alpha=0.88, lam=1.5, gp=0.61, gm=0.69) -> pd.Series:
+    """Valore di Tversky-Kahneman della distribuzione degli ultimi 60 rendimenti mensili
+    (Barberis-Mukherjee-Wang 2016): valore, avversione alle perdite e pesi di probabilità."""
+    p = px.astype(float).values
+    out = np.full(len(p), np.nan)
+    k = np.arange(1, n + 1)
+    for c in range(step):
+        sub = p[c::step]
+        if len(sub) <= n:
+            continue
+        ret = sub[1:] / sub[:-1] - 1
+        W = np.sort(np.lib.stride_tricks.sliding_window_view(ret, n), axis=1)
+        val = np.where(W >= 0, np.abs(W) ** alpha, -lam * np.abs(W) ** alpha)
+        # pesi cumulativi: perdite dalla peggiore, guadagni dalla migliore
+        loss_w = _pw(k / n, gm) - _pw((k - 1) / n, gm)            # per rango crescente
+        gain_w = (_pw(k / n, gp) - _pw((k - 1) / n, gp))[::-1]    # rango decrescente
+        pi = np.where(W < 0, loss_w[None, :], gain_w[None, :])
+        tk = (pi * val).sum(axis=1)
+        pos = c + step * np.arange(n, n + len(tk))
+        out[pos[pos < len(p)]] = tk[pos < len(p)]
+    s = pd.Series(out, index=px.index).ffill(limit=step)
+    return s
+
+
+def attention_shock(views: pd.Series, index: pd.DatetimeIndex) -> pd.Series:
+    """log(media visite ultimi 5 giorni) - log(mediana dell'anno precedente). Le visite del
+    giorno d si conoscono dal giorno dopo: si spostano di un giorno."""
+    v = views.astype(float).sort_index()
+    v.index = pd.to_datetime(v.index) + pd.Timedelta(days=1)
+    short = np.log1p(v.rolling(5, min_periods=3).mean())
+    base = np.log1p(v.shift(6).rolling(365, min_periods=180).median())
+    return align(short - base, index)
+
+
+def _behavior_features(f, px, extra):
+    idx = f.index
+    f["cgo"] = capital_gains_overhang(px, extra.get("volume"))
+    f["pt_value"] = -prospect_value(px)
+    w = extra.get("wiki")
+    if w is not None and len(w) > 200:
+        shock = attention_shock(w, idx)
+        f["attn"] = -shock
+        f["press"] = f["cgo"] * shock.clip(lower=0)
+    else:
+        f["attn"] = np.nan
+        f["press"] = np.nan
+    f["lazy"] = np.nan
+    lz = extra.get("lazy") or []
+    if lz:
+        s = pd.Series({pd.Timestamp(x["date"]): float(x["sim"]) for x in lz if x.get("sim") is not None})
+        if len(s):
+            # deposito alla data d: disponibile da d+2 sedute; vale per un anno
+            pos = idx.searchsorted(s.index) + 2
+            ok = pos < len(idx)
+            s2 = pd.Series(s.values[ok], index=idx[pos[ok]])
+            s2 = s2[~s2.index.duplicated(keep="last")]
+            f["lazy"] = s2.reindex(idx).ffill(limit=300)
 
 
 def _event_features(f, px, e, earnings):
@@ -332,6 +435,16 @@ def describe(key, raw: dict) -> str:
         return f"{v:+.0f} upgrade netti in 90 giorni"
     if key == "tgt_chg_30":
         return f"prezzo obiettivo {pc(v, 1)} in 30 giorni"
+    if key == "cgo":
+        return f"{pc(v)} rispetto al prezzo medio di carico stimato"
+    if key == "pt_value":
+        return f"attrattiva prospect theory {-v * 100:+.1f}".replace(".", ",")
+    if key == "attn":
+        return f"attenzione Wikipedia {pc(math.exp(-v) - 1)} rispetto al normale"
+    if key == "lazy":
+        return f"testo del bilancio simile al precedente al {v * 100:.0f}%"
+    if key == "press":
+        return f"pressione comportamentale {v * 100:+.1f}".replace(".", ",")
     if key == "tsmom_12":
         return f"trend 12 mesi {pc(math.exp(v) - 1)}"
     if key == "tsmom_3":

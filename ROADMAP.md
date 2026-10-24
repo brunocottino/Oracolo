@@ -7,6 +7,19 @@ Si usano solo download pubblici senza login.
 - [x] `python tests/run_all.py` (deve passare).
 - [x] `python -m research --fast` con Yahoo: annota stato, IC (t), BSS ed ECE in `NOTE_RISULTATI.md`.
 
+## Fase 1b: finanza comportamentale (fonti senza chiave)
+- [x] Capital gains overhang (Grinblatt-Han) da prezzi e volumi, tutti i mercati.
+- [x] Valore prospect theory (Barberis-Mukherjee-Wang) sugli ultimi 60 mesi.
+- [x] Choc di attenzione dalle visite Wikipedia nella lingua del mercato (`sources/wiki.py`).
+- [x] Lazy prices: somiglianza dei testi 10-K/10-Q/20-F da SEC EDGAR (`sources/edgar.py`).
+- [x] Pressione comportamentale cgo x attenzione (ipotesi nuova, t ≥ 3).
+- [ ] Allargare l'universo (più titoli medi europei ed emergenti) per avere potenza statistica.
+- [ ] Ipotesi pre-registrata "attenzione = momentum a breve" da testare solo su dati futuri.
+
+## Hosting gratuito
+- [x] Dockerfile e GitHub Action per Hugging Face Space privato (`AVVIO_HF.md`).
+- [ ] Creare account, Space e segreti (lo fa Bruno, 10 minuti).
+
 ## Fase 1: fonti pubbliche senza chiave (`sources/`, con cache SQLite e ripiego su Yahoo)
 - [ ] **FRED via CSV pubblico, senza chiave:** `https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS` (anche VXVCLS, DGS10, DTB3). Sostituisce ^VIX, ^VIX3M, ^TNX e ^IRX con storico completo.
 - [ ] **SEC EDGAR companyfacts, senza chiave:** `https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json`. Serve solo un'intestazione User-Agent fissa nel codice, nessuna registrazione. Ricava EPS trimestrali USA con la data di deposito → SUE point-in-time con storico lungo.

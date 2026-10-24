@@ -11,6 +11,7 @@ import pandas as pd
 import config
 import data
 from fundamentals import benchmark_for
+from sources import behavior
 from universe import INDICES, MARKETS, market_of
 
 from . import features as F
@@ -48,18 +49,19 @@ def _finish(frames, cal, step, h):
 
 def build_stock_panel(tickers=None, h=None, step=None, progress=None, inputs=None):
     """Restituisce (panel, calendario, info). `inputs` (facoltativo, per i test) =
-    {ticker: (px, bench, events)}."""
+    {ticker: (px, bench, events)} oppure {ticker: (px, bench, events, extra)}."""
     h = h or config.HORIZON_STOCK
     step = step or config.LAB["origin_step"]
     tickers = tickers or stock_universe()
-    frames, skipped, cover = {}, [], {"earnings": 0, "grades": 0}
+    frames, skipped, cover = {}, [], {"earnings": 0, "grades": 0, "wiki": 0, "lazy": 0}
     bench_cache = {}
     for i, t in enumerate(tickers):
         if progress:
             progress(i / max(len(tickers), 1), f"Preparo {t}")
         try:
             if inputs is not None:
-                px, bench, ev = inputs[t]
+                px, bench, ev, *rest = inputs[t]
+                extra = rest[0] if rest else None
             else:
                 df, _ = data.get_history(t)
                 px = df["adj"]
@@ -68,10 +70,11 @@ def build_stock_panel(tickers=None, h=None, step=None, progress=None, inputs=Non
                     bench_cache[b] = data.get_history(b)[0]["adj"]
                 bench = bench_cache[b]
                 ev = data.get_events(t)
+                extra = behavior.extra_for(t, df)
         except Exception as e:
             skipped.append(f"{t}: {e}")
             continue
-        raw = F.stock_raw(px, bench, ev)
+        raw = F.stock_raw(px, bench, ev, extra)
         tg = F.stock_targets(px, bench, raw["beta"], h)
         fr = raw.join(tg)
         fr["market"] = market_of(t)
@@ -80,6 +83,10 @@ def build_stock_panel(tickers=None, h=None, step=None, progress=None, inputs=Non
             cover["earnings"] += 1
         if ev and ev.get("grades"):
             cover["grades"] += 1
+        if raw["attn"].notna().any():
+            cover["wiki"] += 1
+        if raw["lazy"].notna().any():
+            cover["lazy"] += 1
         frames[t] = fr
     if not frames:
         raise data.DataError("Nessun titolo disponibile per il panel.")
@@ -93,6 +100,8 @@ def build_stock_panel(tickers=None, h=None, step=None, progress=None, inputs=Non
     panel = pd.concat([panel, X], axis=1)
     panel["f_events"] = panel["sue"].isna().astype(float)
     panel["f_grades"] = panel["upg_30"].isna().astype(float)
+    panel["f_wiki"] = panel["attn"].isna().astype(float)
+    panel["f_lazy"] = panel["lazy"].isna().astype(float)
     panel["y"] = (panel["y_res"] > 0).astype(float)
     panel["y_abs"] = (panel["fwd"] > 0).astype(float)
     panel.loc[panel["y_res"].isna(), ["y", "y_abs"]] = np.nan
