@@ -1,6 +1,7 @@
 """Indice ORACOLO v1: COMPRA / VENDI / STAI FERMO, test pre-registrato (vedi PREREG_ORACOLO.md).
 
-Lancio:  python -m lab.oracolo_index            (test storico + registro delle decisioni di oggi)
+Lancio:  python -m lab.oracolo_index            (azioni: test storico + registro delle decisioni di oggi)
+         python -m lab.oracolo_index settori    (anche: paesi, indici, asset; vedi PREREG_ETF.md)
 Nessun parametro stimato sui dati: regole, orizzonti e criteri sono quelli della pre-registrazione.
 """
 import csv
@@ -18,19 +19,27 @@ import config
 import data
 import db
 
+from universe import INDICES
+
 from .panel import _origins, stock_universe
 
 STEP = 21
 HORIZONS = (21, 63)
 COST = 10 / 10000
 MIN_NAMES = 10
+UNIVERSES = {
+    "settori": "XLB XLE XLF XLI XLK XLP XLU XLV XLY XLRE XLC".split(),
+    "paesi": "SPY QQQ IWM EFA EEM VGK EWJ EWG EWQ EWI EWU EWP EWL EWC EWA EWZ EWW EWH EWT EWY FXI INDA".split(),
+    "indici": list(INDICES),
+    "asset": "SPY EFA EEM TLT IEF LQD HYG GLD SLV DBC VNQ TIP".split(),
+}
 FORWARD_LOG = os.environ.get("ORACOLO_FORWARD_LOG", os.path.join(config.BASE_DIR, "oracolo_forward.csv"))
 
 
-def prices():
+def prices(tickers=None):
     db.init()
     cols = {}
-    for t in stock_universe():
+    for t in tickers or stock_universe():
         try:
             cols[t] = data.get_history(t)[0]["adj"].astype(float)
         except Exception as e:
@@ -142,8 +151,13 @@ def log_today(st, P):
     return d, rows, True
 
 
-def main():
-    P = prices()
+def main(argv=None):
+    global MIN_NAMES
+    argv = sys.argv[1:] if argv is None else argv
+    uni = argv[0] if argv else "azioni"
+    if uni != "azioni":
+        MIN_NAMES = 5          # universi piccoli (PREREG_ETF.md, unica modifica)
+    P = prices(UNIVERSES.get(uni))
     st, mom, trend = states(P)
     cal = P.index
     dates_all = _origins(cal, STEP)
@@ -177,10 +191,12 @@ def main():
     pfh = portfolios(st, fwd[21], hold21)
     R["holdout_portfolios"] = {k: perf(pfh[k]) if len(pfh) >= 12 else {"periods": len(pfh),
                                "total": round(float((1 + pfh[k]).prod() - 1), 4)} for k in pfh}
-    d, rows, new = log_today(st, P)
-    counts = pd.Series([r["state"] for r in rows]).value_counts().to_dict()
-    R["today"] = {"date": str(d.date()), "counts": counts, "logged": new,
-                  "COMPRA": sorted(r["ticker"] for r in rows if r["state"] == "COMPRA")}
+    R["universe"] = uni
+    if uni == "azioni":
+        d, rows, new = log_today(st, P)
+        counts = pd.Series([r["state"] for r in rows]).value_counts().to_dict()
+        R["today"] = {"date": str(d.date()), "counts": counts, "logged": new,
+                      "COMPRA": sorted(r["ticker"] for r in rows if r["state"] == "COMPRA")}
     print(json.dumps(R, indent=2, ensure_ascii=False))
     return R
 

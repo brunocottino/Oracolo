@@ -43,3 +43,7 @@ Prima il sistema IPB a soglie ottimizzate fornito da Bruno, sui 72 titoli: Sharp
 buy & hold, batte il B&H in 11 titoli su 72 (differenza t -9,4). Poi Oracolo v1 (trend + momentum, solo long, mensile):
 COMPRA +0,65% al mese (t 3,6) sul totale, ma dal 2013 +0,05% (t 0,24); VENDI -0,46% (t -1,8). Criteri 2 su 4: SPENTO.
 Registro delle decisioni future avviato: `oracolo_forward.csv` (prima riga 23/10/2026).
+
+### 2026-10-24: ETF, indici, settori, classi di attivo (pre-registrato, `PREREG_ETF.md`)
+IPB v2 (long/cash, isteresi, vol targeting) e Oracolo v1 su 4 universi di ETF/indici: nessun universo vira.
+IPB v2 sotto il buy & hold in Sharpe ovunque; Oracolo v1 spento ovunque (asset: segni giusti, t 1,7). Le azioni restano il migliore.
