@@ -90,10 +90,12 @@ def get_history(ticker: str, years=None) -> tuple[pd.DataFrame, dict]:
 
 
 def _yahoo_history(ticker, years):
-    rng = "max" if years is None else f"{years}y"
+    # range=max fa scendere Yahoo a barre mensili: per tutto lo storico si usa period1/period2.
+    span = ({"period1": -2208988800, "period2": int(time.time())} if years is None
+            else {"range": f"{years}y"})
     try:
         r = requests.get(CHART_URL.format(t=ticker), headers=UA, timeout=30,
-                         params={"range": rng, "interval": "1d",
+                         params={**span, "interval": "1d",
                                  "events": "div,splits", "includeAdjustedClose": "true"})
         r.raise_for_status()
         js = r.json()["chart"]
