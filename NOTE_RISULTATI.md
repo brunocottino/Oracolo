@@ -47,3 +47,7 @@ Registro delle decisioni future avviato: `oracolo_forward.csv` (prima riga 23/10
 ### 2026-10-24: ETF, indici, settori, classi di attivo (pre-registrato, `PREREG_ETF.md`)
 IPB v2 (long/cash, isteresi, vol targeting) e Oracolo v1 su 4 universi di ETF/indici: nessun universo vira.
 IPB v2 sotto il buy & hold in Sharpe ovunque; Oracolo v1 spento ovunque (asset: segni giusti, t 1,7). Le azioni restano il migliore.
+
+### 2026-10-24: segnali a 45 e 90 giorni (pre-registrato, `PREREG_ORIZZONTI.md`, `python -m lab.horizon_test`)
+Oracolo v1, IPB v2 e SMA100 su azioni, settori, paesi, indici, asset: 0 combinazioni utili su 30 (nessun |t| ≥ 3;
+massimo Oracolo azioni 90 gg COMPRA +1,56%, t 1,91). Il 56-68% delle finestre sale in qualunque stato.
