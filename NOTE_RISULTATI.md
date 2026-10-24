@@ -37,3 +37,9 @@ Criteri formali superati (IC con NCSKEW futura +0,076, t 6,1; parziale +0,079, t
 le diagnostiche mostrano che predice **meno balzi al rialzo**, non più crolli, e che il segnale viene solo
 da corsa passata e guadagno latente (Chen-Hong-Stein 2001). Attenzione, volume anomalo e calma: IC -0,006.
 Effetto robusto in Europa e Asia/Emergenti. Nessuna previsione di direzione dei prezzi.
+
+### 2026-10-24: Oracolo v1 COMPRA/VENDI/STAI FERMO (pre-registrato, `PREREG_ORACOLO.md`, `python -m lab.oracolo_index`)
+Prima il sistema IPB a soglie ottimizzate fornito da Bruno, sui 72 titoli: Sharpe OOS mediano -0,36 contro +0,74 del
+buy & hold, batte il B&H in 11 titoli su 72 (differenza t -9,4). Poi Oracolo v1 (trend + momentum, solo long, mensile):
+COMPRA +0,65% al mese (t 3,6) sul totale, ma dal 2013 +0,05% (t 0,24); VENDI -0,46% (t -1,8). Criteri 2 su 4: SPENTO.
+Registro delle decisioni future avviato: `oracolo_forward.csv` (prima riga 23/10/2026).

@@ -40,3 +40,22 @@ sedute, riportato una volta. Sottoperiodo post-pubblicazione: dal 2013 (dopo Mos
 - P4: dal 2013 gli eccessi di COMPRA e VENDI hanno lo stesso segno di P1 e P2.
 Tutti e quattro: Oracolo v1 si accende. Altrimenti NESSUN SEGNALE.
 Inoltre, da oggi ogni decisione viene registrata in `oracolo_forward.csv` (prova sui dati futuri, l'unica vera).
+
+---
+## Esito (aggiunto dopo il test, 24/10/2026; la parte sopra è invariata, commit 8936fea)
+72 titoli (ROG.SW: 404 Yahoo), 769 date di sviluppo dal 1962 al 2024, 24 di holdout. `python -m lab.oracolo_index`.
+
+| Criterio | Risultato | Esito |
+|---|---|---|
+| P1 COMPRA, eccesso a 21 sedute | +0,65% (t 3,64), titoli sopra la media 51,8% | superato |
+| P2 VENDI, eccesso a 21 sedute | -0,46% (t -1,82) | **fallito** (serve t ≤ -2) |
+| P3 portafoglio B vs benchmark | Sharpe 0,928 = 0,928; drawdown -47,5% vs -42,4% | **fallito** |
+| P4 segni dal 2013 | COMPRA +0,05% (t 0,24), VENDI -0,51% (t -1,28) | superato solo nel segno |
+
+A 63 sedute: COMPRA +1,99% (t 4,23), VENDI -1,37% (t -2,26).
+Portafoglio A (solo COMPRA): Sharpe 1,07 contro 0,93 del benchmark, ma drawdown -48,9%; dal 2013 Sharpe 1,13 contro 1,16.
+Holdout (23 periodi): COMPRA +0,53% (t 0,91), VENDI -0,96% (t -1,39).
+
+**Esito: Oracolo v1 resta SPENTO (NESSUN SEGNALE).** Il vantaggio storico di COMPRA esiste fino al 2012 e poi
+scompare (decadimento dopo la pubblicazione, McLean-Pontiff 2016). VENDI ha il segno giusto ovunque ma non
+è significativo. Le decisioni di oggi sono comunque registrate in `oracolo_forward.csv` per la prova sui dati futuri.
