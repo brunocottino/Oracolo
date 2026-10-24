@@ -51,3 +51,7 @@ IPB v2 sotto il buy & hold in Sharpe ovunque; Oracolo v1 spento ovunque (asset: 
 ### 2026-10-24: segnali a 45 e 90 giorni (pre-registrato, `PREREG_ORIZZONTI.md`, `python -m lab.horizon_test`)
 Oracolo v1, IPB v2 e SMA100 su azioni, settori, paesi, indici, asset: 0 combinazioni utili su 30 (nessun |t| ≥ 3;
 massimo Oracolo azioni 90 gg COMPRA +1,56%, t 1,91). Il 56-68% delle finestre sale in qualunque stato.
+
+### 2026-10-25: acquisti insider SEC Form 4 (pre-registrato, `PREREG_INSIDER.md`)
+Grappolo ≥3 insider: +0,75% su IWM a 45 gg (t 2,1), mediana negativa, holdout negativo, metà eventi senza prezzi
+(survivorship, pareggio -0,4%). SPENTO.

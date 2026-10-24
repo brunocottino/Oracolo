@@ -39,3 +39,21 @@ stesso periodo (principale) e meno SPY (secondario). Media degli eventi per mese
 Tutti: il segnale insider diventa candidato COMPRA di Oracolo per le azioni USA, poi prova sui dati futuri.
 Holdout (ultime 504 sedute) riportato una volta. Si riporta il rendimento medio che gli eventi persi
 dovrebbero avere per annullare il risultato.
+
+---
+## Esito (aggiunto dopo il test, 25/10/2026; parte sopra invariata, commit 7334406)
+516.238 acquisti validi 2006-2026. E1 grappolo: 16.078 eventi, misurati 6.691 (persi: 7.988 senza prezzi Yahoo,
+1.399 ticker non corrispondenti). Eccesso su IWM, media mensile:
+
+| | 45 gg | 90 gg | % eventi sopra IWM (45 gg) |
+|---|---|---|---|
+| Sviluppo | +0,75% (t 2,13) | +1,05% (t 2,49) | 49,2% |
+| Dal 2013 | +0,50% (t 1,06) | +0,53% (t 1,20) | 48,8% |
+| Holdout | -0,25% (t -0,23) | -1,80% (t -1,21) | 42,9% |
+
+Criteri: I1 no (t 2,13 < 3), I2 sì, I3 sì, I4 no. **Esito: SPENTO.**
+- Media positiva ma mediana negativa: pochi grandi vincitori, la maggior parte degli eventi perde contro IWM.
+- Survivorship: metà degli eventi non ha prezzi (società delistate). Basta che rendano in media -0,4% su IWM a 45 gg
+  per annullare l'effetto: molto probabile, quindi il +0,75% è sovrastimato.
+- E2 singolo (secondario): +0,72% a 45 gg (t 2,86), +1,09% a 90 gg (t 3,56), dal 2013 +0,90% (t 2,54), ma mediana
+  negativa, 49% sopra IWM, holdout negativo e stesso problema di survivorship (pareggio -0,5%).
