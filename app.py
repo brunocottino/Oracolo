@@ -24,6 +24,20 @@ from universe import INDICES, MARKETS
 app = Flask(__name__, static_folder="static", static_url_path="/static")
 db.init()
 
+# Password facoltativa (hosting con indirizzo pubblico): ORACOLO_PASSWORD, utente qualsiasi.
+_PASSWORD = os.environ.get("ORACOLO_PASSWORD")
+
+
+@app.before_request
+def _require_password():
+    if not _PASSWORD:
+        return None
+    a = request.authorization
+    if a and a.password == _PASSWORD:
+        return None
+    from flask import Response
+    return Response("Password richiesta", 401, {"WWW-Authenticate": 'Basic realm="Oracolo"'})
+
 _cache, _cache_lock = {}, threading.Lock()
 
 

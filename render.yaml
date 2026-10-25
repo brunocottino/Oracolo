@@ -6,6 +6,10 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app --workers 1 --threads 8 --timeout 300 --bind 0.0.0.0:$PORT
     envVars:
+      - key: ORACOLO_PASSWORD
+        sync: false            # Render la chiede al primo avvio
+      - key: ORACOLO_DB
+        value: /tmp/oracolo/oracolo.sqlite
       - key: ORACOLO_AUTO_SCAN
         value: "1"
       - key: ORACOLO_SCAN_HOUR
