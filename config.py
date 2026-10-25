@@ -99,7 +99,7 @@ AUTO_SCAN = os.environ.get("ORACOLO_AUTO_SCAN", "1") == "1"
 # Forchetta attesa (bands.py): quantili 10%/90% dei rendimenti standardizzati, calibrati fuori campione
 # con lab/band_test.py (25/10/2026). Chiave: sedute dell'orizzonte.
 BANDS = {
-    "azioni": {31: (-1.02, 1.30), 63: (-0.93, 1.32)},
-    "etf": {31: (-1.08, 1.16), 63: (-0.98, 1.23)},
+    "azioni": {31: (-1.02, 1.30, 0.175), 63: (-0.93, 1.32, 0.239)},     # (q10, q90, mediana)
+    "etf": {31: (-1.08, 1.16, 0.215), 63: (-0.98, 1.23, 0.294)},
 }
 RISK_PER_TRADE = 0.005     # lo stop costa al massimo lo 0,5% del portafoglio

@@ -606,11 +606,13 @@ function forkBlock(o) {
   if (!f) return "";
   const cur = (v) => num(v, 2) + " " + esc(o.currency || "");
   const rows = Object.entries(f.bands).map(([lab, b]) =>
-    kv(`Tra ${esc(lab)}`, `${cur(b.low)} – ${cur(b.high)} <span class="muted">(${pct(b.low_pct)} / ${pct(b.high_pct)})</span>`)).join("");
+    kv(`Tra ${esc(lab)}`, `pessimistico ${cur(b.low)} <span class="muted">(${pct(b.low_pct)})</span> · ` +
+      `<b>mediano ${cur(b.mid)}</b> <span class="muted">(${pct(b.mid_pct)})</span> · ` +
+      `ottimistico ${cur(b.high)} <span class="muted">(${pct(b.high_pct)})</span>`)).join("");
   const size = f.size_risk ? pct(f.size_risk, 1, false) + " del portafoglio" : "–";
   return `<div class="card"><h3>Forchetta attesa (80%)</h3>
     <p class="tiny muted" style="margin:4px 0 8px">Non è una previsione di rialzo o ribasso: è l'intervallo in cui il prezzo
-    è rimasto 8 volte su 10 in casi simili. Nelle crisi (2008, 2020) è stato superato più spesso.</p>
+    è rimasto 8 volte su 10 in casi simili; il mediano è il risultato centrale storico (metà dei casi sopra, metà sotto). Nelle crisi (2008, 2020) è stato superato più spesso.</p>
     <div class="kv">${rows}
       ${kv("Stop di protezione (2,5 ATR)", cur(f.stop))}
       ${kv("Peso con rischio 0,5%", size)}

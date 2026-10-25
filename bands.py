@@ -30,10 +30,11 @@ def forchetta(df, kind="azioni", portfolio_risk=None):
     p = float(df["close"].iloc[-1])
     out = {}
     for label, h in H.items():
-        z_lo, z_hi = config.BANDS[kind][h]
+        z_lo, z_hi, z_mid = config.BANDS[kind][h]
         s = sd * math.sqrt(h)
-        lo, hi = p * math.exp(z_lo * s), p * math.exp(z_hi * s)
-        out[label] = {"low": lo, "high": hi, "low_pct": lo / p - 1, "high_pct": hi / p - 1, "sessions": h}
+        lo, hi, mid = (p * math.exp(z * s) for z in (z_lo, z_hi, z_mid))
+        out[label] = {"low": lo, "high": hi, "mid": mid, "low_pct": lo / p - 1, "high_pct": hi / p - 1,
+                      "mid_pct": mid / p - 1, "sessions": h}
     return {"price": p, "prob": 0.80, "kind": kind, "bands": out,
             "note": "Intervallo con l'80% di probabilità, verificato sul passato. Nelle crisi può essere superato."}
 
