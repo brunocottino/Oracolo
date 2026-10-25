@@ -27,3 +27,13 @@ p bilaterale. Sviluppo: origini dal 2010-07 al 2022-12. Holdout: origini dal 202
 3. Holdout: stesso segno e |IC holdout| ≥ metà di |IC sviluppo|.
 Solo le misure che passano 1+2+3 diventano informazione in Oracolo (con il loro IC e il verso). Se nessuna passa,
 il risultato è "nessuna" e si dichiara.
+
+---
+## Esito (25/10/2026, parte sopra invariata, commit 04961f2). `python -m lab.search2000`, dettaglio in NOTE_2000_prove.csv
+1.990 prove; 125 passano Benjamini-Hochberg, 117 anche |t| ≥ 3, **19 anche l'holdout 2023-2026**. Verifica delle 19:
+- 13 sugli ETF (volatilità, beta, MAX, distanza dai minimi, giorni dal massimo): premio azioni contro obbligazioni e
+  monetario nello stesso universo, non selezione.
+- Illiquidità (Amihud) e inversione a 1 mese: solo nell'universo misto USA+Europa; da soli non reggono o spariscono nell'holdout.
+- Volatilità in aumento (σ63/σ252, segno negativo in tutti gli universi): sui rendimenti veri l'effetto è nullo
+  (S&P 500, 90 gg: terzo alto -0,08% contro la media, 2023-2026 +0,02%): artefatto della scala per la volatilità.
+**Nessuna misura utile.** Il segnale "calo/rialzo anomalo" viene tolto dalla pagina Oracolo.
