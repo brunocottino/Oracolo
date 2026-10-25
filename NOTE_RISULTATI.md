@@ -61,3 +61,5 @@ Grappolo ≥3 insider: +0,75% su IWM a 45 gg (t 2,1), mediana negativa, holdout 
 ### 2026-10-25: forchetta attesa (`lab/band_test.py`)
 Banda 80% normale: copertura 83-87% (troppo larga, sbilanciata in alto). Calibrata sul passato: 77-81,5% su azioni,
 ETF paese, settori, a 45 e 90 giorni. Anno peggiore (crisi): 33-65%. In app: scheda "Forchetta attesa".
+
+### 2026-10-25: multi-fattore S&P 500 (`PREREG_MULTIFATTORE.md`): IC -0,017 a 45 gg, spento. Quality unico positivo (t 0,9).
