@@ -16,6 +16,7 @@ import numpy as np
 from scipy.stats import norm
 
 import config
+import bands
 import data
 import fundamentals
 import priced
@@ -317,7 +318,13 @@ def analyze(ticker: str, with_backtest: bool = True, include_history: bool = Tru
                for f in ((rep.get("class_b") or {}).get("fields") or [])] if not idx else []
     story = story_text(ticker, idx, ens, plan, view, mk, est)
 
+    kind = "etf" if (idx or str(meta.get("type", "")).upper() == "ETF") else "azioni"
+    fork = bands.forchetta(df, kind)
+    stop = plan["price"] - config.SIGNAL_RULES["atr_stop_mult"] * plan["atr"]
+    fork["stop"] = stop
+    fork["size_risk"] = bands.risk_size(plan["price"], stop)
     out = {
+        "forchetta": fork,
         "ticker": ticker, "name": (fund or {}).get("name") or meta.get("name") or name_of(ticker),
         "market": market_of(ticker), "is_index": idx,
         "currency": meta.get("currency"), "exchange": meta.get("exchange"), "demo": meta.get("demo", False),

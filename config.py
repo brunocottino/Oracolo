@@ -94,3 +94,12 @@ MODEL_PATH = os.environ.get("ORACOLO_MODEL", os.path.join(DATA_DIR, "lab_model.p
 # Scanner automatico: ora (UTC) della scansione notturna
 SCAN_HOUR_UTC = int(os.environ.get("ORACOLO_SCAN_HOUR", "22"))
 AUTO_SCAN = os.environ.get("ORACOLO_AUTO_SCAN", "1") == "1"
+
+
+# Forchetta attesa (bands.py): quantili 10%/90% dei rendimenti standardizzati, calibrati fuori campione
+# con lab/band_test.py (25/10/2026). Chiave: sedute dell'orizzonte.
+BANDS = {
+    "azioni": {31: (-1.02, 1.30), 63: (-0.93, 1.32)},
+    "etf": {31: (-1.08, 1.16), 63: (-0.98, 1.23)},
+}
+RISK_PER_TRADE = 0.005     # lo stop costa al massimo lo 0,5% del portafoglio

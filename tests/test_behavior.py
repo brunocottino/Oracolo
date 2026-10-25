@@ -102,5 +102,18 @@ def test_behavior_no_lookahead():
     print(f"    {checked} origini controllate, {len(cols)} misure comportamentali")
 
 
+def test_forchetta_and_risk_size():
+    import bands
+    idx = pd.bdate_range("2015-01-01", periods=1200)
+    rng = np.random.default_rng(3)
+    px = pd.Series(100 * np.exp(np.cumsum(rng.normal(0, 0.01, len(idx)))), index=idx)
+    f = bands.forchetta(pd.DataFrame({"adj": px, "close": px}), "azioni")
+    b45, b90 = f["bands"]["45 giorni"], f["bands"]["90 giorni"]
+    assert b45["low"] < f["price"] < b45["high"] and b90["low"] < b45["low"] and b90["high"] > b45["high"]
+    assert abs(bands.risk_size(100, 90) - 0.05) < 1e-12          # 0,5% / 10% di distanza dallo stop
+    assert bands.risk_size(100, 99.99) == 0.10                     # limite massimo 10%
+    assert bands.risk_size(100, 101) is None
+
+
 if __name__ == "__main__":
     sys.exit(1 if common.run_module(globals()) else 0)

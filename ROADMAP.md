@@ -32,8 +32,9 @@ Si usano solo download pubblici senza login.
 - [ ] Classe B: la raccolta notturna (stime, opzioni, short via yfinance) parte subito; dopo circa 18 mesi si verifica la regola di promozione.
 
 ## Fase 3: uso pratico (vale anche con modello spento)
+- [x] Forchetta attesa 80% a 45 e 90 giorni, calibrata fuori campione (copertura 77-81,5%, `lab/band_test.py`, `bands.py`).
+- [x] Peso della posizione a rischio fisso: stop a 2,5 ATR costa lo 0,5% del portafoglio (max 10%).
 - [ ] Classifica dei titoli con scostamenti di peso al massimo di ±2%, non segnali singoli.
-- [ ] Peso della posizione = 0,5% di rischio / volatilità; stop a 2,5 ATR.
 - [ ] Veto: niente nuovi acquisti se crescita implicita o probabilità implicita sono nel decile alto.
 - [ ] Diario: decisione registrata prima dell'esecuzione e non modificabile, più portafoglio paper contro ACWI (yfinance: `ACWI`). Scheda "Diario".
 - [ ] Schermata da 10 secondi: semaforo, 3 avvisi, risultato contro l'ETF.
