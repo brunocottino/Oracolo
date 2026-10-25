@@ -383,6 +383,9 @@ async function loadPortfolio() {
       ${kv("Perdita max 1 mese (95%)", "€ " + num(r.var95_1m_eur, 0))}
       ${kv("Posizioni effettive", num(r.effective_positions, 1))}
       ${kv("Indice di diversificazione", num(r.diversification_ratio, 2))}</div>
+      ${r.fork ? `<h3 style="margin-top:12px">Forchetta del portafoglio (80%)</h3><div class="kv">${Object.entries(r.fork).map(([lab, b]) =>
+        kv("Tra " + esc(lab), `€ ${num(b.low, 0)} · <b>mediano € ${num(b.mid, 0)}</b> · € ${num(b.high, 0)}`)).join("")}</div>
+        <p class="tiny muted">Guadagno o perdita in euro: pessimistico, mediano, ottimistico (8 casi su 10 nel passato). Nelle crisi può essere superato.</p>` : ""}
       ${r.high_corr_pairs.length ? `<p class="tiny">Titoli molto correlati (si muovono insieme): ${r.high_corr_pairs.map((x) => `${esc(x.a)}–${esc(x.b)} (${num(x.corr, 2)})`).join(", ")}</p>` : ""}
       <p class="tiny muted">${esc(r.note)} VaR parametrico: in 19 mesi su 20 la perdita non dovrebbe superare questo importo.</p>` :
     `<span class="muted tiny">Aggiungi almeno un titolo per vedere il rischio di portafoglio.</span>`;
@@ -614,6 +617,7 @@ function forkBlock(o) {
     <p class="tiny muted" style="margin:4px 0 8px">Non è una previsione di rialzo o ribasso: è l'intervallo in cui il prezzo
     è rimasto 8 volte su 10 in casi simili; il mediano è il risultato centrale storico (metà dei casi sopra, metà sotto). Nelle crisi (2008, 2020) è stato superato più spesso.</p>
     <div class="kv">${rows}
+      ${f.check ? kv("Ultimi 45 giorni", `${pct(f.move_45)} · <span class="${f.check === "normale" ? "pos" : "neg"}">${esc(f.check)}</span>`) : ""}
       ${kv("Stop di protezione (2,5 ATR)", cur(f.stop))}
       ${kv("Peso con rischio 0,5%", size)}
     </div></div>`;

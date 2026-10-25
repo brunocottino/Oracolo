@@ -6,6 +6,7 @@ import time
 import numpy as np
 import pandas as pd
 
+import bands
 import data
 import db
 from universe import name_of
@@ -91,6 +92,8 @@ def risk(items, hist, total):
             if corr[a, b] > 0.75:
                 pairs.append({"a": names[a], "b": names[b], "corr": float(corr[a, b])})
     hhi = float(np.sum(w ** 2))
+    daily = pd.DataFrame({i["id"]: np.log(hist[i["id"]]).diff() for i in valid}).dropna().iloc[-756:]
+    fork = bands.portfolio_fork((daily.values @ w), total) if len(daily) > 250 else None
     return {"vol_annual": vol, "var95_1m_eur": var_1m, "diversification_ratio": div_ratio,
-            "effective_positions": 1 / hhi if hhi else 0, "high_corr_pairs": pairs,
+            "effective_positions": 1 / hhi if hhi else 0, "high_corr_pairs": pairs, "fork": fork,
             "note": "Rischio calcolato sui rendimenti settimanali in valuta locale degli ultimi 2 anni (escluso il rischio di cambio)."}

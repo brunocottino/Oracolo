@@ -33,6 +33,8 @@ Si usano solo download pubblici senza login.
 
 ## Fase 3: uso pratico (vale anche con modello spento)
 - [x] Forchetta attesa 80% a 45 e 90 giorni, calibrata fuori campione (copertura 77-81,5%, `lab/band_test.py`, `bands.py`).
+- [x] Scenario mediano, semaforo "movimento normale/anomalo", forchetta del portafoglio in euro, pagina "Cosa dicono i dati".
+- [x] ETF UCITS al posto degli ETF USA nell'universo.
 - [x] Peso della posizione a rischio fisso: stop a 2,5 ATR costa lo 0,5% del portafoglio (max 10%).
 - [ ] Classifica dei titoli con scostamenti di peso al massimo di ±2%, non segnali singoli.
 - [ ] Veto: niente nuovi acquisti se crescita implicita o probabilità implicita sono nel decile alto.

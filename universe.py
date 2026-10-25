@@ -14,7 +14,6 @@ INDICES = {
     "^N225": "Nikkei 225",
     "^HSI": "Hang Seng",
     "000300.SS": "CSI 300 (Cina)",
-    "EEM": "ETF Mercati Emergenti",
     "^BSESN": "Sensex (India)",
 }
 
@@ -43,6 +42,12 @@ MARKETS = {
         "ALV.DE": "Allianz", "BNP.PA": "BNP Paribas", "SAN.MC": "Santander",
         "SHEL.L": "Shell", "AZN.L": "AstraZeneca", "BA.L": "BAE Systems",
     },
+    "ETF UCITS": {
+        "SWDA.MI": "iShares Core MSCI World", "VWCE.DE": "Vanguard FTSE All-World",
+        "CSSPX.MI": "iShares Core S&P 500", "CSNDX.MI": "iShares Nasdaq 100",
+        "SMEA.MI": "iShares Core MSCI Europe", "EIMI.MI": "iShares Core MSCI EM IMI",
+        "XDWT.DE": "Xtrackers MSCI World IT",
+    },
     "Asia/Emergenti": {
         "BABA": "Alibaba (ADR)", "0700.HK": "Tencent", "PDD": "PDD Holdings",
         "JD": "JD.com (ADR)", "TSM": "TSMC (ADR)", "7203.T": "Toyota",
@@ -55,7 +60,7 @@ MARKETS = {
 
 def is_index(ticker: str) -> bool:
     t = ticker.upper()
-    return t.startswith("^") or t in INDICES or t in {"EEM", "SPY", "QQQ", "VGK", "EWJ", "FXI", "MCHI"}
+    return t.startswith("^") or t in INDICES
 
 
 def name_of(ticker: str) -> str:

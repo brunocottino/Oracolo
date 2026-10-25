@@ -35,8 +35,24 @@ def forchetta(df, kind="azioni", portfolio_risk=None):
         lo, hi, mid = (p * math.exp(z * s) for z in (z_lo, z_hi, z_mid))
         out[label] = {"low": lo, "high": hi, "mid": mid, "low_pct": lo / p - 1, "high_pct": hi / p - 1,
                       "mid_pct": mid / p - 1, "sessions": h}
-    return {"price": p, "prob": 0.80, "kind": kind, "bands": out,
+    # semaforo: l'ultimo movimento a 45 giorni rientra nella forchetta normale?
+    z_lo, z_hi, _ = config.BANDS[kind][31]
+    last = math.log(p / float(df["close"].iloc[-32])) / (sd * math.sqrt(31)) if len(df) > 32 else None
+    check = None if last is None else ("calo anomalo" if last < z_lo else "rialzo anomalo" if last > z_hi else "normale")
+    move = None if last is None else float(df["close"].iloc[-1] / df["close"].iloc[-32] - 1)
+    return {"price": p, "prob": 0.80, "kind": kind, "bands": out, "check": check, "move_45": move,
             "note": "Intervallo con l'80% di probabilità, verificato sul passato. Nelle crisi può essere superato."}
+
+
+def portfolio_fork(daily_returns, value):
+    """Forchetta 45/90 giorni del portafoglio (pesi di oggi, rendimenti giornalieri passati), in euro."""
+    sd = sigma_daily(daily_returns)
+    out = {}
+    for label, h in H.items():
+        z_lo, z_hi, z_mid = config.BANDS["etf"][h]          # portafoglio diversificato: taratura ETF
+        s = sd * math.sqrt(h)
+        out[label] = {k: value * (math.exp(z * s) - 1) for k, z in (("low", z_lo), ("mid", z_mid), ("high", z_hi))}
+    return out
 
 
 def risk_size(entry, stop, risk=None):
