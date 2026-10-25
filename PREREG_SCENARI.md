@@ -28,3 +28,10 @@ azioni (73), ETF paesi, settori, indici; h = 31 e 63; origini ogni h sedute (non
 - C3: miglioramento positivo anche dal 2013.
 Tutti: gli scenari condizionati sostituiscono la forchetta fissa nell'app. Altrimenti resta la forchetta fissa,
 con l'aggiunta dello scenario mediano (quantile 50% empirico).
+
+---
+## Esito (25/10/2026, parte sopra invariata, commit d7d6ffa). `python -m lab.scenario_test`
+Miglioramento della perdita pinball rispetto alla forchetta fissa: tra -0,33% e +0,24% in tutti gli 8 casi
+(t tra -1,9 e +0,8). C1 e C2 falliti: **SPENTO**, resta la forchetta fissa + scenario mediano.
+Limite: copertura identica al benchmark, quindi la penalità alpha = 0,01 (pre-registrata) ha probabilmente azzerato
+i coefficienti; un test con penalità diversa va pre-registrato a parte, non ritarato su questi dati.
