@@ -55,3 +55,5 @@ massimo Oracolo azioni 90 gg COMPRA +1,56%, t 1,91). Il 56-68% delle finestre sa
 ### 2026-10-25: acquisti insider SEC Form 4 (pre-registrato, `PREREG_INSIDER.md`)
 Grappolo ≥3 insider: +0,75% su IWM a 45 gg (t 2,1), mediana negativa, holdout negativo, metà eventi senza prezzi
 (survivorship, pareggio -0,4%). SPENTO.
+
+### 2026-10-25: weight of evidence macro stile NDR (`PREREG_MACRO.md`): 0 su 10 utili. Ricerca di timing chiusa.

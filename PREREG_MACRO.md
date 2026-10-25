@@ -19,3 +19,11 @@ t di Newey-West; utile solo se U1 (|t| ≥ 3 nel verso giusto), U2 (stesso segno
 COMPRA > dopo VENDI). Campione dal 1990 (inizio VIX). Holdout ultime 504 sedute riportato.
 Si riportano anche i 4 voti presi da soli (informativo, nessuna selezione).
 **Se fallisce, si chiude la ricerca di segnali di timing con dati gratuiti.**
+
+---
+## Esito (25/10/2026; parte sopra invariata, commit dc78f9c). `python -m lab.macro_test`
+Weight of evidence: 45 gg COMPRA +0,19% (t 0,55), VENDI +0,71% (t 0,60); 90 gg COMPRA -0,51%, VENDI -0,35%.
+**0 combinazioni utili su 10. Ricerca di segnali di timing con dati gratuiti chiusa.**
+Unico spunto (informativo, NON pre-registrato in questo verso): con VIX sopra la media (voto "sentiment" ribassista)
+i 45 giorni successivi sono andati **meglio** (+0,90%, dal 2013 +1,88% t 2,34, 74% in rialzo): la paura alta
+precede rialzi, in linea con la lettura contrarian del sentiment di NDR. Va pre-registrato e verificato solo sui dati futuri.
