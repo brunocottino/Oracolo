@@ -80,6 +80,7 @@ def row(t, grp, breve, prod):
     r14 = float(rsi(px.to_frame(t), 14).iloc[-1, 0])
     out = {"ticker": t, "breve": breve, "prodotto": prod, "gruppo": grp, "valuta": meta.get("currency", ""),
            "data": str(df.index[-1].date()), "prezzo": round(f["price"], 4), "mov45": round(f["move_45"], 4),
+           "chg1": round(float(df["close"].iloc[-1] / df["close"].iloc[-2] - 1), 4),
            "vol": round(bands.sigma_daily(np.diff(np.log(px.values))) * math.sqrt(252), 4),
            "dd": round(float(px.iloc[-1] / px.iloc[-252:].max() - 1), 4), "stop": round(stop, 4),
            "peso": None if t in INDICES else round(bands.risk_size(f["price"], stop) or 0, 4),
