@@ -14,3 +14,12 @@ Orizzonti 21 (principale), 31, 63 sedute; misura come PREREG_ORIZZONTI.md (vanta
 ## Criterio
 Principale: vantaggio COMPRA a 21 sedute > 0 con t ≥ 2, e > 0 dal 2013. Se passa, il segnale Panico entra in Oracolo
 per tutti gli indici e gli ETF azionari per area; poi prova sui dati futuri nel registro mensile.
+
+---
+## Esito (26/10/2026, parte sopra invariata). `python -m lab.panic_test`, 15 indici (PSI20 e IPSA non scaricabili)
+| Orizzonte | COMPRA (panico ≥ 2) vs normale | rendimento medio | % rialzi | dal 2013 |
+|---|---|---|---|---|
+| **21 sedute** | **+1,58% (t 2,87)** | +2,56% (altri +0,63%) | 66% (altri 58%) | +1,46% (t 2,52) |
+| 31 sedute | +0,86% (t 1,06) | +2,32% | 69% | +1,14% |
+| 63 sedute | +2,22% (t 1,17) | +2,62% | 59% | +2,01% |
+**SUPERATO** (273 casi su 66 date). Il segnale Panico entra in Oracolo per indici ed ETF azionari per area, orizzonte 1 mese.

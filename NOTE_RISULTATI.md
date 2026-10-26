@@ -65,3 +65,5 @@ ETF paese, settori, a 45 e 90 giorni. Anno peggiore (crisi): 33-65%. In app: sch
 ### 2026-10-25: multi-fattore S&P 500 (`PREREG_MULTIFATTORE.md`): IC -0,017 a 45 gg, spento. Quality unico positivo (t 0,9).
 
 ### 2026-10-26: RSI (`PREREG_RSI.md`): indici ipervenduti (RSI14<30) +2,2% a 1 mese (t 3,1, 72% rialzi); S&P 500 ipercomprato -0,3% a 1 settimana. Primi segnali che superano il criterio; campione indici piccolo.
+
+### 2026-10-26: Indice di Panico (`PREREG_PANICO.md`): fuori campione su 15 indici mai usati, +1,6% sul normale a 21 sedute (t 2,9), 66% rialzi. Primo segnale validato fuori campione.
