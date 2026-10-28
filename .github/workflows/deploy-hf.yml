@@ -5,6 +5,7 @@ name: Deploy su Hugging Face
 on:
   push:
     branches: [main]
+    paths-ignore: [OGGI.md]
   workflow_dispatch:
 
 jobs:
