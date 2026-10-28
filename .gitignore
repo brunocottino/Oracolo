@@ -5,3 +5,6 @@ __pycache__/
 .env
 *.parquet
 data/sec_insider/
+data/oracolo/
+data/oracolo.nuovo/
+data/aggiorna.log

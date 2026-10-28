@@ -3,6 +3,7 @@
 Avvio locale:   python app.py          poi apri http://localhost:8000
 Produzione:     gunicorn app:app --workers 1 --threads 8 --timeout 180
 """
+import json
 import os
 import threading
 import time
@@ -63,6 +64,25 @@ def data_error(e):
 @app.get("/")
 def index():
     return send_from_directory("static", "index.html")
+
+
+@app.get("/oracolo")
+def oracolo_page():
+    return send_from_directory("static", "oracolo.html")
+
+
+@app.get("/api/oracolo")
+def api_oracolo():
+    """Fotografia scritta da aggiorna.py (data/oracolo/)."""
+    d = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "oracolo")
+    out = {}
+    for k, default in (("stato", {}), ("livelli", []), ("forchetta", [])):
+        try:
+            with open(os.path.join(d, k + ".json"), encoding="utf-8") as f:
+                out[k] = json.load(f)
+        except (OSError, ValueError):
+            out[k] = default
+    return jsonify(out)
 
 
 @app.get("/api/analyze")

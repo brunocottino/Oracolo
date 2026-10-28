@@ -20,6 +20,7 @@ Solo fonti gratuite senza registrazione, account o chiavi API. Non proporre mai 
 - `lab/`: banco di prova panel walk-forward (`features.py`, `panel.py`, `model.py`, `stats.py`, `research.py`). Lancio: `python -m research` (`--fast`).
 - `priced.py`: "cosa c'è nel prezzo" (probabilità implicita nelle opzioni, reverse DCF, VIX).
 - `data.py`: download prezzi ed eventi (Yahoo/yfinance) + generatore demo. Le nuove fonti vanno in `sources/`.
+- `aggiorna.py`: aggiornamento automatico senza Claude (fotografia giornaliera in `data/oracolo/`, Laboratorio rapido ogni 7 giorni); lo lancia il pianificatore del PC (`installa_aggiornamento_windows.bat`, cron in `setup_mac.sh`). Pagina: `/oracolo`.
 - `collector.py`: istantanee notturne di classe B (stime, short, opzioni) → tabella `snapshots`.
 - `config.py`: tutti i parametri (soglie, costi, LAB). `universe.py`: titoli e indici.
 - `agents/`: agenti informativi (peso 0); solo il "modello di base" fornisce σ.

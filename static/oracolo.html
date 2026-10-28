@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Oracolo – Fotografia di oggi</title>
+<meta name="theme-color" content="#0f1720">
+<link rel="stylesheet" href="/static/style.css">
+<style>
+  .o-wrap { max-width: 1100px; margin: 0 auto; padding: 12px 16px; }
+  .o-stato { margin: 8px 0 16px; }
+  .o-tbl { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .o-tbl th, .o-tbl td { padding: 6px 8px; border-bottom: 1px solid var(--border); text-align: right; white-space: nowrap; }
+  .o-tbl th:first-child, .o-tbl td:first-child { text-align: left; white-space: normal; }
+  .o-tbl th { color: var(--muted); font-weight: 600; cursor: pointer; position: sticky; top: 0; background: var(--surface); }
+  .o-scroll { overflow-x: auto; }
+  .o-lv { display: inline-block; min-width: 22px; padding: 1px 6px; border-radius: 8px; text-align: center; font-weight: 700; }
+  .o-lv5, .o-lv4 { background: var(--buy-bg); color: var(--buy); }
+  .o-lv3 { background: var(--acc-bg); color: var(--acc); }
+  .o-lv2 { background: var(--neu-bg); color: var(--neu); }
+  .o-lv1 { background: var(--sell-bg); color: var(--sell); }
+  .o-pos { color: var(--buy); } .o-neg { color: var(--sell); }
+  .o-filtri { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+  .o-filtri input, .o-filtri select { padding: 8px 10px; border: 1px solid var(--border); border-radius: 10px;
+    background: var(--surface); color: var(--text); font: inherit; flex: 1 1 180px; }
+  .o-sub { color: var(--muted); font-size: 12px; }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo">◎</span> Oracolo <small>fotografia di oggi</small></div>
+  <a class="ghost" href="/">App</a>
+</header>
+<div class="o-wrap">
+  <div id="stato" class="card o-stato muted">Caricamento…</div>
+
+  <div class="card">
+    <h3>Indici ed ETF azionari per livello <span class="sub">1 = euforia · 5 = panico forte</span></h3>
+    <div class="o-scroll"><table class="o-tbl" id="tLivelli"></table></div>
+    <p class="tiny muted" id="legenda"></p>
+  </div>
+
+  <div class="card">
+    <h3>Ipercomprati <span class="sub">RSI 14 sopra 70: meglio aspettare prima di comprare</span></h3>
+    <div class="o-scroll"><table class="o-tbl" id="tIper"></table></div>
+  </div>
+
+  <div class="card">
+    <h3>Tutti gli strumenti</h3>
+    <div class="o-filtri">
+      <input id="cerca" placeholder="Cerca titolo o ticker">
+      <select id="gruppo"><option value="">Tutti i gruppi</option></select>
+    </div>
+    <div class="o-scroll"><table class="o-tbl" id="tTutti"></table></div>
+    <p class="tiny muted" id="nTutti"></p>
+  </div>
+  <p class="tiny muted">Uso personale, non è una raccomandazione di investimento. La forchetta 80% indica dove il prezzo
+    resta 8 volte su 10, non la direzione.</p>
+</div>
+<script>
+const $ = (s) => document.querySelector(s);
+const pct = (x, d = 1) => x == null ? "—" : (x * 100).toFixed(d).replace(".", ",") + "%";
+const num = (x, d = 2) => x == null ? "—" : Number(x).toLocaleString("it-IT", { maximumFractionDigits: d });
+const sign = (x) => x == null ? "" : x >= 0 ? "o-pos" : "o-neg";
+let righe = [], ordine = { k: "breve", dir: 1 };
+
+const COLS = [
+  ["breve", "Titolo", (r) => r.breve],
+  ["livello", "Liv.", (r) => r.livello ? `<span class="o-lv o-lv${r.livello}">${r.livello}</span>` : "—"],
+  ["prezzo", "Prezzo", (r) => num(r.prezzo) + " " + (r.valuta || "")],
+  ["chg1", "Giorno", (r) => `<span class="${sign(r.chg1)}">${pct(r.chg1)}</span>`],
+  ["lo45", "Forchetta 45 gg", (r) => pct(r.lo45, 0) + " / " + pct(r.hi45, 0)],
+  ["vol", "Vol. annua", (r) => pct(r.vol, 0)],
+  ["dd", "Dal massimo", (r) => `<span class="${sign(r.dd)}">${pct(r.dd, 0)}</span>`],
+  ["rsi", "RSI", (r) => num(r.rsi, 0)],
+  ["stop", "Stop", (r) => num(r.stop)],
+  ["peso", "Peso", (r) => r.peso == null ? "—" : pct(r.peso, 1)],
+];
+
+function esc(s) { const d = document.createElement("div"); d.textContent = s == null ? "" : String(s); return d.innerHTML; }
+
+function tabella(el, rows, sortable) {
+  const head = "<tr>" + COLS.map(([k, t]) => `<th data-k="${k}">${t}</th>`).join("") + "</tr>";
+  const body = rows.map((r) => "<tr>" + COLS.map(([k, , f], i) => {
+    const safe = Object.fromEntries(Object.entries(r).map(([a, b]) => [a, typeof b === "string" ? esc(b) : b]));
+    return `<td>${f(safe)}${i === 0 ? `<div class="o-sub">${safe.ticker} · ${safe.gruppo}</div>` : ""}</td>`;
+  }).join("") + "</tr>").join("");
+  el.innerHTML = head + body;
+  if (sortable) el.querySelectorAll("th").forEach((th) => th.onclick = () => {
+    ordine = { k: th.dataset.k, dir: ordine.k === th.dataset.k ? -ordine.dir : 1 }; disegnaTutti();
+  });
+}
+
+function disegnaTutti() {
+  const q = $("#cerca").value.trim().toLowerCase(), g = $("#gruppo").value;
+  let rs = righe.filter((r) => (!g || r.gruppo === g) &&
+    (!q || (r.breve + " " + r.ticker + " " + (r.prodotto || "")).toLowerCase().includes(q)));
+  rs.sort((a, b) => {
+    const x = a[ordine.k], y = b[ordine.k];
+    if (x == null) return 1; if (y == null) return -1;
+    return (typeof x === "string" ? x.localeCompare(y) : x - y) * ordine.dir;
+  });
+  $("#nTutti").textContent = rs.length > 300 ? `Mostrati 300 di ${rs.length}: usa la ricerca o il filtro.` : `${rs.length} strumenti.`;
+  tabella($("#tTutti"), rs.slice(0, 300), true);
+}
+
+(async () => {
+  const d = await fetch("/api/oracolo").then((r) => r.json()).catch(() => null);
+  if (!d || !d.forchetta.length) {
+    $("#stato").textContent = "Nessuna fotografia ancora. Si crea da sola ogni mattina (oppure lancia: python aggiorna.py).";
+    return;
+  }
+  righe = d.forchetta;
+  const st = d.stato || {};
+  const quando = st.aggiornato ? new Date(st.aggiornato).toLocaleString("it-IT", { dateStyle: "full", timeStyle: "short" }) : "data sconosciuta";
+  const vecchia = st.aggiornato && (Date.now() - new Date(st.aggiornato)) > 4 * 864e5;
+  $("#stato").innerHTML = `<b>Aggiornata ${esc(quando)}</b>${vecchia ? " · <span class='o-neg'>più vecchia di 4 giorni: controlla data/aggiorna.log</span>" : ""}<br>` +
+    `${righe.length} strumenti · ${st.panico ?? "—"} in panico (livello 4-5) · ${st.ipercomprati ?? "—"} ipercomprati` +
+    (st.lab ? ` · Laboratorio del ${esc(new Date(st.lab).toLocaleDateString("it-IT"))}` : "");
+  $("#legenda").textContent = (d.livelli || []).map((l) =>
+    `${l.livello} ${l.nome}: +${(l.rend * 100).toFixed(1).replace(".", ",")}% medio a 1 mese, ${Math.round(l.rialzo * 100)}% rialzi (${l.casi} casi)`).join(" · ");
+  tabella($("#tLivelli"), righe.filter((r) => r.livello).sort((a, b) => b.livello - a.livello || a.breve.localeCompare(b.breve)));
+  tabella($("#tIper"), righe.filter((r) => r.avviso).sort((a, b) => b.rsi - a.rsi));
+  [...new Set(righe.map((r) => r.gruppo))].sort().forEach((g) => $("#gruppo").add(new Option(g, g)));
+  $("#cerca").oninput = disegnaTutti; $("#gruppo").onchange = disegnaTutti;
+  disegnaTutti();
+})();
+</script>
+</body>
+</html>
