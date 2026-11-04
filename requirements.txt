@@ -5,6 +5,8 @@ pandas>=2.1
 scipy>=1.11
 scikit-learn>=1.4
 requests>=2.31
+# file Excel .xls di Shiller e Damodaran (lab/bull_test.py)
+xlrd>=2.0.1
 # tabella S&P 500 da Wikipedia (pandas.read_html)
 lxml>=5.0
 # annunci utili, giudizi degli analisti, opzioni, fondamentali (se manca la piattaforma degrada con eleganza)
