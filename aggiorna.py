@@ -131,13 +131,17 @@ def cruscotto(rows, livelli, m, controllo):
     elif fatti:
         avvisi.append(f"Prezzi Yahoo confermati da Stooq su {fatti} strumenti (scarto entro l'1%).")
     else:
-        avvisi.append("Controllo prezzi con Stooq saltato: Stooq non ha risposto.")
+        avvisi.append("Controllo prezzi con Stooq saltato: Stooq non ha risposto ai download automatici.")
     tassi = (f"VIX {_v(m.get('vix'), 1)} (a 3 mesi {_v(m.get('vix3m'), 1)}) · Treasury 10 anni {_v(m.get('us10y'), 2, '%')} · "
              f"T-bill 3 mesi {_v(m.get('us3m'), 2, '%')} · €STR {_v(m.get('estr'), 3, '%')} · Stato AAA euro 10 anni "
              f"{_v(m.get('euro10y'), 2, '%')}")
+    tassi = tassi.rstrip(".")
     righe = [f"## {luce}", ""] + [f"{i}. {a}" for i, a in enumerate(avvisi, 1)] + [
         "", f"Volatilità e tassi: {tassi}. _Fonti: FRED e BCE, ultimo dato disponibile._", ""]
-    info = {"semaforo": luce, "avvisi": avvisi, "mercati": m, "stooq_controllati": fatti, "stooq_fuori": len(fuori)}
+    from sources import common as sc_common
+    for fonte, err in sc_common.ERRORI.items():
+        log(f"fonte {fonte} non raggiungibile: {err}")
+    info = {"fonti_errori": dict(sc_common.ERRORI), "semaforo": luce, "avvisi": avvisi, "mercati": m, "stooq_controllati": fatti, "stooq_fuori": len(fuori)}
     return righe, info
 
 

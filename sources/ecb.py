@@ -25,7 +25,7 @@ def parse(text):
 
 def serie(nome, n=400, ttl=12 * 3600):
     key = SERIE[nome][0]
-    return common.cached(f"ecb:{nome}:{n}", ttl, lambda: parse(common.get(BASE.format(key, n), timeout=40, tries=1).text)) or {}
+    return common.cached(f"ecb:{nome}:{n}", ttl, lambda: parse(common.get(BASE.format(key, n), timeout=60, tries=2).text)) or {}
 
 
 def ultimo(nome):

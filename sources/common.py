@@ -12,6 +12,7 @@ UA = {"User-Agent": "Oracolo/1.0 (https://github.com/brunocottino/Oracolo; uso p
 UA_SEC = {"User-Agent": "Oracolo uso personale oracolo@example.org"}
 
 _last = {}
+ERRORI = {}   # ultimo errore per fonte (fred, ecb, stooq...), per il registro di aggiorna.py
 _lock = threading.Lock()
 
 
@@ -41,7 +42,8 @@ def cached(key, ttl, fetch):
         return hit
     try:
         val = fetch()
-    except Exception:
+    except Exception as e:
+        ERRORI[key.split(":")[0]] = f"{type(e).__name__}: {str(e)[:160]}"
         old = db.cache_get("source_cache", key, 10 ** 12)
         return old
     db.cache_put("source_cache", key, val)

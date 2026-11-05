@@ -37,8 +37,17 @@ def chiusure(ticker, ttl=12 * 3600):
     s = simbolo(ticker)
     if not s:
         return {}
-    v = common.cached(f"stooq:{s}", ttl, lambda: parse(common.get(URL.format(s), timeout=20, tries=1).text))
-    return v  # None se Stooq non ha risposto
+    def fetch():
+        t = common.get(URL.format(s), timeout=20, tries=1).text
+        px = parse(t)
+        if not px:
+            ULTIMO_ERRORE[0] = "risposta senza prezzi: " + " ".join(t.split())[:120]
+            raise ValueError(ULTIMO_ERRORE[0])
+        return px
+    return common.cached(f"stooq:{s}", ttl, fetch)  # None se Stooq non ha risposto
+
+
+ULTIMO_ERRORE = [""]
 
 
 def scarto(yahoo_px, yahoo_data, stooq_px):
