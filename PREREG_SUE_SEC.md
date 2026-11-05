@@ -19,3 +19,12 @@ eccesso del terzo superiore. Sviluppo = fino alle ultime 504 sedute; holdout rip
 - S1: IC a 31 sedute > 0 con t ≥ 2.  - S2: IC dal 2016 > 0.  - S3: eccesso del terzo superiore > 0.
 - S4 (interruttore): IC sull'holdout ≥ 0.
 Se tutti passano: la SUE SEC sostituisce quella Yahoo per i titoli USA nel Laboratorio. Altrimenti: SPENTO.
+
+---
+## Esito (05/11/2026, parte sopra invariata). `python -m lab.sue_sec_test`, 503 titoli, mediana 393 con SUE fresca
+| | IC 31 sedute (t) | dal 2016 | terzo superiore |
+|---|---|---|---|
+| Sviluppo (111 periodi) | +0,010 (1,14) | +0,000 (0,03) | +0,05% (t 0,47) |
+| Holdout (16 periodi) | +0,014 (0,86) | | +0,20% |
+**S1 fallito (t 1,14 < 2): SPENTO.** Segno giusto, ma la deriva post-utili nelle grandi USA è quasi sparita
+dopo il 2016 (coerente con la letteratura recente). La fonte `sources/sec_eps.py` resta pronta e testata.

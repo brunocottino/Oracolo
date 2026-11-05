@@ -67,3 +67,10 @@ ETF paese, settori, a 45 e 90 giorni. Anno peggiore (crisi): 33-65%. In app: sch
 ### 2026-10-26: RSI (`PREREG_RSI.md`): indici ipervenduti (RSI14<30) +2,2% a 1 mese (t 3,1, 72% rialzi); S&P 500 ipercomprato -0,3% a 1 settimana. Primi segnali che superano il criterio; campione indici piccolo.
 
 ### 2026-10-26: Indice di Panico (`PREREG_PANICO.md`): fuori campione su 15 indici mai usati, +1,6% sul normale a 21 sedute (t 2,9), 66% rialzi. Primo segnale validato fuori campione.
+
+### 2026-11-05: idee dallo scanner "AI Market Intelligence Engine" (zip esterno)
+Unica idea nuova: storno in trend rialzista (sotto il massimo a 60 sedute, sopra la media a 200). 22 titoli USA,
+1996-2026, 227 periodi indipendenti a 31 sedute: IC -0,007 (t -0,39), holdout -0,003. SCARTATA, non aggiunta al Lab.
+Il resto dello zip (RSI, medie mobili, punteggio a pesi fissi) è già coperto o già bocciato (`PREREG_RSI.md`).
+
+### 2026-11-05: SUE da SEC EDGAR senza stime (`PREREG_SUE_SEC.md`): IC +0,010 (t 1,14) a 31 sedute, 503 titoli. SPENTO.

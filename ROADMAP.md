@@ -22,7 +22,7 @@ Si usano solo download pubblici senza login.
 
 ## Fase 1: fonti pubbliche senza chiave (`sources/`, con cache SQLite e ripiego su Yahoo)
 - [x] **FRED via CSV pubblico, senza chiave** (`sources/fred.py`, in OGGI.md; il Lab resta su Yahoo finché non si confrontano gli storici): `https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS` (anche VXVCLS, DGS10, DTB3). Sostituisce ^VIX, ^VIX3M, ^TNX e ^IRX con storico completo.
-- [ ] **SEC EDGAR companyfacts, senza chiave:** `https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json`. Serve solo un'intestazione User-Agent fissa nel codice, nessuna registrazione. Ricava EPS trimestrali USA con la data di deposito → SUE point-in-time con storico lungo.
+- [x] **SEC EDGAR companyfacts, senza chiave** (`sources/sec_eps.py`, testato il 05/11/2026: t 1,14, spento, vedi `PREREG_SUE_SEC.md`): `https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json`. Serve solo un'intestazione User-Agent fissa nel codice, nessuna registrazione. Ricava EPS trimestrali USA con la data di deposito → SUE point-in-time con storico lungo.
 - [x] **Stooq CSV, senza chiave** (`sources/stooq.py` pronto, ma da novembre 2026 Stooq blocca i download automatici con una pagina anti-robot: controllo spento in `aggiorna.py`) (`https://stooq.com/q/d/l/?s=eni.it&i=d`): seconda fonte prezzi, controllo incrociato con Yahoo. Avvisa se lo scarto supera l'1%.
 - [x] **BCE Data Portal, senza chiave** (`sources/ecb.py`: €STR e Stato AAA 10 anni in OGGI.md; da collegare come tasso privo di rischio nel Lab) (API SDMX in CSV): €STR e rendimenti dei titoli di Stato dell'area euro → tasso privo di rischio per i titoli europei.
 - [x] Per ogni fonte: un test con una risposta salvata, che gira senza rete (`tests/test_behavior.py`).

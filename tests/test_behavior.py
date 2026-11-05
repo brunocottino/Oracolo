@@ -154,5 +154,47 @@ def test_semaforo_regola_fissa():
     assert aggiorna.semaforo([{"livello": 5}] * 3 + calmo, {})[0].startswith("🔴")
 
 
+def _facts_sec():
+    """Risposta companyfacts sintetica: 4 anni, Q4 solo come anno intero, una riesposizione tardiva."""
+    rows = []
+    for y in range(2018, 2022):
+        q = [1.0 + 0.1 * (y - 2018) + 0.01 * k for k in range(4)]
+        for k in range(3):
+            s, e = pd.Timestamp(f"{y}-01-01") + pd.DateOffset(months=3 * k), pd.Timestamp(f"{y}-01-01") + pd.DateOffset(months=3 * k + 3) - pd.Timedelta(days=1)
+            rows.append({"start": str(s.date()), "end": str(e.date()), "val": q[k], "form": "10-Q",
+                         "filed": str((e + pd.Timedelta(days=30)).date())})
+        rows.append({"start": f"{y}-01-01", "end": f"{y}-12-31", "val": sum(q), "form": "10-K",
+                     "filed": f"{y + 1}-02-15"})
+    rows.append({"start": "2020-01-01", "end": "2020-03-31", "val": 99.0, "form": "10-Q", "filed": "2021-05-01"})
+    return {"us-gaap": {"EarningsPerShareDiluted": {"units": {"USD/shares": rows}}}}
+
+
+def test_sec_eps_quarters_point_in_time():
+    from sources import sec_eps
+    q = sec_eps.quarters(_facts_sec())
+    assert len(q) == 16
+    q1_20 = q[q["end"] == "2020-03-31"].iloc[0]
+    assert abs(q1_20["eps"] - 1.2) < 1e-9          # la riesposizione tardiva (99) è ignorata
+    q4_19 = q[q["end"] == "2019-12-31"].iloc[0]
+    assert abs(q4_19["eps"] - 1.13) < 1e-9         # Q4 = anno - tre trimestri
+    t = sec_eps.sue_table(q)
+    assert (t["avail"] == t["filed"] + pd.Timedelta(days=2)).all()
+    assert t["sue"].notna().all() and len(t) > 0
+
+
+def test_sec_sue_series_fresh_and_no_lookahead(monkeypatch=None):
+    from sources import sec_eps
+    orig = sec_eps.sue_pairs
+    sec_eps.sue_pairs = lambda cik: [["2021-02-17", 1.5], ["2021-05-03", -0.5]]
+    try:
+        idx = pd.bdate_range("2021-02-01", "2021-09-30")
+        s = sec_eps.sue_series(1, idx)
+    finally:
+        sec_eps.sue_pairs = orig
+    assert np.isnan(s["2021-02-16"]) and s["2021-02-17"] == 1.5
+    assert s["2021-04-30"] == 1.5 and s["2021-05-03"] == -0.5
+    assert np.isnan(s["2021-08-02"])               # oltre 90 giorni: vuota
+
+
 if __name__ == "__main__":
     sys.exit(1 if common.run_module(globals()) else 0)
