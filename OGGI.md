@@ -1,4 +1,4 @@
-# Oracolo: fotografia del 05/11/2026 07:01 UTC
+# Oracolo: fotografia del 05/11/2026 07:11 UTC
 
 597 strumenti · 1 in panico (livello 4-5) · 114 ipercomprati. Si aggiorna da sola dal lunedì al venerdì.
 
@@ -6,9 +6,9 @@
 
 1. In panico: Emergenti `EIMI.MI` livello 4 (in passato +2,7% a 1 mese, 67% rialzi).
 2. 114 ipercomprati (RSI sopra 70); i più tirati: Veralto 86, GE HealthCare 85, Pentair 85.
-3. Controllo prezzi con Stooq saltato: Stooq non ha risposto ai download automatici.
+3. Più vicini allo stop (indici ed ETF): Pacifico ex Giappone +1,9% sopra, Europa +2,3% sopra, Mondo sviluppati +2,4% sopra.
 
-Volatilità e tassi: VIX 20,8 (a 3 mesi 21,3) · Treasury 10 anni 4,95% · T-bill 3 mesi 4,03% · €STR 2,445% · Stato AAA euro 10 anni n.d. _Fonti: FRED e BCE, ultimo dato disponibile._
+Volatilità e tassi: VIX 20,8 (a 3 mesi 21,3) · Treasury 10 anni 4,95% · T-bill 3 mesi 4,03% · €STR 2,442% · Stato AAA euro 10 anni 3,35%. _Fonti: FRED e BCE, ultimo dato disponibile._
 
 ## Indici ed ETF azionari per livello
 
@@ -39,9 +39,9 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 | SMI (Svizzera) `^SSMI` | 3 | 15.022,85 CHF | +1,9% | -5% / +5% | 13% | +0% | 76 | 14.666,00 |
 | USA `CSSPX.MI` | 3 | 729,82 EUR | -0,8% | -5% / +5% | 12% | -3% | 41 | 711,79 |
 | USA tecnologia `CSNDX.MI` | 3 | 1.445,78 EUR | -1,3% | -7% / +8% | 20% | -10% | 33 | 1.379,27 |
-| Hang Seng `^HSI` | 2 | 24.740,34 HKD | +3,4% | -8% / +10% | 22% | -12% | 63 | 23.728,42 |
+| Hang Seng `^HSI` | 2 | 24.770,73 HKD | +3,6% | -8% / +10% | 23% | -11% | 63 | 23.756,92 |
 | Nikkei 225 `^N225` | 2 | 61.077,90 JPY | -1,8% | -9% / +11% | 26% | -16% | 34 | 57.356,27 |
-| Sensex (India) `^BSESN` | 1 | 78.862,66 INR | +2,0% | -6% / +6% | 15% | -8% | 75 | 76.245,77 |
+| Sensex (India) `^BSESN` | 1 | 78.896,83 INR | +2,1% | -6% / +6% | 15% | -8% | 75 | 76.279,94 |
 
 ## Ipercomprati (114): RSI 14 sopra 70, meglio aspettare prima di comprare
 
@@ -179,7 +179,7 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 | SoftBank `9984.T` | — | 3.980,00 JPY | -6,8% | -22% / +38% | 70% | -54% | 30 | 3.226,96 |
 | Sony `6758.T` | — | 4.211,00 JPY | +7,1% | -12% / +17% | 34% | -10% | 69 | 3.908,68 |
 | TSMC (ADR) `TSM` | — | 395,75 USD | -2,2% | -13% / +20% | 39% | -19% | 36 | 360,23 |
-| Tencent `0700.HK` | — | 427,00 HKD | +6,3% | -12% / +17% | 35% | -34% | 60 | 395,61 |
+| Tencent `0700.HK` | — | 427,40 HKD | +6,4% | -12% / +17% | 35% | -34% | 60 | 396,01 |
 | Toyota `7203.T` | — | 3.533,00 JPY | +16,7% | -17% / +26% | 51% | -8% | 80 | 3.296,48 |
 | Vale (ADR) `VALE` | — | 11,43 USD | +4,1% | -11% / +16% | 33% | -34% | 33 | 10,44 |
 
@@ -289,13 +289,13 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 | Euro Stoxx 50 `^STOXX50E` | 3 | 6.265,71 None | +2,0% | -6% / +6% | 15% | -4% | 56 | 6.055,73 |
 | FTSE 100 `^FTSE` | 3 | 10.829,20 GBP | +1,8% | -4% / +5% | 12% | -1% | 58 | 10.562,47 |
 | FTSE MIB `FTSEMIB.MI` | 3 | 51.031,00 EUR | +2,2% | -6% / +7% | 17% | -5% | 58 | 49.037,25 |
-| Hang Seng `^HSI` | 2 | 24.740,34 HKD | +3,4% | -8% / +10% | 22% | -12% | 63 | 23.728,42 |
+| Hang Seng `^HSI` | 2 | 24.770,73 HKD | +3,6% | -8% / +10% | 23% | -11% | 63 | 23.756,92 |
 | Nasdaq 100 `^NDX` | 3 | 28.437,17 USD | +0,9% | -8% / +9% | 21% | -9% | 38 | 26.928,38 |
 | Nikkei 225 `^N225` | 2 | 61.077,90 JPY | -1,8% | -9% / +11% | 26% | -16% | 34 | 57.356,27 |
 | Russell 2000 `^RUT` | 3 | 2.856,95 USD | +1,6% | -7% / +8% | 18% | -7% | 57 | 2.761,88 |
 | S&P 500 `^GSPC` | 3 | 7.688,62 USD | +1,6% | -5% / +6% | 14% | -2% | 50 | 7.464,34 |
 | SMI (Svizzera) `^SSMI` | 3 | 15.022,85 CHF | +1,9% | -5% / +5% | 13% | +0% | 76 | 14.666,00 |
-| Sensex (India) `^BSESN` | 1 | 78.862,66 INR | +2,0% | -6% / +6% | 15% | -8% | 75 | 76.245,77 |
+| Sensex (India) `^BSESN` | 1 | 78.896,83 INR | +2,1% | -6% / +6% | 15% | -8% | 75 | 76.279,94 |
 
 </details>
 
@@ -909,4 +909,4 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 </details>
 
 
-_Uso personale, non è una raccomandazione di investimento. La forchetta 80% indica dove il prezzo resta 8 volte su 10, non la direzione. Prezzi Yahoo Finance, controllo con Stooq; tassi FRED e BCE._
+_Uso personale, non è una raccomandazione di investimento. La forchetta 80% indica dove il prezzo resta 8 volte su 10, non la direzione. Prezzi Yahoo Finance; tassi FRED e BCE._
