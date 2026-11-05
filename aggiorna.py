@@ -71,6 +71,76 @@ def _riga(r):
             f"{r['rsi']:.0f} | {_n(r['stop'])} |")
 
 
+def _v(x, d=2, suf=""):
+    return "n.d." if x is None else f"{x:.{d}f}".replace(".", ",") + suf
+
+
+def mercati():
+    """Volatilità e tassi da FRED e BCE (fonti gratuite senza chiave). Ogni fonte che non risponde dà n.d."""
+    m, giu = {}, set()
+    for k, mod, sid in (("vix", "fred", "VIXCLS"), ("vix3m", "fred", "VXVCLS"), ("us10y", "fred", "DGS10"),
+                        ("us3m", "fred", "DTB3"), ("estr", "ecb", "estr"), ("euro10y", "ecb", "euro10y")):
+        d, v = None, None
+        if mod not in giu:
+            try:
+                from sources import ecb, fred
+                d, v = (fred if mod == "fred" else ecb).ultimo(sid)
+            except Exception:
+                pass
+            if v is None:
+                giu.add(mod)  # fonte giù: non riprovo le altre serie
+        m[k] = v
+        m[k + "_data"] = d
+    return m
+
+
+def semaforo(rows, m):
+    """Regola fissa e dichiarata prima: rosso se almeno 3 indici/ETF azionari sono a livello 4-5 o il VIX supera
+    il VIX3M (struttura a termine invertita); giallo se almeno uno è a livello 4-5, metà sono a livello 3 o il VIX
+    supera 20; altrimenti verde. Descrive il mercato, non dà ordini."""
+    liv = [r["livello"] for r in rows if r.get("livello")]
+    n45, n3 = sum(1 for l in liv if l >= 4), sum(1 for l in liv if l == 3)
+    vix, vix3m = m.get("vix"), m.get("vix3m")
+    if n45 >= 3 or (vix and vix3m and vix > vix3m):
+        return "🔴 Rosso: panico diffuso", n45, n3, len(liv)
+    if n45 >= 1 or (liv and n3 * 2 >= len(liv)) or (vix and vix > 20):
+        return "🟡 Giallo: tensione", n45, n3, len(liv)
+    return "🟢 Verde: mercati calmi", n45, n3, len(liv)
+
+
+def cruscotto(rows, livelli, m, controllo):
+    """Schermata da 10 secondi: semaforo, 3 avvisi, tassi e volatilità."""
+    luce, n45, n3, tot = semaforo(rows, m)
+    lv = {l["livello"]: l for l in livelli}
+    avvisi = []
+    panico = sorted((r for r in rows if (r.get("livello") or 0) >= 4), key=lambda r: -r["livello"])
+    if panico:
+        avvisi.append("In panico: " + ", ".join(
+            f"{r['breve']} `{r['ticker']}` livello {r['livello']} (in passato {_p(lv.get(r['livello'], {}).get('rend'))}"
+            f" a 1 mese, {(lv.get(r['livello'], {}).get('rialzo') or 0) * 100:.0f}% rialzi)" for r in panico[:3]) + ".")
+    else:
+        avvisi.append(f"Nessun indice o ETF azionario in panico; {n3} su {tot} in tensione (livello 3).")
+    iper = sorted((r for r in rows if r.get("avviso")), key=lambda r: -r["rsi"])
+    if iper:
+        avvisi.append(f"{len(iper)} ipercomprati (RSI sopra 70); i più tirati: "
+                      + ", ".join(f"{r['breve']} {r['rsi']:.0f}" for r in iper[:3]) + ".")
+    fatti, fuori = controllo
+    if fuori:
+        avvisi.append("Prezzi da verificare (scarto con Stooq oltre l'1%): "
+                      + ", ".join(f"{r['breve']} {_p(sc)}" for r, sc in fuori[:3]) + ".")
+    elif fatti:
+        avvisi.append(f"Prezzi Yahoo confermati da Stooq su {fatti} strumenti (scarto entro l'1%).")
+    else:
+        avvisi.append("Controllo prezzi con Stooq saltato: Stooq non ha risposto.")
+    tassi = (f"VIX {_v(m.get('vix'), 1)} (a 3 mesi {_v(m.get('vix3m'), 1)}) · Treasury 10 anni {_v(m.get('us10y'), 2, '%')} · "
+             f"T-bill 3 mesi {_v(m.get('us3m'), 2, '%')} · €STR {_v(m.get('estr'), 3, '%')} · Stato AAA euro 10 anni "
+             f"{_v(m.get('euro10y'), 2, '%')}")
+    righe = [f"## {luce}", ""] + [f"{i}. {a}" for i, a in enumerate(avvisi, 1)] + [
+        "", f"Volatilità e tassi: {tassi}. _Fonti: FRED e BCE, ultimo dato disponibile._", ""]
+    info = {"semaforo": luce, "avvisi": avvisi, "mercati": m, "stooq_controllati": fatti, "stooq_fuori": len(fuori)}
+    return righe, info
+
+
 def scrivi_oggi(path=os.path.join(ROOT, "OGGI.md")):
     """Pagina leggibile da telefono su github.com: livelli 1-5, ipercomprati, tutti gli strumenti per gruppo."""
     rows = json.load(open(os.path.join(OUT, "forchetta.json"), encoding="utf-8"))
@@ -81,8 +151,18 @@ def scrivi_oggi(path=os.path.join(ROOT, "OGGI.md")):
     quando = datetime.fromisoformat(st["aggiornato"]).strftime("%d/%m/%Y %H:%M UTC")
     out = [f"# Oracolo: fotografia del {quando}", "",
            f"{len(rows)} strumenti · {st['panico']} in panico (livello 4-5) · {st['ipercomprati']} ipercomprati. "
-           "Si aggiorna da sola dal lunedì al venerdì.", "",
-           "## Indici ed ETF azionari per livello", "",
+           "Si aggiorna da sola dal lunedì al venerdì.", ""]
+    from sources import stooq
+    campione = sorted(rows, key=lambda r: (r["livello"] is None, r["ticker"]))
+    try:
+        controllo = stooq.controlla(campione)
+    except Exception:
+        controllo = (0, [])
+    righe, info = cruscotto(rows, livelli, mercati(), controllo)
+    out += righe
+    st.update(info)
+    json.dump(st, open(os.path.join(OUT, "stato.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    out += ["## Indici ed ETF azionari per livello", "",
            "Livello: " + " · ".join(f"**{l['livello']} {l['nome']}** {_p(l['rend'])} a 1 mese, {l['rialzo'] * 100:.0f}% rialzi"
                                    for l in livelli), "", head]
     out += [_riga(r) for r in sorted((r for r in rows if r["livello"]), key=lambda r: (-r["livello"], r["breve"]))]
@@ -94,7 +174,7 @@ def scrivi_oggi(path=os.path.join(ROOT, "OGGI.md")):
         rs = sorted((r for r in rows if r["gruppo"] == g), key=lambda r: r["breve"])
         out += [f"<details><summary>{g} ({len(rs)})</summary>", "", head] + [_riga(r) for r in rs] + ["", "</details>", ""]
     out += ["", "_Uso personale, non è una raccomandazione di investimento. La forchetta 80% indica dove il prezzo "
-                "resta 8 volte su 10, non la direzione. Prezzi Yahoo Finance._", ""]
+                "resta 8 volte su 10, non la direzione. Prezzi Yahoo Finance, controllo con Stooq; tassi FRED e BCE._", ""]
     open(path, "w", encoding="utf-8").write("\n".join(out))
 
 

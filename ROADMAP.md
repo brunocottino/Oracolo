@@ -21,11 +21,11 @@ Si usano solo download pubblici senza login.
 - [ ] Creare account, Space e segreti (lo fa Bruno, 10 minuti).
 
 ## Fase 1: fonti pubbliche senza chiave (`sources/`, con cache SQLite e ripiego su Yahoo)
-- [ ] **FRED via CSV pubblico, senza chiave:** `https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS` (anche VXVCLS, DGS10, DTB3). Sostituisce ^VIX, ^VIX3M, ^TNX e ^IRX con storico completo.
+- [x] **FRED via CSV pubblico, senza chiave** (`sources/fred.py`, in OGGI.md; il Lab resta su Yahoo finché non si confrontano gli storici): `https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS` (anche VXVCLS, DGS10, DTB3). Sostituisce ^VIX, ^VIX3M, ^TNX e ^IRX con storico completo.
 - [ ] **SEC EDGAR companyfacts, senza chiave:** `https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json`. Serve solo un'intestazione User-Agent fissa nel codice, nessuna registrazione. Ricava EPS trimestrali USA con la data di deposito → SUE point-in-time con storico lungo.
-- [ ] **Stooq CSV, senza chiave** (`https://stooq.com/q/d/l/?s=eni.it&i=d`): seconda fonte prezzi, controllo incrociato con Yahoo. Avvisa se lo scarto supera l'1%.
-- [ ] **BCE Data Portal, senza chiave** (API SDMX in CSV): €STR e rendimenti dei titoli di Stato dell'area euro → tasso privo di rischio per i titoli europei.
-- [ ] Per ogni fonte: un test con una risposta salvata, che gira senza rete.
+- [x] **Stooq CSV, senza chiave** (`sources/stooq.py`, controllo su 25 strumenti in OGGI.md) (`https://stooq.com/q/d/l/?s=eni.it&i=d`): seconda fonte prezzi, controllo incrociato con Yahoo. Avvisa se lo scarto supera l'1%.
+- [x] **BCE Data Portal, senza chiave** (`sources/ecb.py`: €STR e Stato AAA 10 anni in OGGI.md; da collegare come tasso privo di rischio nel Lab) (API SDMX in CSV): €STR e rendimenti dei titoli di Stato dell'area euro → tasso privo di rischio per i titoli europei.
+- [x] Per ogni fonte: un test con una risposta salvata, che gira senza rete (`tests/test_behavior.py`).
 
 ## Fase 2: robustezza con i dati gratuiti
 - [ ] Survivorship bias: non eliminabile gratis. Va dichiarato nel Lab; si misura il banco di prova anche solo sugli ultimi 10 anni.
@@ -39,7 +39,7 @@ Si usano solo download pubblici senza login.
 - [ ] Classifica dei titoli con scostamenti di peso al massimo di ±2%, non segnali singoli.
 - [ ] Veto: niente nuovi acquisti se crescita implicita o probabilità implicita sono nel decile alto.
 - [ ] Diario: decisione registrata prima dell'esecuzione e non modificabile, più portafoglio paper contro ACWI (yfinance: `ACWI`). Scheda "Diario".
-- [ ] Schermata da 10 secondi: semaforo, 3 avvisi, risultato contro l'ETF.
+- [ ] Schermata da 10 secondi: semaforo, 3 avvisi, risultato contro l'ETF. Fatti semaforo e 3 avvisi in cima a OGGI.md; manca il risultato contro l'ETF (serve il Diario).
 - [ ] Dati europei marcati "qualità bassa", esclusi dalla classifica.
 
 ## Da NON fare

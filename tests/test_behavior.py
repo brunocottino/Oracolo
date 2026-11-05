@@ -115,5 +115,44 @@ def test_forchetta_and_risk_size():
     assert bands.risk_size(100, 101) is None
 
 
+
+
+def test_fred_parse_salta_mancanti():
+    from sources import fred
+    with open(os.path.join(FIX, "fred_vix.csv")) as f:
+        d = fred.parse(f.read())
+    assert d == {"2026-10-29": 18.12, "2026-11-03": 17.45}
+    assert fred.parse("DATE,DGS10\n2020-01-02,1.88\n") == {"2020-01-02": 1.88}
+
+
+def test_ecb_parse_estr():
+    from sources import ecb
+    with open(os.path.join(FIX, "ecb_estr.csv"), encoding="utf-8") as f:
+        d = ecb.parse(f.read())
+    assert d == {"2026-10-30": 2.44, "2026-11-02": 2.441, "2026-11-03": 2.445}
+
+
+def test_stooq_simboli_e_scarto():
+    from sources import stooq
+    assert stooq.simbolo("ENI.MI") == "eni.it" and stooq.simbolo("AAPL") == "aapl.us"
+    assert stooq.simbolo("BRK-B") == "brk.b.us" and stooq.simbolo("VWCE.DE") == "vwce.de"
+    assert stooq.simbolo("^GSPC") is None and stooq.simbolo("EURUSD=X") is None
+    with open(os.path.join(FIX, "stooq_eni.csv")) as f:
+        px = stooq.parse(f.read())
+    assert px["2026-11-03"] == 16.30 and stooq.parse("No data") == {}
+    assert abs(stooq.scarto(16.30, "2026-11-03", px)) < 1e-12
+    assert abs(stooq.scarto(16.50, "2026-11-03", px) - (16.50 / 16.30 - 1)) < 1e-12
+    assert stooq.scarto(16.30, "2026-11-04", px) is None
+
+
+def test_semaforo_regola_fissa():
+    import aggiorna
+    calmo = [{"livello": 2}] * 4
+    assert aggiorna.semaforo(calmo, {})[0].startswith("🟢")
+    assert aggiorna.semaforo(calmo + [{"livello": 4}], {})[0].startswith("🟡")
+    assert aggiorna.semaforo(calmo, {"vix": 25, "vix3m": 22})[0].startswith("🔴")
+    assert aggiorna.semaforo([{"livello": 5}] * 3 + calmo, {})[0].startswith("🔴")
+
+
 if __name__ == "__main__":
     sys.exit(1 if common.run_module(globals()) else 0)
