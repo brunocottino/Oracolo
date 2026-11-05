@@ -1,14 +1,14 @@
-# Oracolo: fotografia del 05/11/2026 07:11 UTC
+# Oracolo: fotografia del 05/11/2026 13:21 UTC
 
-597 strumenti · 1 in panico (livello 4-5) · 114 ipercomprati. Si aggiorna da sola dal lunedì al venerdì.
+597 strumenti · 0 in panico (livello 4-5) · 119 ipercomprati. Si aggiorna da sola dal lunedì al venerdì.
 
 ## 🟡 Giallo: tensione
 
-1. In panico: Emergenti `EIMI.MI` livello 4 (in passato +2,7% a 1 mese, 67% rialzi).
-2. 114 ipercomprati (RSI sopra 70); i più tirati: Veralto 86, GE HealthCare 85, Pentair 85.
-3. Più vicini allo stop (indici ed ETF): Pacifico ex Giappone +1,9% sopra, Europa +2,3% sopra, Mondo sviluppati +2,4% sopra.
+1. Nessun indice o ETF azionario in panico; 5 su 26 in tensione (livello 3).
+2. 119 ipercomprati (RSI sopra 70); i più tirati: Veralto 86, GE HealthCare 85, Pentair 85.
+3. Più vicini allo stop (indici ed ETF): Pacifico ex Giappone +2,1% sopra, Mondo sviluppati +2,4% sopra, Europa +2,4% sopra.
 
-Volatilità e tassi: VIX 20,8 (a 3 mesi 21,3) · Treasury 10 anni 4,95% · T-bill 3 mesi 4,03% · €STR 2,442% · Stato AAA euro 10 anni 3,35%. _Fonti: FRED e BCE, ultimo dato disponibile._
+Volatilità e tassi: VIX 20,8 (a 3 mesi 21,3) · Treasury 10 anni 4,95% · T-bill 3 mesi 4,03% · €STR n.d. · Stato AAA euro 10 anni n.d. _Fonti: FRED e BCE, ultimo dato disponibile._
 
 ## Indici ed ETF azionari per livello
 
@@ -16,34 +16,34 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Emergenti `EIMI.MI` | 4 | 44,69 EUR | -1,6% | -7% / +8% | 19% | -12% | 36 | 42,63 |
-| CAC 40 `^FCHI` | 3 | 8.177,89 EUR | +2,0% | -5% / +6% | 14% | -6% | 64 | 7.925,80 |
-| Cina `XCS6.DE` | 3 | 14,74 EUR | -0,9% | -7% / +8% | 20% | -20% | 38 | 14,28 |
-| DAX `^GDAXI` | 3 | 26.437,67 EUR | +2,2% | -6% / +6% | 15% | -0% | 65 | 25.539,29 |
 | Dow Jones `^DJI` | 3 | 53.356,12 USD | +3,0% | -5% / +6% | 14% | -2% | 63 | 51.857,11 |
-| Euro Stoxx 50 `^STOXX50E` | 3 | 6.265,71 None | +2,0% | -6% / +6% | 15% | -4% | 56 | 6.055,73 |
-| Europa `SMEA.MI` | 3 | 105,08 EUR | -0,6% | -4% / +5% | 11% | -2% | 55 | 102,74 |
-| Eurozona `CSSX5E.MI` | 3 | 239,80 EUR | -0,6% | -5% / +6% | 15% | -6% | 46 | 232,40 |
-| FTSE 100 `^FTSE` | 3 | 10.829,20 GBP | +1,8% | -4% / +5% | 12% | -1% | 58 | 10.562,47 |
-| FTSE MIB `FTSEMIB.MI` | 3 | 51.031,00 EUR | +2,2% | -6% / +7% | 17% | -5% | 58 | 49.037,25 |
-| Giappone `IJPA.AS` | 3 | 71,74 EUR | -0,7% | -7% / +8% | 19% | -6% | 41 | 69,38 |
-| India `QDV5.DE` | 3 | 7,72 EUR | +0,6% | -6% / +7% | 16% | -11% | 66 | 7,47 |
-| Italia `CSMIB.MI` | 3 | 248,85 EUR | -0,1% | -6% / +7% | 16% | -7% | 49 | 239,88 |
-| Mondo + emergenti `VWCE.DE` | 3 | 168,06 EUR | -0,8% | -4% / +5% | 12% | -3% | 41 | 163,87 |
-| Mondo small cap `IUSN.DE` | 3 | 9,18 EUR | -0,4% | -5% / +6% | 14% | -2% | 56 | 8,94 |
-| Mondo sviluppati `SWDA.MI` | 3 | 128,96 EUR | -0,8% | -4% / +5% | 11% | -2% | 43 | 125,94 |
+| Emergenti `EIMI.MI` | 3 | 44,32 EUR | -1,7% | -7% / +8% | 19% | -13% | 35 | 42,41 |
 | Nasdaq 100 `^NDX` | 3 | 28.437,17 USD | +0,9% | -8% / +9% | 21% | -9% | 38 | 26.928,38 |
-| Pacifico ex Giappone `CSPXJ.MI` | 3 | 217,23 EUR | -1,1% | -5% / +5% | 12% | -2% | 50 | 213,25 |
 | Russell 2000 `^RUT` | 3 | 2.856,95 USD | +1,6% | -7% / +8% | 18% | -7% | 57 | 2.761,88 |
 | S&P 500 `^GSPC` | 3 | 7.688,62 USD | +1,6% | -5% / +6% | 14% | -2% | 50 | 7.464,34 |
-| SMI (Svizzera) `^SSMI` | 3 | 15.022,85 CHF | +1,9% | -5% / +5% | 13% | +0% | 76 | 14.666,00 |
-| USA `CSSPX.MI` | 3 | 729,82 EUR | -0,8% | -5% / +5% | 12% | -3% | 41 | 711,79 |
-| USA tecnologia `CSNDX.MI` | 3 | 1.445,78 EUR | -1,3% | -7% / +8% | 20% | -10% | 33 | 1.379,27 |
-| Hang Seng `^HSI` | 2 | 24.770,73 HKD | +3,6% | -8% / +10% | 23% | -11% | 63 | 23.756,92 |
+| CAC 40 `^FCHI` | 2 | 8.259,60 EUR | +1,0% | -5% / +6% | 14% | -5% | 68 | 7.999,67 |
+| Cina `XCS6.DE` | 2 | 15,62 EUR | +1,7% | -8% / +10% | 23% | -15% | 62 | 15,06 |
+| DAX `^GDAXI` | 2 | 26.622,52 EUR | +0,7% | -6% / +6% | 15% | +0% | 67 | 25.738,03 |
+| Euro Stoxx 50 `^STOXX50E` | 2 | 6.303,49 None | +0,6% | -6% / +6% | 15% | -4% | 58 | 6.093,96 |
+| Europa `SMEA.MI` | 2 | 107,66 EUR | +0,5% | -5% / +5% | 12% | +0% | 67 | 105,14 |
+| Eurozona `CSSX5E.MI` | 2 | 246,25 EUR | +0,5% | -6% / +6% | 15% | -4% | 58 | 238,39 |
+| FTSE 100 `^FTSE` | 2 | 10.919,57 GBP | +0,8% | -4% / +5% | 12% | +0% | 62 | 10.648,61 |
+| FTSE MIB `FTSEMIB.MI` | 2 | 51.236,74 EUR | +0,4% | -6% / +7% | 17% | -5% | 59 | 49.292,41 |
+| Giappone `IJPA.AS` | 2 | 71,23 EUR | -0,7% | -7% / +8% | 18% | -6% | 38 | 69,02 |
+| Hang Seng `^HSI` | 2 | 24.796,98 HKD | +3,7% | -8% / +10% | 23% | -11% | 64 | 23.766,35 |
+| Italia `CSMIB.MI` | 2 | 254,80 EUR | +0,1% | -6% / +7% | 17% | -5% | 58 | 245,58 |
+| Mondo + emergenti `VWCE.DE` | 2 | 169,96 EUR | +0,1% | -4% / +5% | 12% | -2% | 49 | 165,88 |
+| Mondo small cap `IUSN.DE` | 2 | 9,27 EUR | +0,7% | -5% / +6% | 14% | -1% | 61 | 9,03 |
+| Mondo sviluppati `SWDA.MI` | 2 | 130,83 EUR | +0,2% | -4% / +5% | 12% | -1% | 54 | 127,79 |
 | Nikkei 225 `^N225` | 2 | 61.077,90 JPY | -1,8% | -9% / +11% | 26% | -16% | 34 | 57.356,27 |
-| Sensex (India) `^BSESN` | 1 | 78.896,83 INR | +2,1% | -6% / +6% | 15% | -8% | 75 | 76.279,94 |
+| Pacifico ex Giappone `CSPXJ.MI` | 2 | 221,82 EUR | +0,2% | -5% / +5% | 13% | +0% | 62 | 217,33 |
+| USA `CSSPX.MI` | 2 | 740,57 EUR | +0,2% | -5% / +5% | 13% | -2% | 52 | 722,55 |
+| USA tecnologia `CSNDX.MI` | 2 | 1.442,84 EUR | -1,1% | -7% / +8% | 19% | -10% | 34 | 1.380,38 |
+| India `QDV5.DE` | 1 | 7,99 EUR | +1,2% | -6% / +7% | 17% | -7% | 75 | 7,72 |
+| SMI (Svizzera) `^SSMI` | 1 | 15.039,15 CHF | +0,1% | -5% / +5% | 13% | +0% | 76 | 14.681,41 |
+| Sensex (India) `^BSESN` | 1 | 79.310,01 INR | +2,6% | -6% / +7% | 16% | -8% | 76 | 76.609,40 |
 
-## Ipercomprati (114): RSI 14 sopra 70, meglio aspettare prima di comprare
+## Ipercomprati (119): RSI 14 sopra 70, meglio aspettare prima di comprare
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
@@ -60,6 +60,7 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 | Allegion `ALLE` | — | 192,69 USD | +1,8% | -11% / +17% | 34% | +0% | 81 | 180,17 |
 | United Parcel Service `UPS` | — | 114,31 USD | +4,7% | -11% / +15% | 31% | -1% | 81 | 107,54 |
 | Toyota `7203.T` | — | 3.533,00 JPY | +16,7% | -17% / +26% | 51% | -8% | 80 | 3.296,48 |
+| Snam `SRG.MI` | — | 6,33 EUR | +1,2% | -6% / +8% | 16% | -4% | 80 | 6,08 |
 | Public Storage `PSA` | — | 342,76 USD | +2,8% | -9% / +12% | 25% | +0% | 80 | 323,94 |
 | W. W. Grainger `GWW` | — | 1.489,39 USD | +6,5% | -9% / +13% | 27% | +0% | 80 | 1.399,05 |
 | Kimco Realty `KIM` | — | 25,88 USD | +3,6% | -8% / +12% | 25% | -1% | 80 | 24,65 |
@@ -73,6 +74,7 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 | Yum! Brands `YUM` | — | 166,31 USD | +5,9% | -9% / +13% | 28% | -0% | 78 | 155,87 |
 | Zoetis `ZTS` | — | 89,20 USD | +7,5% | -12% / +18% | 37% | -31% | 78 | 83,64 |
 | Insulet Corporation `PODD` | — | 165,02 USD | +6,6% | -14% / +20% | 41% | -52% | 77 | 151,39 |
+| Enel `ENEL.MI` | — | 9,76 EUR | +0,8% | -7% / +9% | 19% | -3% | 77 | 9,37 |
 | Jacobs Solutions `J` | — | 160,11 USD | +0,2% | -9% / +13% | 26% | -0% | 77 | 150,23 |
 | Eli Lilly `LLY` | — | 1.417,99 USD | +0,6% | -12% / +17% | 35% | +0% | 77 | 1.301,74 |
 | Aon plc `AON` | — | 344,67 USD | +4,4% | -11% / +15% | 31% | -9% | 77 | 322,83 |
@@ -95,20 +97,21 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 | 3M `MMM` | — | 193,95 USD | +9,6% | -13% / +19% | 38% | +0% | 75 | 179,96 |
 | Mastercard `MA` | — | 672,68 USD | +3,9% | -9% / +12% | 25% | +0% | 75 | 638,07 |
 | Crown Castle `CCI` | — | 92,17 USD | +6,5% | -14% / +21% | 42% | +0% | 75 | 82,88 |
+| L'Oréal `OR.PA` | — | 448,25 EUR | +0,8% | -9% / +12% | 26% | +0% | 75 | 424,79 |
 | Clorox `CLX` | — | 99,16 USD | +5,7% | -11% / +16% | 33% | -19% | 75 | 91,47 |
 | DuPont `DD` | — | 150,73 USD | -1,8% | -11% / +17% | 34% | -2% | 75 | 141,38 |
 | Ferguson Enterprises `FERG` | — | 248,53 USD | +2,7% | -10% / +14% | 28% | -6% | 75 | 232,57 |
 | Walt Disney Company (The) `DIS` | — | 118,95 USD | +4,2% | -9% / +13% | 26% | +0% | 75 | 113,32 |
 | Zimmer Biomet `ZBH` | — | 110,15 USD | +13,5% | -15% / +23% | 45% | +0% | 75 | 102,01 |
+| Allianz `ALV.DE` | — | 466,50 EUR | +1,8% | -7% / +10% | 20% | +0% | 75 | 447,82 |
 | Hilton Worldwide `HLT` | — | 376,53 USD | +3,5% | -9% / +12% | 26% | +0% | 75 | 353,05 |
 | Home Depot (The) `HD` | — | 355,44 USD | +6,5% | -11% / +16% | 32% | -7% | 74 | 332,79 |
-| Nestlé `NESN.SW` | — | 85,90 CHF | +1,8% | -7% / +9% | 19% | -0% | 74 | 82,57 |
 | NextEra Energy `NEE` | — | 88,45 USD | +4,9% | -9% / +13% | 27% | -8% | 74 | 83,70 |
 | Starbucks `SBUX` | — | 109,70 USD | +4,7% | -10% / +15% | 31% | +0% | 74 | 103,38 |
-| Snam `SRG.MI` | — | 6,16 EUR | -0,4% | -5% / +7% | 16% | -7% | 74 | 5,91 |
 | McKesson `MCK` | — | 1.069,44 USD | +7,0% | -11% / +15% | 31% | +0% | 74 | 1.003,18 |
 | PPG Industries `PPG` | — | 127,27 USD | +5,0% | -11% / +16% | 32% | -1% | 74 | 117,29 |
 | Avery Dennison `AVY` | — | 192,59 USD | +3,9% | -8% / +11% | 24% | -1% | 74 | 181,16 |
+| Nestlé `NESN.SW` | — | 85,84 CHF | -0,1% | -6% / +9% | 19% | -0% | 74 | 82,54 |
 | Abbott Laboratories `ABT` | — | 115,51 USD | +5,6% | -10% / +14% | 28% | -9% | 74 | 107,16 |
 | Medtronic `MDT` | — | 104,96 USD | +6,2% | -10% / +14% | 29% | +0% | 74 | 98,67 |
 | Walmart `WMT` | — | 129,17 USD | +3,5% | -9% / +13% | 27% | -4% | 74 | 122,23 |
@@ -122,6 +125,7 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 | Tyler Technologies `TYL` | — | 423,20 USD | +4,7% | -13% / +20% | 40% | -10% | 73 | 382,00 |
 | WEC Energy Group `WEC` | — | 118,11 USD | +2,4% | -7% / +10% | 21% | +0% | 73 | 112,27 |
 | Dollar Tree `DLTR` | — | 147,00 USD | +9,6% | -16% / +24% | 48% | +0% | 73 | 133,77 |
+| AstraZeneca `AZN.L` | — | 14.116,00 GBp | +0,7% | -10% / +14% | 30% | -9% | 73 | 13.288,14 |
 | Arch Capital Group `ACGL` | — | 110,68 USD | +2,7% | -8% / +12% | 25% | +0% | 73 | 104,45 |
 | Carvana `CVNA` | — | 77,56 USD | +8,8% | -23% / +40% | 73% | -19% | 73 | 68,47 |
 | Labcorp `LH` | — | 367,79 USD | +3,9% | -11% / +15% | 31% | -0% | 73 | 338,52 |
@@ -154,6 +158,7 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 | Domino's `DPZ` | — | 340,69 USD | +5,5% | -11% / +16% | 32% | -21% | 71 | 318,14 |
 | Atmos Energy `ATO` | — | 176,45 USD | +1,5% | -6% / +8% | 18% | -7% | 70 | 168,61 |
 | Copart `CPRT` | — | 32,62 USD | +5,0% | -12% / +18% | 37% | -24% | 70 | 30,20 |
+| Terna `TRN.MI` | — | 9,87 EUR | +1,3% | -6% / +8% | 16% | -5% | 70 | 9,49 |
 | Stryker Corporation `SYK` | — | 339,65 USD | +9,4% | -14% / +21% | 42% | -12% | 70 | 309,88 |
 | HCA Healthcare `HCA` | — | 510,70 USD | +10,3% | -13% / +19% | 39% | -6% | 70 | 464,36 |
 | BlackRock `BLK` | — | 1.224,37 USD | +5,4% | -10% / +14% | 28% | +0% | 70 | 1.152,20 |
@@ -179,7 +184,7 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 | SoftBank `9984.T` | — | 3.980,00 JPY | -6,8% | -22% / +38% | 70% | -54% | 30 | 3.226,96 |
 | Sony `6758.T` | — | 4.211,00 JPY | +7,1% | -12% / +17% | 34% | -10% | 69 | 3.908,68 |
 | TSMC (ADR) `TSM` | — | 395,75 USD | -2,2% | -13% / +20% | 39% | -19% | 36 | 360,23 |
-| Tencent `0700.HK` | — | 427,40 HKD | +6,4% | -12% / +17% | 35% | -34% | 60 | 396,01 |
+| Tencent `0700.HK` | — | 430,40 HKD | +7,2% | -12% / +18% | 36% | -34% | 62 | 398,61 |
 | Toyota `7203.T` | — | 3.533,00 JPY | +16,7% | -17% / +26% | 51% | -8% | 80 | 3.296,48 |
 | Vale (ADR) `VALE` | — | 11,43 USD | +4,1% | -11% / +16% | 33% | -34% | 33 | 10,44 |
 
@@ -189,19 +194,19 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Cina `XCS6.DE` | 3 | 14,74 EUR | -0,9% | -7% / +8% | 20% | -20% | 38 | 14,28 |
-| Emergenti `EIMI.MI` | 4 | 44,69 EUR | -1,6% | -7% / +8% | 19% | -12% | 36 | 42,63 |
-| Europa `SMEA.MI` | 3 | 105,08 EUR | -0,6% | -4% / +5% | 11% | -2% | 55 | 102,74 |
-| Eurozona `CSSX5E.MI` | 3 | 239,80 EUR | -0,6% | -5% / +6% | 15% | -6% | 46 | 232,40 |
-| Giappone `IJPA.AS` | 3 | 71,74 EUR | -0,7% | -7% / +8% | 19% | -6% | 41 | 69,38 |
-| India `QDV5.DE` | 3 | 7,72 EUR | +0,6% | -6% / +7% | 16% | -11% | 66 | 7,47 |
-| Italia `CSMIB.MI` | 3 | 248,85 EUR | -0,1% | -6% / +7% | 16% | -7% | 49 | 239,88 |
-| Mondo + emergenti `VWCE.DE` | 3 | 168,06 EUR | -0,8% | -4% / +5% | 12% | -3% | 41 | 163,87 |
-| Mondo small cap `IUSN.DE` | 3 | 9,18 EUR | -0,4% | -5% / +6% | 14% | -2% | 56 | 8,94 |
-| Mondo sviluppati `SWDA.MI` | 3 | 128,96 EUR | -0,8% | -4% / +5% | 11% | -2% | 43 | 125,94 |
-| Pacifico ex Giappone `CSPXJ.MI` | 3 | 217,23 EUR | -1,1% | -5% / +5% | 12% | -2% | 50 | 213,25 |
-| USA `CSSPX.MI` | 3 | 729,82 EUR | -0,8% | -5% / +5% | 12% | -3% | 41 | 711,79 |
-| USA tecnologia `CSNDX.MI` | 3 | 1.445,78 EUR | -1,3% | -7% / +8% | 20% | -10% | 33 | 1.379,27 |
+| Cina `XCS6.DE` | 2 | 15,62 EUR | +1,7% | -8% / +10% | 23% | -15% | 62 | 15,06 |
+| Emergenti `EIMI.MI` | 3 | 44,32 EUR | -1,7% | -7% / +8% | 19% | -13% | 35 | 42,41 |
+| Europa `SMEA.MI` | 2 | 107,66 EUR | +0,5% | -5% / +5% | 12% | +0% | 67 | 105,14 |
+| Eurozona `CSSX5E.MI` | 2 | 246,25 EUR | +0,5% | -6% / +6% | 15% | -4% | 58 | 238,39 |
+| Giappone `IJPA.AS` | 2 | 71,23 EUR | -0,7% | -7% / +8% | 18% | -6% | 38 | 69,02 |
+| India `QDV5.DE` | 1 | 7,99 EUR | +1,2% | -6% / +7% | 17% | -7% | 75 | 7,72 |
+| Italia `CSMIB.MI` | 2 | 254,80 EUR | +0,1% | -6% / +7% | 17% | -5% | 58 | 245,58 |
+| Mondo + emergenti `VWCE.DE` | 2 | 169,96 EUR | +0,1% | -4% / +5% | 12% | -2% | 49 | 165,88 |
+| Mondo small cap `IUSN.DE` | 2 | 9,27 EUR | +0,7% | -5% / +6% | 14% | -1% | 61 | 9,03 |
+| Mondo sviluppati `SWDA.MI` | 2 | 130,83 EUR | +0,2% | -4% / +5% | 12% | -1% | 54 | 127,79 |
+| Pacifico ex Giappone `CSPXJ.MI` | 2 | 221,82 EUR | +0,2% | -5% / +5% | 13% | +0% | 62 | 217,33 |
+| USA `CSSPX.MI` | 2 | 740,57 EUR | +0,2% | -5% / +5% | 13% | -2% | 52 | 722,55 |
+| USA tecnologia `CSNDX.MI` | 2 | 1.442,84 EUR | -1,1% | -7% / +8% | 19% | -10% | 34 | 1.380,38 |
 
 </details>
 
@@ -209,10 +214,10 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Bassa volatilità `IQQ0.DE` | — | 71,57 EUR | -0,2% | -4% / +5% | 12% | -0% | 76 | 70,35 |
-| Momentum `IS3R.DE` | — | 95,41 EUR | -0,9% | -8% / +9% | 22% | -12% | 33 | 90,57 |
-| Quality `IS3Q.DE` | — | 80,23 EUR | -0,6% | -4% / +4% | 10% | -2% | 51 | 78,79 |
-| Value `IS3S.DE` | — | 69,54 EUR | -0,8% | -5% / +5% | 13% | -4% | 37 | 67,68 |
+| Bassa volatilità `IQQ0.DE` | — | 72,89 EUR | +1,0% | -5% / +5% | 12% | +0% | 84 | 71,48 |
+| Momentum `IS3R.DE` | — | 92,74 EUR | -1,1% | -8% / +9% | 22% | -15% | 28 | 88,20 |
+| Quality `IS3Q.DE` | — | 81,70 EUR | +0,3% | -4% / +5% | 11% | +0% | 64 | 80,15 |
+| Value `IS3S.DE` | — | 69,69 EUR | -0,3% | -5% / +5% | 13% | -4% | 40 | 67,92 |
 
 </details>
 
@@ -220,10 +225,10 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Monetario euro `XEON.DE` | — | 150,68 EUR | +0,0% | -0% / +0% | 0% | +0% | 90 | 150,56 |
-| Obbligazioni globali EUR hedged `EUNA.DE` | — | 4,87 EUR | -0,2% | -1% / +2% | 4% | -3% | 62 | 4,83 |
-| Obbligazioni societarie euro `D5BG.DE` | — | 161,56 EUR | -0,2% | -1% / +1% | 3% | -2% | 56 | 160,10 |
-| Titoli di Stato area euro `XGLE.DE` | — | 217,58 EUR | -0,1% | -2% / +2% | 4% | -4% | 57 | 215,46 |
+| Monetario euro `XEON.DE` | — | 150,72 EUR | +0,0% | -0% / +0% | 0% | +0% | 92 | 150,61 |
+| Obbligazioni globali EUR hedged `EUNA.DE` | — | 4,89 EUR | +0,1% | -1% / +2% | 4% | -2% | 67 | 4,85 |
+| Obbligazioni societarie euro `D5BG.DE` | — | 162,41 EUR | +0,2% | -1% / +1% | 3% | -1% | 66 | 160,91 |
+| Titoli di Stato area euro `XGLE.DE` | — | 219,00 EUR | +0,1% | -2% / +2% | 5% | -4% | 66 | 216,99 |
 
 </details>
 
@@ -231,9 +236,9 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Immobiliare Europa ex UK `XREA.DE` | — | 52,53 EUR | -0,2% | -6% / +6% | 15% | -18% | 60 | 51,28 |
-| Materie prime `SXRS.DE` | — | 9,17 EUR | -1,0% | -6% / +6% | 15% | -5% | 35 | 8,86 |
-| Oro `SGLD.MI` | — | 337,75 EUR | -0,9% | -7% / +8% | 19% | -23% | 35 | 325,62 |
+| Immobiliare Europa ex UK `XREA.DE` | — | 54,03 EUR | +0,8% | -6% / +7% | 16% | -15% | 72 | 52,62 |
+| Materie prime `SXRS.DE` | — | 9,02 EUR | +0,1% | -6% / +7% | 16% | -7% | 31 | 8,70 |
+| Oro `SGLD.MI` | — | 352,89 EUR | +1,9% | -7% / +9% | 21% | -19% | 52 | 338,92 |
 
 </details>
 
@@ -241,16 +246,16 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Comunicazioni `XWTS.DE` | — | 26,86 EUR | -0,2% | -6% / +7% | 18% | -12% | 22 | 25,84 |
-| Consumi di base `XDWS.DE` | — | 52,67 EUR | -0,6% | -5% / +6% | 14% | -1% | 71 | 50,86 |
-| Consumi discrezionali `XDWC.DE` | — | 60,45 EUR | -1,4% | -6% / +7% | 17% | -2% | 58 | 58,27 |
-| Energia `XDW0.DE` | — | 72,08 EUR | -1,8% | -8% / +10% | 23% | -4% | 52 | 68,03 |
-| Finanziari `XDWF.DE` | — | 42,45 EUR | -0,5% | -5% / +6% | 14% | -1% | 58 | 41,41 |
-| Industriali `XDWI.DE` | — | 74,67 EUR | +0,4% | -5% / +6% | 15% | -5% | 55 | 72,12 |
-| Materiali `XDWM.DE` | — | 68,19 EUR | -2,0% | -6% / +7% | 17% | -6% | 46 | 65,82 |
-| Salute `XDWH.DE` | — | 60,34 EUR | +0,3% | -6% / +7% | 17% | -1% | 69 | 58,05 |
-| Tecnologia `XDWT.DE` | — | 123,70 EUR | -1,3% | -9% / +10% | 24% | -11% | 35 | 116,53 |
-| Utilities `XDWU.DE` | — | 42,74 EUR | +0,1% | -4% / +5% | 12% | -2% | 73 | 41,71 |
+| Comunicazioni `XWTS.DE` | — | 27,89 EUR | +1,1% | -7% / +8% | 19% | -8% | 42 | 26,81 |
+| Consumi di base `XDWS.DE` | — | 54,42 EUR | +0,6% | -6% / +6% | 15% | +0% | 79 | 52,58 |
+| Consumi discrezionali `XDWC.DE` | — | 63,47 EUR | +1,4% | -7% / +8% | 20% | +0% | 72 | 60,86 |
+| Energia `XDW0.DE` | — | 69,33 EUR | +0,9% | -9% / +11% | 26% | -8% | 43 | 64,91 |
+| Finanziari `XDWF.DE` | — | 44,17 EUR | +1,7% | -6% / +6% | 15% | +0% | 72 | 42,93 |
+| Industriali `XDWI.DE` | — | 73,83 EUR | +0,2% | -5% / +6% | 15% | -6% | 49 | 71,38 |
+| Materiali `XDWM.DE` | — | 71,02 EUR | +1,6% | -7% / +8% | 19% | -2% | 60 | 68,50 |
+| Salute `XDWH.DE` | — | 62,19 EUR | +1,5% | -6% / +7% | 17% | +0% | 76 | 59,85 |
+| Tecnologia `XDWT.DE` | — | 121,84 EUR | -1,9% | -9% / +10% | 24% | -13% | 33 | 115,12 |
+| Utilities `XDWU.DE` | — | 43,33 EUR | +1,0% | -4% / +5% | 12% | -1% | 78 | 42,28 |
 
 </details>
 
@@ -258,24 +263,24 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| ASML `ASML.AS` | — | 1.385,00 EUR | -1,6% | -14% / +21% | 41% | -19% | 38 | 1.248,79 |
-| Airbus `AIR.PA` | — | 193,32 EUR | -1,4% | -9% / +12% | 25% | -11% | 50 | 179,57 |
-| Allianz `ALV.DE` | — | 440,90 EUR | +0,1% | -6% / +8% | 17% | -3% | 60 | 424,63 |
-| AstraZeneca `AZN.L` | — | 13.760,00 GBp | -0,7% | -10% / +15% | 30% | -11% | 69 | 12.933,57 |
-| BAE Systems `BA.L` | — | 2.075,00 GBp | +0,1% | -9% / +13% | 27% | -11% | 65 | 1.944,53 |
-| BNP Paribas `BNP.PA` | — | 87,61 EUR | +0,7% | -9% / +13% | 28% | -20% | 44 | 81,83 |
-| Hermès `RMS.PA` | — | 1.312,50 EUR | -0,6% | -10% / +15% | 30% | -41% | 49 | 1.202,50 |
-| L'Oréal `OR.PA` | — | 432,70 EUR | -0,9% | -9% / +12% | 25% | -1% | 68 | 411,05 |
-| LVMH `MC.PA` | — | 401,50 EUR | +2,0% | -9% / +12% | 25% | -37% | 58 | 379,43 |
-| Nestlé `NESN.SW` | — | 85,90 CHF | +1,8% | -7% / +9% | 19% | -0% | 74 | 82,57 |
-| Novo Nordisk `NOVO-B.CO` | — | 270,15 DKK | -0,0% | -12% / +18% | 37% | -29% | 58 | 256,73 |
-| Rheinmetall `RHM.DE` | — | 1.004,80 EUR | +0,5% | -14% / +21% | 41% | -47% | 48 | 906,10 |
-| SAP `SAP.DE` | — | 206,65 EUR | -1,8% | -10% / +14% | 29% | -8% | 58 | 191,92 |
-| Safran `SAF.PA` | — | 285,00 EUR | -1,1% | -12% / +18% | 37% | -22% | 38 | 259,14 |
-| Santander `SAN.MC` | — | 10,23 EUR | -1,5% | -11% / +17% | 34% | -20% | 29 | 9,31 |
-| Shell `SHEL.L` | — | 3.863,50 GBp | -1,5% | -8% / +11% | 22% | -4% | 52 | 3.649,75 |
-| Siemens `SIE.DE` | — | 269,75 EUR | -0,2% | -10% / +15% | 30% | -7% | 51 | 250,54 |
-| TotalEnergies `TTE.PA` | — | 82,71 EUR | -1,1% | -8% / +11% | 22% | -3% | 58 | 77,85 |
+| ASML `ASML.AS` | — | 1.300,40 EUR | -2,8% | -14% / +21% | 42% | -24% | 31 | 1.166,08 |
+| Airbus `AIR.PA` | — | 202,40 EUR | +1,1% | -9% / +13% | 27% | -6% | 61 | 188,42 |
+| Allianz `ALV.DE` | — | 466,50 EUR | +1,8% | -7% / +10% | 20% | +0% | 75 | 447,82 |
+| AstraZeneca `AZN.L` | — | 14.116,00 GBp | +0,7% | -10% / +14% | 30% | -9% | 73 | 13.288,14 |
+| BAE Systems `BA.L` | — | 1.900,25 GBp | -4,4% | -11% / +15% | 31% | -18% | 40 | 1.746,29 |
+| BNP Paribas `BNP.PA` | — | 93,71 EUR | +2,2% | -10% / +15% | 30% | -14% | 60 | 87,19 |
+| Hermès `RMS.PA` | — | 1.376,00 EUR | +0,3% | -11% / +16% | 32% | -38% | 59 | 1.250,82 |
+| L'Oréal `OR.PA` | — | 448,25 EUR | +0,8% | -9% / +12% | 26% | +0% | 75 | 424,79 |
+| LVMH `MC.PA` | — | 418,10 EUR | +0,4% | -9% / +13% | 27% | -35% | 68 | 391,60 |
+| Nestlé `NESN.SW` | — | 85,84 CHF | -0,1% | -6% / +9% | 19% | -0% | 74 | 82,54 |
+| Novo Nordisk `NOVO-B.CO` | — | 275,55 DKK | -3,4% | -13% / +20% | 40% | -28% | 59 | 259,39 |
+| Rheinmetall `RHM.DE` | — | 841,20 EUR | -16,2% | -20% / +33% | 63% | -56% | 28 | 724,34 |
+| SAP `SAP.DE` | — | 218,50 EUR | +2,0% | -10% / +15% | 31% | +0% | 70 | 202,92 |
+| Safran `SAF.PA` | — | 299,30 EUR | +2,3% | -12% / +18% | 36% | -18% | 49 | 270,82 |
+| Santander `SAN.MC` | — | 10,99 EUR | +2,4% | -12% / +18% | 36% | -14% | 45 | 9,98 |
+| Shell `SHEL.L` | — | 3.790,50 GBp | -0,1% | -8% / +11% | 22% | -6% | 46 | 3.566,30 |
+| Siemens `SIE.DE` | — | 276,10 EUR | +0,2% | -10% / +14% | 30% | -5% | 56 | 256,40 |
+| TotalEnergies `TTE.PA` | — | 80,90 EUR | -0,8% | -8% / +10% | 22% | -5% | 50 | 75,62 |
 
 </details>
 
@@ -283,19 +288,19 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| CAC 40 `^FCHI` | 3 | 8.177,89 EUR | +2,0% | -5% / +6% | 14% | -6% | 64 | 7.925,80 |
-| DAX `^GDAXI` | 3 | 26.437,67 EUR | +2,2% | -6% / +6% | 15% | -0% | 65 | 25.539,29 |
+| CAC 40 `^FCHI` | 2 | 8.259,60 EUR | +1,0% | -5% / +6% | 14% | -5% | 68 | 7.999,67 |
+| DAX `^GDAXI` | 2 | 26.622,52 EUR | +0,7% | -6% / +6% | 15% | +0% | 67 | 25.738,03 |
 | Dow Jones `^DJI` | 3 | 53.356,12 USD | +3,0% | -5% / +6% | 14% | -2% | 63 | 51.857,11 |
-| Euro Stoxx 50 `^STOXX50E` | 3 | 6.265,71 None | +2,0% | -6% / +6% | 15% | -4% | 56 | 6.055,73 |
-| FTSE 100 `^FTSE` | 3 | 10.829,20 GBP | +1,8% | -4% / +5% | 12% | -1% | 58 | 10.562,47 |
-| FTSE MIB `FTSEMIB.MI` | 3 | 51.031,00 EUR | +2,2% | -6% / +7% | 17% | -5% | 58 | 49.037,25 |
-| Hang Seng `^HSI` | 2 | 24.770,73 HKD | +3,6% | -8% / +10% | 23% | -11% | 63 | 23.756,92 |
+| Euro Stoxx 50 `^STOXX50E` | 2 | 6.303,49 None | +0,6% | -6% / +6% | 15% | -4% | 58 | 6.093,96 |
+| FTSE 100 `^FTSE` | 2 | 10.919,57 GBP | +0,8% | -4% / +5% | 12% | +0% | 62 | 10.648,61 |
+| FTSE MIB `FTSEMIB.MI` | 2 | 51.236,74 EUR | +0,4% | -6% / +7% | 17% | -5% | 59 | 49.292,41 |
+| Hang Seng `^HSI` | 2 | 24.796,98 HKD | +3,7% | -8% / +10% | 23% | -11% | 64 | 23.766,35 |
 | Nasdaq 100 `^NDX` | 3 | 28.437,17 USD | +0,9% | -8% / +9% | 21% | -9% | 38 | 26.928,38 |
 | Nikkei 225 `^N225` | 2 | 61.077,90 JPY | -1,8% | -9% / +11% | 26% | -16% | 34 | 57.356,27 |
 | Russell 2000 `^RUT` | 3 | 2.856,95 USD | +1,6% | -7% / +8% | 18% | -7% | 57 | 2.761,88 |
 | S&P 500 `^GSPC` | 3 | 7.688,62 USD | +1,6% | -5% / +6% | 14% | -2% | 50 | 7.464,34 |
-| SMI (Svizzera) `^SSMI` | 3 | 15.022,85 CHF | +1,9% | -5% / +5% | 13% | +0% | 76 | 14.666,00 |
-| Sensex (India) `^BSESN` | 1 | 78.896,83 INR | +2,1% | -6% / +6% | 15% | -8% | 75 | 76.279,94 |
+| SMI (Svizzera) `^SSMI` | 1 | 15.039,15 CHF | +0,1% | -5% / +5% | 13% | +0% | 76 | 14.681,41 |
+| Sensex (India) `^BSESN` | 1 | 79.310,01 INR | +2,6% | -6% / +7% | 16% | -8% | 76 | 76.609,40 |
 
 </details>
 
@@ -303,24 +308,24 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Banca Mediolanum `BMED.MI` | — | 22,48 EUR | -0,2% | -8% / +11% | 23% | -8% | 44 | 21,29 |
-| Enel `ENEL.MI` | — | 9,32 EUR | -0,1% | -6% / +8% | 16% | -7% | 63 | 8,96 |
-| Eni `ENI.MI` | — | 26,04 EUR | -1,8% | -9% / +12% | 26% | -6% | 53 | 24,27 |
-| Ferrari `RACE.MI` | — | 375,00 EUR | +4,5% | -9% / +13% | 27% | +0% | 68 | 352,89 |
-| FinecoBank `FBK.MI` | — | 21,26 EUR | -0,3% | -9% / +12% | 26% | -14% | 48 | 20,01 |
-| Generali `G.MI` | — | 42,79 EUR | -0,3% | -6% / +8% | 18% | -7% | 51 | 41,08 |
-| Intesa Sanpaolo `ISP.MI` | — | 5,99 EUR | +0,6% | -8% / +11% | 24% | -13% | 41 | 5,65 |
-| Leonardo `LDO.MI` | — | 51,65 EUR | -0,8% | -11% / +16% | 33% | -19% | 61 | 48,18 |
-| Mediobanca `MB.MI` | — | 25,60 EUR | -0,0% | -9% / +13% | 26% | -12% | 44 | 24,21 |
-| Moncler `MONC.MI` | — | 44,88 EUR | +0,2% | -10% / +14% | 29% | -21% | 57 | 41,72 |
-| Poste Italiane `PST.MI` | — | 24,20 EUR | -0,6% | -7% / +10% | 20% | -17% | 44 | 23,14 |
-| Prysmian `PRY.MI` | — | 112,15 EUR | +0,8% | -15% / +23% | 45% | -29% | 48 | 97,50 |
-| STMicroelectronics `STMMI.MI` | — | 43,12 EUR | -0,2% | -16% / +25% | 49% | -38% | 48 | 38,13 |
-| Snam `SRG.MI` | — | 6,16 EUR | -0,4% | -5% / +7% | 16% | -7% | 74 | 5,91 |
-| Stellantis `STLAM.MI` | — | 4,08 EUR | -3,9% | -18% / +28% | 55% | -61% | 51 | 3,58 |
-| Telecom Italia `TIT.MI` | — | 5,69 EUR | +0,2% | -11% / +16% | 32% | -30% | 36 | 5,34 |
-| Terna `TRN.MI` | — | 9,52 EUR | -0,4% | -5% / +7% | 15% | -8% | 57 | 9,16 |
-| UniCredit `UCG.MI` | — | 74,26 EUR | -0,2% | -10% / +14% | 30% | -14% | 43 | 69,20 |
+| Banca Mediolanum `BMED.MI` | — | 23,68 EUR | +1,7% | -8% / +12% | 25% | -3% | 60 | 22,37 |
+| Enel `ENEL.MI` | — | 9,76 EUR | +0,8% | -7% / +9% | 19% | -3% | 77 | 9,37 |
+| Eni `ENI.MI` | — | 25,38 EUR | -0,7% | -9% / +12% | 25% | -8% | 46 | 23,50 |
+| Ferrari `RACE.MI` | — | 379,90 EUR | -0,7% | -9% / +13% | 27% | -1% | 69 | 355,02 |
+| FinecoBank `FBK.MI` | — | 22,99 EUR | +3,6% | -10% / +14% | 29% | -7% | 66 | 21,55 |
+| Generali `G.MI` | — | 44,69 EUR | +1,5% | -7% / +9% | 19% | -3% | 64 | 42,83 |
+| Intesa Sanpaolo `ISP.MI` | — | 6,35 EUR | +1,1% | -9% / +13% | 27% | -8% | 58 | 5,97 |
+| Leonardo `LDO.MI` | — | 49,52 EUR | -3,1% | -11% / +17% | 34% | -22% | 48 | 45,89 |
+| Mediobanca `MB.MI` | — | 26,62 EUR | +0,2% | -9% / +13% | 27% | -8% | 56 | 25,10 |
+| Moncler `MONC.MI` | — | 46,38 EUR | -1,1% | -10% / +15% | 31% | -18% | 62 | 42,95 |
+| Poste Italiane `PST.MI` | — | 25,10 EUR | +0,9% | -7% / +10% | 21% | -14% | 57 | 23,96 |
+| Prysmian `PRY.MI` | — | 103,95 EUR | -0,4% | -16% / +24% | 47% | -34% | 40 | 89,80 |
+| STMicroelectronics `STMMI.MI` | — | 39,42 EUR | -3,6% | -16% / +26% | 50% | -43% | 38 | 34,29 |
+| Snam `SRG.MI` | — | 6,33 EUR | +1,2% | -6% / +8% | 16% | -4% | 80 | 6,08 |
+| Stellantis `STLAM.MI` | — | 4,18 EUR | +0,5% | -17% / +27% | 53% | -60% | 55 | 3,67 |
+| Telecom Italia `TIT.MI` | — | 5,90 EUR | +1,4% | -11% / +16% | 32% | -28% | 46 | 5,55 |
+| Terna `TRN.MI` | — | 9,87 EUR | +1,3% | -6% / +8% | 16% | -5% | 70 | 9,49 |
+| UniCredit `UCG.MI` | — | 79,05 EUR | +0,9% | -11% / +16% | 32% | -8% | 58 | 73,68 |
 
 </details>
 
