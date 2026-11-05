@@ -1,4 +1,4 @@
-# Oracolo: fotografia del 05/11/2026 06:53 UTC
+# Oracolo: fotografia del 05/11/2026 07:01 UTC
 
 597 strumenti · 1 in panico (livello 4-5) · 114 ipercomprati. Si aggiorna da sola dal lunedì al venerdì.
 
@@ -6,9 +6,9 @@
 
 1. In panico: Emergenti `EIMI.MI` livello 4 (in passato +2,7% a 1 mese, 67% rialzi).
 2. 114 ipercomprati (RSI sopra 70); i più tirati: Veralto 86, GE HealthCare 85, Pentair 85.
-3. Controllo prezzi con Stooq saltato: Stooq non ha risposto.
+3. Controllo prezzi con Stooq saltato: Stooq non ha risposto ai download automatici.
 
-Volatilità e tassi: VIX 20,8 (a 3 mesi 21,3) · Treasury 10 anni 4,95% · T-bill 3 mesi 4,03% · €STR n.d. · Stato AAA euro 10 anni n.d.. _Fonti: FRED e BCE, ultimo dato disponibile._
+Volatilità e tassi: VIX 20,8 (a 3 mesi 21,3) · Treasury 10 anni 4,95% · T-bill 3 mesi 4,03% · €STR 2,445% · Stato AAA euro 10 anni n.d. _Fonti: FRED e BCE, ultimo dato disponibile._
 
 ## Indici ed ETF azionari per livello
 
@@ -21,7 +21,7 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 | Cina `XCS6.DE` | 3 | 14,74 EUR | -0,9% | -7% / +8% | 20% | -20% | 38 | 14,28 |
 | DAX `^GDAXI` | 3 | 26.437,67 EUR | +2,2% | -6% / +6% | 15% | -0% | 65 | 25.539,29 |
 | Dow Jones `^DJI` | 3 | 53.356,12 USD | +3,0% | -5% / +6% | 14% | -2% | 63 | 51.857,11 |
-| Euro Stoxx 50 `^STOXX50E` | 3 | 6.265,71 EUR | +2,0% | -6% / +6% | 15% | -4% | 56 | 6.055,73 |
+| Euro Stoxx 50 `^STOXX50E` | 3 | 6.265,71 None | +2,0% | -6% / +6% | 15% | -4% | 56 | 6.055,73 |
 | Europa `SMEA.MI` | 3 | 105,08 EUR | -0,6% | -4% / +5% | 11% | -2% | 55 | 102,74 |
 | Eurozona `CSSX5E.MI` | 3 | 239,80 EUR | -0,6% | -5% / +6% | 15% | -6% | 46 | 232,40 |
 | FTSE 100 `^FTSE` | 3 | 10.829,20 GBP | +1,8% | -4% / +5% | 12% | -1% | 58 | 10.562,47 |
@@ -39,9 +39,9 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 | SMI (Svizzera) `^SSMI` | 3 | 15.022,85 CHF | +1,9% | -5% / +5% | 13% | +0% | 76 | 14.666,00 |
 | USA `CSSPX.MI` | 3 | 729,82 EUR | -0,8% | -5% / +5% | 12% | -3% | 41 | 711,79 |
 | USA tecnologia `CSNDX.MI` | 3 | 1.445,78 EUR | -1,3% | -7% / +8% | 20% | -10% | 33 | 1.379,27 |
-| Hang Seng `^HSI` | 2 | 24.758,15 HKD | +3,5% | -8% / +10% | 22% | -11% | 63 | 23.746,23 |
+| Hang Seng `^HSI` | 2 | 24.740,34 HKD | +3,4% | -8% / +10% | 22% | -12% | 63 | 23.728,42 |
 | Nikkei 225 `^N225` | 2 | 61.077,90 JPY | -1,8% | -9% / +11% | 26% | -16% | 34 | 57.356,27 |
-| Sensex (India) `^BSESN` | 1 | 78.822,60 INR | +2,0% | -6% / +6% | 15% | -8% | 74 | 76.205,72 |
+| Sensex (India) `^BSESN` | 1 | 78.862,66 INR | +2,0% | -6% / +6% | 15% | -8% | 75 | 76.245,77 |
 
 ## Ipercomprati (114): RSI 14 sopra 70, meglio aspettare prima di comprare
 
@@ -179,7 +179,7 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 | SoftBank `9984.T` | — | 3.980,00 JPY | -6,8% | -22% / +38% | 70% | -54% | 30 | 3.226,96 |
 | Sony `6758.T` | — | 4.211,00 JPY | +7,1% | -12% / +17% | 34% | -10% | 69 | 3.908,68 |
 | TSMC (ADR) `TSM` | — | 395,75 USD | -2,2% | -13% / +20% | 39% | -19% | 36 | 360,23 |
-| Tencent `0700.HK` | — | 426,80 HKD | +6,3% | -12% / +17% | 35% | -34% | 60 | 395,41 |
+| Tencent `0700.HK` | — | 427,00 HKD | +6,3% | -12% / +17% | 35% | -34% | 60 | 395,61 |
 | Toyota `7203.T` | — | 3.533,00 JPY | +16,7% | -17% / +26% | 51% | -8% | 80 | 3.296,48 |
 | Vale (ADR) `VALE` | — | 11,43 USD | +4,1% | -11% / +16% | 33% | -34% | 33 | 10,44 |
 
@@ -286,16 +286,16 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 | CAC 40 `^FCHI` | 3 | 8.177,89 EUR | +2,0% | -5% / +6% | 14% | -6% | 64 | 7.925,80 |
 | DAX `^GDAXI` | 3 | 26.437,67 EUR | +2,2% | -6% / +6% | 15% | -0% | 65 | 25.539,29 |
 | Dow Jones `^DJI` | 3 | 53.356,12 USD | +3,0% | -5% / +6% | 14% | -2% | 63 | 51.857,11 |
-| Euro Stoxx 50 `^STOXX50E` | 3 | 6.265,71 EUR | +2,0% | -6% / +6% | 15% | -4% | 56 | 6.055,73 |
+| Euro Stoxx 50 `^STOXX50E` | 3 | 6.265,71 None | +2,0% | -6% / +6% | 15% | -4% | 56 | 6.055,73 |
 | FTSE 100 `^FTSE` | 3 | 10.829,20 GBP | +1,8% | -4% / +5% | 12% | -1% | 58 | 10.562,47 |
 | FTSE MIB `FTSEMIB.MI` | 3 | 51.031,00 EUR | +2,2% | -6% / +7% | 17% | -5% | 58 | 49.037,25 |
-| Hang Seng `^HSI` | 2 | 24.758,15 HKD | +3,5% | -8% / +10% | 22% | -11% | 63 | 23.746,23 |
+| Hang Seng `^HSI` | 2 | 24.740,34 HKD | +3,4% | -8% / +10% | 22% | -12% | 63 | 23.728,42 |
 | Nasdaq 100 `^NDX` | 3 | 28.437,17 USD | +0,9% | -8% / +9% | 21% | -9% | 38 | 26.928,38 |
 | Nikkei 225 `^N225` | 2 | 61.077,90 JPY | -1,8% | -9% / +11% | 26% | -16% | 34 | 57.356,27 |
 | Russell 2000 `^RUT` | 3 | 2.856,95 USD | +1,6% | -7% / +8% | 18% | -7% | 57 | 2.761,88 |
 | S&P 500 `^GSPC` | 3 | 7.688,62 USD | +1,6% | -5% / +6% | 14% | -2% | 50 | 7.464,34 |
 | SMI (Svizzera) `^SSMI` | 3 | 15.022,85 CHF | +1,9% | -5% / +5% | 13% | +0% | 76 | 14.666,00 |
-| Sensex (India) `^BSESN` | 1 | 78.822,60 INR | +2,0% | -6% / +6% | 15% | -8% | 74 | 76.205,72 |
+| Sensex (India) `^BSESN` | 1 | 78.862,66 INR | +2,0% | -6% / +6% | 15% | -8% | 75 | 76.245,77 |
 
 </details>
 
