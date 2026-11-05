@@ -20,6 +20,8 @@ sys.path.insert(0, ROOT)
 OUT = os.path.join(ROOT, "data", "oracolo")
 MIN_STRUMENTI = 450
 LAB_OGNI_GIORNI = 7
+# Stooq dal 2026 risponde ai download automatici con una pagina anti-robot: controllo spento (sources/stooq.py resta)
+STOOQ_ATTIVO = False
 
 
 def log(msg):
@@ -131,7 +133,11 @@ def cruscotto(rows, livelli, m, controllo):
     elif fatti:
         avvisi.append(f"Prezzi Yahoo confermati da Stooq su {fatti} strumenti (scarto entro l'1%).")
     else:
-        avvisi.append("Controllo prezzi con Stooq saltato: Stooq non ha risposto ai download automatici.")
+        vicini = sorted((r for r in rows if r.get("livello") and r.get("stop") and r.get("prezzo")),
+                        key=lambda r: r["prezzo"] / r["stop"] - 1)
+        if vicini:
+            avvisi.append("Più vicini allo stop (indici ed ETF): " + ", ".join(
+                f"{r['breve']} {_p(r['prezzo'] / r['stop'] - 1)} sopra" for r in vicini[:3]) + ".")
     tassi = (f"VIX {_v(m.get('vix'), 1)} (a 3 mesi {_v(m.get('vix3m'), 1)}) · Treasury 10 anni {_v(m.get('us10y'), 2, '%')} · "
              f"T-bill 3 mesi {_v(m.get('us3m'), 2, '%')} · €STR {_v(m.get('estr'), 3, '%')} · Stato AAA euro 10 anni "
              f"{_v(m.get('euro10y'), 2, '%')}")
@@ -156,12 +162,14 @@ def scrivi_oggi(path=os.path.join(ROOT, "OGGI.md")):
     out = [f"# Oracolo: fotografia del {quando}", "",
            f"{len(rows)} strumenti · {st['panico']} in panico (livello 4-5) · {st['ipercomprati']} ipercomprati. "
            "Si aggiorna da sola dal lunedì al venerdì.", ""]
-    from sources import stooq
-    campione = sorted(rows, key=lambda r: (r["livello"] is None, r["ticker"]))
-    try:
-        controllo = stooq.controlla(campione)
-    except Exception:
-        controllo = (0, [])
+    controllo = (0, [])
+    if STOOQ_ATTIVO:
+        from sources import stooq
+        campione = sorted(rows, key=lambda r: (r["livello"] is None, r["ticker"]))
+        try:
+            controllo = stooq.controlla(campione)
+        except Exception:
+            pass
     righe, info = cruscotto(rows, livelli, mercati(), controllo)
     out += righe
     st.update(info)
@@ -178,7 +186,7 @@ def scrivi_oggi(path=os.path.join(ROOT, "OGGI.md")):
         rs = sorted((r for r in rows if r["gruppo"] == g), key=lambda r: r["breve"])
         out += [f"<details><summary>{g} ({len(rs)})</summary>", "", head] + [_riga(r) for r in rs] + ["", "</details>", ""]
     out += ["", "_Uso personale, non è una raccomandazione di investimento. La forchetta 80% indica dove il prezzo "
-                "resta 8 volte su 10, non la direzione. Prezzi Yahoo Finance, controllo con Stooq; tassi FRED e BCE._", ""]
+                "resta 8 volte su 10, non la direzione. Prezzi Yahoo Finance; tassi FRED e BCE._", ""]
     open(path, "w", encoding="utf-8").write("\n".join(out))
 
 
