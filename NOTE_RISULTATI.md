@@ -67,3 +67,9 @@ ETF paese, settori, a 45 e 90 giorni. Anno peggiore (crisi): 33-65%. In app: sch
 ### 2026-10-26: RSI (`PREREG_RSI.md`): indici ipervenduti (RSI14<30) +2,2% a 1 mese (t 3,1, 72% rialzi); S&P 500 ipercomprato -0,3% a 1 settimana. Primi segnali che superano il criterio; campione indici piccolo.
 
 ### 2026-10-26: Indice di Panico (`PREREG_PANICO.md`): fuori campione su 15 indici mai usati, +1,6% sul normale a 21 sedute (t 2,9), 66% rialzi. Primo segnale validato fuori campione.
+
+### 2026-11-06: switch relativo dopo divario estremo (`PREREG_SWITCH.md`, `lab/switch_test.py`)
+Nota interna "RSP→QQQ" (−8% a 1 mese). Fuori campione, 14 coppie, 519 episodi in 210 mesi: +0,46% sul normale a 63 sedute
+(t 1,3), 50% positivi. Vince solo XLY/XLP (t 2,2, non regge BH su 14 prove). Sulla coppia della nota la regola simmetrica
+in z dà −0,25%. Solo soglia −8% a 63 sedute con entrata a t: +2,9% (t 1,4, 11 episodi); con entrata realistica a t+1
+scende a +1,9% (t 0,9). Effetto da selezione a posteriori. SPENTO.
