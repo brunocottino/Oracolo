@@ -22,3 +22,14 @@ Secondario, solo descrittivo: 63 sedute e livello 3 voti. Nessuna ritaratura dop
 
 ## Previsione dichiarata
 Passa A (coerente con PREREG_PANICO.md); B e C no (PREREG_PANICO_AZIONI.md: settoriali -0,08%).
+
+## Esito (06/11/2026, parte sopra invariata, commit 5651a55). `python -m lab.panic_etf100`, dati dal 2008-06
+| Gruppo | Sviluppo 21 sedute (≥2 voti) | Dal 2013 | Holdout | Esito |
+|---|---|---|---|---|
+| A aree e paesi (35) | +1,60% (t 1,53), 68% rialzi | +1,27% | +2,99% | **fallito** (t < 3) |
+| B settori e fattori (30) | -0,29% (t -0,20) | -1,33% | +1,22% | **fallito** |
+| C tematici (35) | +0,61% (t 0,62), 54% rialzi | +0,00% | +2,10% | **fallito** |
+
+Descrittivo: con 3 voti non va meglio che con 2 (A +0,84%, B -1,22%, C -0,69% a 21 sedute). A 63 sedute nessun t ≥ 1,1.
+Lettura: sulle aree il segno resta positivo ovunque, coerente con PREREG_PANICO.md, ma dal 2008 e con soglia t ≥ 3 non basta;
+settori e tematici: nessun vantaggio. **Il livello resta solo informativo per settori e tematici; per le aree resta quello già validato.**

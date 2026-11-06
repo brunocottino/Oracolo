@@ -67,3 +67,5 @@ ETF paese, settori, a 45 e 90 giorni. Anno peggiore (crisi): 33-65%. In app: sch
 ### 2026-10-26: RSI (`PREREG_RSI.md`): indici ipervenduti (RSI14<30) +2,2% a 1 mese (t 3,1, 72% rialzi); S&P 500 ipercomprato -0,3% a 1 settimana. Primi segnali che superano il criterio; campione indici piccolo.
 
 ### 2026-10-26: Indice di Panico (`PREREG_PANICO.md`): fuori campione su 15 indici mai usati, +1,6% sul normale a 21 sedute (t 2,9), 66% rialzi. Primo segnale validato fuori campione.
+
+### 2026-11-06: Panico su 100 ETF (`PREREG_PANICO_ETF100.md`): aree +1,60% (t 1,53), settori -0,29%, tematici +0,61% a 1 mese. Tutti falliti (soglia t ≥ 3). Settori e tematici: livello solo informativo.
