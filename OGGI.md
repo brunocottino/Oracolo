@@ -1,14 +1,14 @@
-# Oracolo: fotografia del 06/11/2026 13:03 UTC
+# Oracolo: fotografia del 09/11/2026 14:02 UTC
 
-597 strumenti · 5 in panico (livello 4-5) · 61 ipercomprati. Si aggiorna da sola dal lunedì al venerdì.
+597 strumenti · 3 in panico (livello 4-5) · 32 ipercomprati. Si aggiorna da sola dal lunedì al venerdì.
 
 ## 🔴 Rosso: panico diffuso
 
-1. In panico: USA tecnologia `CSNDX.MI` livello 5 (in passato +3,8% a 1 mese, 66% rialzi), Nasdaq 100 `^NDX` livello 4 (in passato +2,7% a 1 mese, 67% rialzi), Nikkei 225 `^N225` livello 4 (in passato +2,7% a 1 mese, 67% rialzi).
-2. 61 ipercomprati (RSI sopra 70); i più tirati: Veralto 84, Fiserv 82, Roper Technologies 82.
-3. Più vicini allo stop (indici ed ETF): Pacifico ex Giappone +2,4% sopra, Europa +2,8% sopra, FTSE 100 +2,9% sopra.
+1. In panico: Nasdaq 100 `^NDX` livello 4 (in passato +2,7% a 1 mese, 67% rialzi), USA tecnologia `CSNDX.MI` livello 4 (in passato +2,7% a 1 mese, 67% rialzi), Emergenti `EIMI.MI` livello 4 (in passato +2,7% a 1 mese, 67% rialzi).
+2. 32 ipercomprati (RSI sopra 70); i più tirati: Veralto 84, Fiserv 82, Extra Space Storage 79.
+3. Più vicini allo stop (indici ed ETF): Pacifico ex Giappone +2,4% sopra, Europa +2,8% sopra, SMI (Svizzera) +2,8% sopra.
 
-Volatilità e tassi: VIX 16,6 (a 3 mesi 18,8) · Treasury 10 anni 4,90% · T-bill 3 mesi 4,03% · €STR 2,442% · Stato AAA euro 10 anni 3,29%. _Fonti: FRED e BCE, ultimo dato disponibile._
+Volatilità e tassi: VIX 28,2 (a 3 mesi 25,6) · Treasury 10 anni 4,84% · T-bill 3 mesi 4,00% · €STR 2,443% · Stato AAA euro 10 anni 3,29%. _Fonti: FRED e BCE, ultimo dato disponibile._
 
 ## Indici ed ETF azionari per livello
 
@@ -16,98 +16,69 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| USA tecnologia `CSNDX.MI` | 5 | 1.390,62 EUR | +0,0% | -8% / +10% | 23% | -13% | 28 | 1.315,07 |
-| Emergenti `EIMI.MI` | 4 | 43,66 EUR | +0,8% | -8% / +9% | 22% | -14% | 34 | 41,42 |
-| Giappone `IJPA.AS` | 4 | 68,07 EUR | -2,5% | -8% / +9% | 21% | -10% | 27 | 65,24 |
-| Nasdaq 100 `^NDX` | 4 | 26.629,81 USD | -6,4% | -10% / +12% | 28% | -15% | 27 | 24.948,09 |
-| Nikkei 225 `^N225` | 4 | 57.434,77 JPY | -6,0% | -11% / +13% | 31% | -21% | 26 | 53.169,25 |
-| CAC 40 `^FCHI` | 3 | 8.062,16 EUR | -1,8% | -5% / +6% | 14% | -8% | 55 | 7.798,79 |
-| Cina `XCS6.DE` | 3 | 15,46 EUR | -0,1% | -8% / +9% | 22% | -16% | 59 | 14,91 |
-| DAX `^GDAXI` | 3 | 25.721,47 EUR | -2,3% | -6% / +7% | 16% | -3% | 51 | 24.751,98 |
-| Euro Stoxx 50 `^STOXX50E` | 3 | 6.138,08 None | -1,5% | -6% / +6% | 15% | -6% | 46 | 5.914,05 |
-| Europa `SMEA.MI` | 3 | 104,84 EUR | -1,7% | -5% / +5% | 13% | -2% | 51 | 102,03 |
-| Eurozona `CSSX5E.MI` | 3 | 240,25 EUR | -1,6% | -6% / +7% | 16% | -6% | 47 | 231,75 |
-| FTSE 100 `^FTSE` | 3 | 10.556,95 GBP | -2,1% | -5% / +5% | 13% | -3% | 42 | 10.258,36 |
-| FTSE MIB `FTSEMIB.MI` | 3 | 49.887,26 EUR | -1,2% | -6% / +7% | 17% | -7% | 48 | 47.808,98 |
-| Hang Seng `^HSI` | 3 | 24.481,86 HKD | -1,3% | -8% / +10% | 23% | -12% | 58 | 23.430,14 |
-| India `QDV5.DE` | 3 | 8,12 EUR | +1,8% | -7% / +8% | 18% | -6% | 78 | 7,83 |
-| Italia `CSMIB.MI` | 3 | 248,60 EUR | -1,2% | -6% / +7% | 17% | -7% | 48 | 238,89 |
-| Mondo + emergenti `VWCE.DE` | 3 | 164,38 EUR | -1,0% | -5% / +6% | 14% | -5% | 34 | 159,07 |
-| Mondo small cap `IUSN.DE` | 3 | 8,96 EUR | -1,3% | -5% / +6% | 14% | -4% | 42 | 8,66 |
-| Mondo sviluppati `SWDA.MI` | 3 | 126,14 EUR | -1,1% | -5% / +6% | 13% | -5% | 35 | 122,19 |
-| Pacifico ex Giappone `CSPXJ.MI` | 3 | 218,12 EUR | -0,8% | -5% / +6% | 13% | -1% | 51 | 213,00 |
-| SMI (Svizzera) `^SSMI` | 3 | 14.643,68 CHF | -2,2% | -5% / +6% | 14% | -3% | 56 | 14.228,13 |
-| Sensex (India) `^BSESN` | 3 | 81.028,02 INR | +2,2% | -6% / +7% | 17% | -6% | 80 | 78.104,88 |
-| USA `CSSPX.MI` | 3 | 712,05 EUR | -0,9% | -5% / +6% | 15% | -6% | 33 | 688,46 |
-| Dow Jones `^DJI` | 2 | 51.523,06 USD | -3,4% | -6% / +7% | 17% | -5% | 45 | 49.758,08 |
-| Russell 2000 `^RUT` | 2 | 2.729,89 USD | -4,5% | -8% / +9% | 22% | -11% | 39 | 2.620,97 |
-| S&P 500 `^GSPC` | 2 | 7.353,73 USD | -4,4% | -7% / +8% | 18% | -6% | 34 | 7.091,37 |
+| Emergenti `EIMI.MI` | 4 | 44,00 EUR | +0,2% | -8% / +9% | 21% | -13% | 37 | 41,71 |
+| Nasdaq 100 `^NDX` | 4 | 26.989,99 USD | +1,4% | -10% / +12% | 28% | -14% | 31 | 25.293,08 |
+| USA tecnologia `CSNDX.MI` | 4 | 1.396,90 EUR | -0,4% | -8% / +10% | 22% | -13% | 30 | 1.319,28 |
+| CAC 40 `^FCHI` | 3 | 8.219,67 EUR | +1,0% | -5% / +6% | 14% | -6% | 64 | 7.950,23 |
+| Cina `XCS6.DE` | 3 | 15,42 EUR | -1,0% | -8% / +9% | 22% | -16% | 56 | 14,85 |
+| DAX `^GDAXI` | 3 | 26.137,02 EUR | +1,2% | -6% / +7% | 16% | -2% | 57 | 25.156,63 |
+| Dow Jones `^DJI` | 3 | 51.285,73 USD | -0,5% | -6% / +7% | 17% | -6% | 43 | 49.449,53 |
+| Euro Stoxx 50 `^STOXX50E` | 3 | 6.260,92 None | +1,5% | -6% / +6% | 15% | -4% | 54 | 6.030,25 |
+| Europa `SMEA.MI` | 3 | 106,78 EUR | +1,1% | -5% / +5% | 13% | -0% | 60 | 103,90 |
+| Eurozona `CSSX5E.MI` | 3 | 244,50 EUR | +1,5% | -6% / +7% | 16% | -4% | 54 | 235,70 |
+| FTSE 100 `^FTSE` | 3 | 10.760,03 GBP | +0,8% | -4% / +5% | 12% | -1% | 53 | 10.457,84 |
+| FTSE MIB `FTSEMIB.MI` | 3 | 51.165,75 EUR | +2,2% | -6% / +7% | 18% | -5% | 57 | 49.028,65 |
+| Giappone `IJPA.AS` | 3 | 69,44 EUR | +0,6% | -7% / +8% | 20% | -9% | 33 | 66,72 |
+| Hang Seng `^HSI` | 3 | 24.448,95 HKD | -0,1% | -8% / +9% | 22% | -13% | 57 | 23.401,17 |
+| India `QDV5.DE` | 3 | 8,21 EUR | +0,7% | -7% / +8% | 18% | -5% | 80 | 7,91 |
+| Italia `CSMIB.MI` | 3 | 255,00 EUR | +2,2% | -7% / +8% | 18% | -5% | 57 | 244,92 |
+| Mondo + emergenti `VWCE.DE` | 3 | 166,06 EUR | +0,1% | -5% / +5% | 13% | -4% | 38 | 160,79 |
+| Mondo small cap `IUSN.DE` | 3 | 9,09 EUR | +0,8% | -5% / +6% | 14% | -3% | 50 | 8,80 |
+| Mondo sviluppati `SWDA.MI` | 3 | 127,34 EUR | -0,1% | -5% / +5% | 13% | -4% | 38 | 123,40 |
+| Nikkei 225 `^N225` | 3 | 58.775,50 JPY | +2,3% | -11% / +13% | 31% | -19% | 32 | 54.418,40 |
+| Pacifico ex Giappone `CSPXJ.MI` | 3 | 220,34 EUR | -0,1% | -5% / +5% | 13% | -0% | 57 | 215,20 |
+| Russell 2000 `^RUT` | 3 | 2.754,11 USD | +0,9% | -8% / +9% | 22% | -10% | 43 | 2.641,70 |
+| S&P 500 `^GSPC` | 3 | 7.376,86 USD | +0,3% | -7% / +8% | 18% | -6% | 35 | 7.111,16 |
+| SMI (Svizzera) `^SSMI` | 3 | 14.900,74 CHF | +0,7% | -5% / +5% | 13% | -1% | 66 | 14.490,35 |
+| Sensex (India) `^BSESN` | 3 | 81.106,65 INR | +0,1% | -6% / +7% | 16% | -5% | 80 | 78.240,85 |
+| USA `CSSPX.MI` | 3 | 717,72 EUR | -0,3% | -5% / +6% | 14% | -5% | 36 | 693,55 |
 
-## Ipercomprati (61): RSI 14 sopra 70, meglio aspettare prima di comprare
+## Ipercomprati (32): RSI 14 sopra 70, meglio aspettare prima di comprare
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Veralto `VLTO` | — | 116,55 USD | -0,4% | -9% / +13% | 27% | -0% | 84 | 109,08 |
-| Fiserv `FISV` | — | 62,74 USD | +1,1% | -18% / +28% | 54% | -10% | 82 | 57,30 |
-| Roper Technologies `ROP` | — | 490,96 USD | -0,3% | -11% / +17% | 34% | -0% | 82 | 451,07 |
-| Extra Space Storage `EXR` | — | 160,12 USD | -0,6% | -9% / +13% | 26% | -1% | 82 | 151,11 |
-| Motorola Solutions `MSI` | — | 517,01 USD | +4,0% | -8% / +11% | 23% | +0% | 80 | 488,21 |
-| Becton Dickinson `BDX` | — | 213,55 USD | +2,1% | -10% / +14% | 28% | +0% | 78 | 202,74 |
-| Yum! Brands `YUM` | — | 166,09 USD | -0,1% | -9% / +13% | 27% | -0% | 77 | 155,23 |
-| Hasbro `HAS` | — | 119,54 USD | -1,7% | -12% / +17% | 35% | -2% | 77 | 110,03 |
-| GE HealthCare `GEHC` | — | 83,75 USD | -2,4% | -13% / +19% | 38% | -5% | 77 | 76,73 |
-| Public Storage `PSA` | — | 340,50 USD | -0,7% | -8% / +12% | 25% | -1% | 77 | 321,12 |
-| Jack Henry & Associates `JKHY` | — | 180,26 USD | +0,6% | -13% / +19% | 37% | -5% | 77 | 166,52 |
-| Aon plc `AON` | — | 344,40 USD | -0,1% | -10% / +15% | 31% | -9% | 76 | 321,95 |
-| American Water Works `AWK` | — | 152,42 USD | +1,9% | -8% / +12% | 25% | +0% | 76 | 143,32 |
-| McDonald's `MCD` | — | 278,04 USD | -0,8% | -9% / +13% | 27% | -17% | 76 | 262,61 |
-| Stanley Black & Decker `SWK` | — | 115,27 USD | -2,6% | -16% / +24% | 48% | -3% | 76 | 104,29 |
-| Steris `STE` | — | 254,12 USD | +2,5% | -11% / +15% | 31% | -5% | 76 | 236,81 |
-| Tyson Foods `TSN` | — | 60,11 USD | +0,1% | -9% / +12% | 26% | -11% | 76 | 56,95 |
-| Clorox `CLX` | — | 99,70 USD | +0,5% | -11% / +16% | 33% | -19% | 75 | 91,79 |
-| Pentair `PNR` | — | 69,77 USD | -3,1% | -14% / +22% | 43% | -35% | 75 | 63,38 |
-| Edwards Lifesciences `EW` | — | 100,82 USD | +1,5% | -11% / +16% | 32% | +0% | 75 | 93,27 |
-| Berkshire Hathaway `BRK-B` | — | 572,33 USD | -1,2% | -6% / +9% | 19% | -1% | 75 | 548,62 |
-| Tyler Technologies `TYL` | — | 430,37 USD | +1,7% | -13% / +19% | 39% | -9% | 75 | 389,41 |
-| Erie Indemnity `ERIE` | — | 285,63 USD | +2,0% | -12% / +18% | 37% | -2% | 75 | 262,17 |
-| Kimco Realty `KIM` | — | 25,63 USD | -1,0% | -8% / +12% | 24% | -2% | 75 | 24,31 |
-| Broadridge Financial Solutions `BR` | — | 193,92 USD | +2,5% | -9% / +13% | 27% | -15% | 74 | 181,17 |
-| Consolidated Edison `ED` | — | 121,44 USD | +0,9% | -7% / +10% | 21% | +0% | 74 | 115,34 |
-| McKesson `MCK` | — | 1.072,00 USD | +0,2% | -10% / +15% | 31% | +0% | 74 | 999,37 |
-| Marsh McLennan `MRSH` | — | 209,43 USD | -0,4% | -9% / +12% | 25% | -0% | 74 | 196,87 |
-| Simon Property Group `SPG` | — | 226,55 USD | -0,9% | -8% / +11% | 22% | -3% | 74 | 216,09 |
-| Corpay `CPAY` | — | 447,00 USD | +6,8% | -11% / +17% | 34% | +0% | 74 | 414,33 |
-| PTC Inc. `PTC` | — | 194,60 USD | -0,3% | -16% / +25% | 48% | -0% | 74 | 192,13 |
-| Rollins, Inc. `ROL` | — | 38,76 USD | +1,0% | -11% / +16% | 32% | -40% | 74 | 35,48 |
-| WEC Energy Group `WEC` | — | 118,32 USD | +0,2% | -7% / +10% | 21% | +0% | 74 | 112,47 |
-| Medtronic `MDT` | — | 104,84 USD | -0,1% | -10% / +14% | 29% | -0% | 73 | 98,44 |
-| Tapestry, Inc. `TPR` | — | 134,17 USD | +7,1% | -14% / +22% | 43% | -18% | 73 | 122,84 |
-| NextEra Energy `NEE` | — | 88,25 USD | -0,2% | -9% / +13% | 27% | -8% | 73 | 83,32 |
-| Gen Digital `GEN` | — | 30,60 USD | -0,9% | -17% / +27% | 52% | -3% | 73 | 27,88 |
-| Assurant `AIZ` | — | 306,87 USD | -0,5% | -8% / +12% | 24% | -1% | 73 | 290,62 |
-| Lowe's `LOW` | — | 227,24 USD | -0,9% | -12% / +17% | 35% | -20% | 73 | 211,10 |
-| Snam `SRG.MI` | — | 6,23 EUR | -0,8% | -5% / +7% | 16% | -6% | 73 | 5,97 |
-| Arch Capital Group `ACGL` | — | 110,57 USD | -0,1% | -8% / +12% | 24% | -0% | 73 | 104,10 |
-| Cincinnati Financial `CINF` | — | 188,31 USD | -1,1% | -8% / +11% | 23% | -1% | 72 | 177,88 |
-| Costco `COST` | — | 1.065,59 USD | +1,8% | -8% / +11% | 22% | -2% | 72 | 1.015,65 |
-| AppLovin `APP` | — | 356,10 USD | +31,0% | -31% / +61% | 105% | -51% | 72 | 310,28 |
-| Arthur J. Gallagher & Co. `AJG` | — | 288,11 USD | -0,1% | -11% / +16% | 33% | -0% | 72 | 266,92 |
-| Cardinal Health `CAH` | — | 267,82 USD | +2,2% | -9% / +13% | 26% | +0% | 72 | 249,91 |
-| Aflac `AFL` | — | 126,24 USD | +0,8% | -6% / +9% | 19% | -2% | 71 | 120,10 |
-| Domino's `DPZ` | — | 341,63 USD | +0,3% | -11% / +15% | 31% | -21% | 71 | 318,20 |
-| Dominion Energy `D` | — | 69,64 USD | -0,2% | -9% / +12% | 25% | -2% | 71 | 65,74 |
-| Crown Castle `CCI` | — | 90,95 USD | -1,3% | -14% / +21% | 42% | -1% | 71 | 81,87 |
-| Otis Worldwide `OTIS` | — | 79,49 USD | -0,4% | -9% / +13% | 27% | -14% | 70 | 74,56 |
-| Duke Energy `DUK` | — | 130,08 USD | +0,4% | -7% / +9% | 19% | -1% | 70 | 124,23 |
-| Eversource Energy `ES` | — | 71,92 USD | +2,1% | -8% / +11% | 24% | -3% | 70 | 68,33 |
-| Republic Services `RSG` | — | 249,42 USD | +1,6% | -8% / +11% | 22% | +0% | 70 | 234,11 |
-| Alliant Energy `LNT` | — | 73,44 USD | -0,4% | -7% / +10% | 20% | -4% | 70 | 69,67 |
-| Ameren `AEE` | — | 112,81 USD | -0,2% | -7% / +9% | 19% | -4% | 70 | 107,92 |
-| Idexx Laboratories `IDXX` | — | 670,71 USD | -4,0% | -19% / +32% | 61% | -13% | 70 | 602,11 |
-| Marriott International `MAR` | — | 417,28 USD | -1,8% | -9% / +13% | 26% | -2% | 70 | 390,52 |
-| Accenture `ACN` | — | 265,16 USD | +0,3% | -15% / +24% | 47% | -5% | 70 | 235,64 |
-| Comcast `CMCSA` | — | 24,95 USD | +0,4% | -11% / +16% | 33% | -20% | 70 | 22,91 |
-| Hormel Foods `HRL` | — | 22,60 USD | -0,7% | -11% / +15% | 31% | -12% | 70 | 21,25 |
+| Veralto `VLTO` | — | 117,09 USD | +0,5% | -9% / +13% | 27% | +0% | 84 | 109,02 |
+| Fiserv `FISV` | — | 62,88 USD | +0,2% | -17% / +27% | 53% | -10% | 82 | 57,02 |
+| Extra Space Storage `EXR` | — | 159,19 USD | -0,6% | -9% / +12% | 26% | -1% | 79 | 149,84 |
+| Motorola Solutions `MSI` | — | 514,51 USD | -0,5% | -8% / +11% | 22% | -0% | 77 | 484,97 |
+| Edwards Lifesciences `EW` | — | 102,14 USD | +1,3% | -11% / +15% | 31% | +0% | 77 | 94,15 |
+| AppLovin `APP` | — | 391,22 USD | +9,9% | -32% / +62% | 106% | -47% | 76 | 338,04 |
+| Corpay `CPAY` | — | 455,16 USD | +1,8% | -11% / +16% | 33% | +0% | 76 | 418,10 |
+| Clorox `CLX` | — | 99,96 USD | +0,3% | -11% / +16% | 32% | -18% | 76 | 91,73 |
+| Simon Property Group `SPG` | — | 228,42 USD | +0,8% | -8% / +11% | 22% | -2% | 75 | 217,18 |
+| Enel `ENEL.MI` | — | 9,81 EUR | +1,3% | -6% / +9% | 19% | -2% | 75 | 9,39 |
+| Stanley Black & Decker `SWK` | — | 114,85 USD | -0,4% | -15% / +24% | 47% | -3% | 75 | 103,39 |
+| Hasbro `HAS` | — | 118,91 USD | -0,5% | -12% / +17% | 35% | -2% | 75 | 109,22 |
+| Becton Dickinson `BDX` | — | 211,88 USD | -0,8% | -9% / +13% | 28% | -1% | 75 | 200,44 |
+| PTC Inc. `PTC` | — | 195,07 USD | +0,2% | -16% / +24% | 47% | -0% | 74 | 192,57 |
+| Cardinal Health `CAH` | — | 271,72 USD | +1,5% | -9% / +13% | 26% | +0% | 74 | 253,07 |
+| Berkshire Hathaway `BRK-B` | — | 570,89 USD | -0,2% | -6% / +9% | 18% | -1% | 74 | 545,19 |
+| McDonald's `MCD` | — | 276,52 USD | -0,5% | -9% / +13% | 26% | -17% | 74 | 260,07 |
+| Steris `STE` | — | 252,30 USD | -0,7% | -10% / +15% | 30% | -5% | 73 | 234,55 |
+| Assurant `AIZ` | — | 307,00 USD | +0,0% | -8% / +11% | 24% | -0% | 73 | 289,79 |
+| Public Storage `PSA` | — | 337,46 USD | -0,9% | -8% / +12% | 24% | -2% | 73 | 317,08 |
+| Kimco Realty `KIM` | — | 25,52 USD | -0,4% | -8% / +11% | 24% | -2% | 73 | 24,16 |
+| Tyson Foods `TSN` | — | 59,68 USD | -0,7% | -9% / +12% | 25% | -12% | 72 | 56,34 |
+| JD.com (ADR) `JD` | — | 29,11 USD | +1,6% | -12% / +18% | 36% | -14% | 72 | 27,37 |
+| Roper Technologies `ROP` | — | 476,60 USD | -2,9% | -11% / +17% | 34% | -3% | 72 | 434,35 |
+| GE HealthCare `GEHC` | — | 82,38 USD | -1,6% | -13% / +19% | 37% | -6% | 72 | 75,14 |
+| AstraZeneca `AZN.L` | — | 14.126,00 GBp | +1,4% | -10% / +14% | 29% | -9% | 72 | 13.214,21 |
+| Idexx Laboratories `IDXX` | — | 676,04 USD | +0,8% | -19% / +31% | 59% | -12% | 71 | 603,84 |
+| Tapestry, Inc. `TPR` | — | 132,80 USD | -1,0% | -14% / +21% | 42% | -19% | 70 | 121,38 |
+| Ameren `AEE` | — | 112,85 USD | +0,0% | -6% / +9% | 19% | -4% | 70 | 107,85 |
+| HDFC Bank (ADR) `HDB` | — | 25,14 USD | +1,8% | -10% / +15% | 31% | -32% | 70 | 23,59 |
+| McKesson `MCK` | — | 1.060,84 USD | -1,0% | -10% / +15% | 30% | -1% | 70 | 989,88 |
+| American Water Works `AWK` | — | 150,29 USD | -1,4% | -8% / +12% | 25% | -1% | 70 | 140,60 |
 
 ## Tutti gli strumenti
 
@@ -115,20 +86,20 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Alibaba (ADR) `BABA` | — | 108,07 USD | +2,6% | -13% / +20% | 40% | -38% | 55 | 99,92 |
-| Baidu (ADR) `BIDU` | — | 79,48 USD | -1,2% | -13% / +19% | 38% | -51% | 43 | 73,74 |
-| HDFC Bank (ADR) `HDB` | — | 24,70 USD | +1,5% | -10% / +15% | 31% | -33% | 68 | 23,11 |
-| Infosys (ADR) `INFY` | — | 12,80 USD | +4,6% | -13% / +20% | 40% | -35% | 61 | 11,58 |
-| JD.com (ADR) `JD` | — | 28,64 USD | +3,3% | -12% / +18% | 36% | -15% | 69 | 26,97 |
-| MercadoLibre `MELI` | — | 1.530,28 USD | -12,0% | -18% / +28% | 54% | -34% | 32 | 1.325,33 |
-| PDD Holdings `PDD` | — | 83,95 USD | +2,2% | -13% / +19% | 39% | -39% | 62 | 77,89 |
-| Samsung Electronics `005930.KS` | — | 188.700,00 KRW | -6,3% | -20% / +33% | 63% | -47% | 32 | 149.905,36 |
-| SoftBank `9984.T` | — | 3.549,00 JPY | -10,8% | -24% / +41% | 76% | -59% | 26 | 2.714,54 |
-| Sony `6758.T` | — | 4.142,00 JPY | -1,6% | -12% / +17% | 34% | -11% | 63 | 3.805,04 |
-| TSMC (ADR) `TSM` | — | 353,10 USD | -10,8% | -16% / +26% | 50% | -27% | 26 | 311,70 |
-| Tencent `0700.HK` | — | 419,80 HKD | -2,5% | -12% / +18% | 36% | -35% | 56 | 387,80 |
-| Toyota `7203.T` | — | 3.338,00 JPY | -5,5% | -17% / +27% | 52% | -13% | 64 | 3.067,20 |
-| Vale (ADR) `VALE` | — | 11,45 USD | +0,2% | -11% / +16% | 33% | -34% | 33 | 10,46 |
+| Alibaba (ADR) `BABA` | — | 109,45 USD | +1,3% | -13% / +20% | 40% | -38% | 58 | 101,08 |
+| Baidu (ADR) `BIDU` | — | 81,87 USD | +3,0% | -13% / +19% | 39% | -50% | 51 | 75,84 |
+| HDFC Bank (ADR) `HDB` | — | 25,14 USD | +1,8% | -10% / +15% | 31% | -32% | 70 | 23,59 |
+| Infosys (ADR) `INFY` | — | 12,50 USD | -2,3% | -13% / +20% | 40% | -37% | 56 | 11,25 |
+| JD.com (ADR) `JD` | — | 29,11 USD | +1,6% | -12% / +18% | 36% | -14% | 72 | 27,37 |
+| MercadoLibre `MELI` | — | 1.510,00 USD | -1,3% | -17% / +27% | 53% | -34% | 31 | 1.301,68 |
+| PDD Holdings `PDD` | — | 83,03 USD | -1,1% | -13% / +19% | 39% | -40% | 58 | 76,72 |
+| Samsung Electronics `005930.KS` | — | 189.900,00 KRW | +0,6% | -20% / +33% | 62% | -47% | 33 | 151.525,00 |
+| SoftBank `9984.T` | — | 3.400,00 JPY | -4,2% | -24% / +41% | 75% | -61% | 24 | 2.588,93 |
+| Sony `6758.T` | — | 4.297,00 JPY | +3,7% | -12% / +17% | 35% | -8% | 69 | 3.937,00 |
+| TSMC (ADR) `TSM` | — | 375,44 USD | +6,3% | -17% / +27% | 52% | -23% | 36 | 331,71 |
+| Tencent `0700.HK` | — | 418,40 HKD | -0,3% | -12% / +18% | 36% | -36% | 55 | 386,22 |
+| Toyota `7203.T` | — | 3.491,00 JPY | +4,6% | -17% / +27% | 52% | -9% | 69 | 3.200,73 |
+| Vale (ADR) `VALE` | — | 11,59 USD | +1,2% | -11% / +16% | 32% | -33% | 36 | 10,58 |
 
 </details>
 
@@ -136,19 +107,19 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Cina `XCS6.DE` | 3 | 15,46 EUR | -0,1% | -8% / +9% | 22% | -16% | 59 | 14,91 |
-| Emergenti `EIMI.MI` | 4 | 43,66 EUR | +0,8% | -8% / +9% | 22% | -14% | 34 | 41,42 |
-| Europa `SMEA.MI` | 3 | 104,84 EUR | -1,7% | -5% / +5% | 13% | -2% | 51 | 102,03 |
-| Eurozona `CSSX5E.MI` | 3 | 240,25 EUR | -1,6% | -6% / +7% | 16% | -6% | 47 | 231,75 |
-| Giappone `IJPA.AS` | 4 | 68,07 EUR | -2,5% | -8% / +9% | 21% | -10% | 27 | 65,24 |
-| India `QDV5.DE` | 3 | 8,12 EUR | +1,8% | -7% / +8% | 18% | -6% | 78 | 7,83 |
-| Italia `CSMIB.MI` | 3 | 248,60 EUR | -1,2% | -6% / +7% | 17% | -7% | 48 | 238,89 |
-| Mondo + emergenti `VWCE.DE` | 3 | 164,38 EUR | -1,0% | -5% / +6% | 14% | -5% | 34 | 159,07 |
-| Mondo small cap `IUSN.DE` | 3 | 8,96 EUR | -1,3% | -5% / +6% | 14% | -4% | 42 | 8,66 |
-| Mondo sviluppati `SWDA.MI` | 3 | 126,14 EUR | -1,1% | -5% / +6% | 13% | -5% | 35 | 122,19 |
-| Pacifico ex Giappone `CSPXJ.MI` | 3 | 218,12 EUR | -0,8% | -5% / +6% | 13% | -1% | 51 | 213,00 |
-| USA `CSSPX.MI` | 3 | 712,05 EUR | -0,9% | -5% / +6% | 15% | -6% | 33 | 688,46 |
-| USA tecnologia `CSNDX.MI` | 5 | 1.390,62 EUR | +0,0% | -8% / +10% | 23% | -13% | 28 | 1.315,07 |
+| Cina `XCS6.DE` | 3 | 15,42 EUR | -1,0% | -8% / +9% | 22% | -16% | 56 | 14,85 |
+| Emergenti `EIMI.MI` | 4 | 44,00 EUR | +0,2% | -8% / +9% | 21% | -13% | 37 | 41,71 |
+| Europa `SMEA.MI` | 3 | 106,78 EUR | +1,1% | -5% / +5% | 13% | -0% | 60 | 103,90 |
+| Eurozona `CSSX5E.MI` | 3 | 244,50 EUR | +1,5% | -6% / +7% | 16% | -4% | 54 | 235,70 |
+| Giappone `IJPA.AS` | 3 | 69,44 EUR | +0,6% | -7% / +8% | 20% | -9% | 33 | 66,72 |
+| India `QDV5.DE` | 3 | 8,21 EUR | +0,7% | -7% / +8% | 18% | -5% | 80 | 7,91 |
+| Italia `CSMIB.MI` | 3 | 255,00 EUR | +2,2% | -7% / +8% | 18% | -5% | 57 | 244,92 |
+| Mondo + emergenti `VWCE.DE` | 3 | 166,06 EUR | +0,1% | -5% / +5% | 13% | -4% | 38 | 160,79 |
+| Mondo small cap `IUSN.DE` | 3 | 9,09 EUR | +0,8% | -5% / +6% | 14% | -3% | 50 | 8,80 |
+| Mondo sviluppati `SWDA.MI` | 3 | 127,34 EUR | -0,1% | -5% / +5% | 13% | -4% | 38 | 123,40 |
+| Pacifico ex Giappone `CSPXJ.MI` | 3 | 220,34 EUR | -0,1% | -5% / +5% | 13% | -0% | 57 | 215,20 |
+| USA `CSSPX.MI` | 3 | 717,72 EUR | -0,3% | -5% / +6% | 14% | -5% | 36 | 693,55 |
+| USA tecnologia `CSNDX.MI` | 4 | 1.396,90 EUR | -0,4% | -8% / +10% | 22% | -13% | 30 | 1.319,28 |
 
 </details>
 
@@ -156,10 +127,10 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Bassa volatilità `IQQ0.DE` | — | 70,74 EUR | -1,7% | -5% / +5% | 13% | -2% | 56 | 69,11 |
-| Momentum `IS3R.DE` | — | 89,62 EUR | -0,5% | -9% / +10% | 24% | -18% | 24 | 84,19 |
-| Quality `IS3Q.DE` | — | 78,83 EUR | -1,5% | -5% / +5% | 13% | -3% | 40 | 76,78 |
-| Value `IS3S.DE` | — | 67,30 EUR | -1,4% | -5% / +6% | 14% | -7% | 27 | 64,97 |
+| Bassa volatilità `IQQ0.DE` | — | 71,35 EUR | +0,1% | -5% / +5% | 12% | -1% | 63 | 69,76 |
+| Momentum `IS3R.DE` | — | 90,41 EUR | +0,7% | -8% / +10% | 23% | -17% | 27 | 85,02 |
+| Quality `IS3Q.DE` | — | 79,68 EUR | +0,0% | -4% / +5% | 12% | -2% | 46 | 77,64 |
+| Value `IS3S.DE` | — | 67,83 EUR | +0,4% | -5% / +6% | 14% | -6% | 31 | 65,59 |
 
 </details>
 
@@ -167,10 +138,10 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Monetario euro `XEON.DE` | — | 150,70 EUR | -0,0% | -0% / +0% | 0% | -0% | 89 | 150,59 |
-| Obbligazioni globali EUR hedged `EUNA.DE` | — | 4,90 EUR | -0,0% | -1% / +2% | 4% | -2% | 69 | 4,86 |
-| Obbligazioni societarie euro `D5BG.DE` | — | 162,26 EUR | -0,1% | -1% / +1% | 3% | -1% | 64 | 160,85 |
-| Titoli di Stato area euro `XGLE.DE` | — | 218,79 EUR | -0,2% | -2% / +2% | 5% | -4% | 62 | 216,87 |
+| Monetario euro `XEON.DE` | — | 150,72 EUR | +0,0% | -0% / +0% | 0% | +0% | 89 | 150,61 |
+| Obbligazioni globali EUR hedged `EUNA.DE` | — | 4,90 EUR | +0,1% | -1% / +2% | 4% | -2% | 70 | 4,86 |
+| Obbligazioni societarie euro `D5BG.DE` | — | 162,52 EUR | +0,1% | -1% / +1% | 3% | -1% | 68 | 161,11 |
+| Titoli di Stato area euro `XGLE.DE` | — | 219,67 EUR | +0,3% | -2% / +2% | 4% | -3% | 68 | 217,73 |
 
 </details>
 
@@ -178,9 +149,9 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Immobiliare Europa ex UK `XREA.DE` | — | 53,44 EUR | -0,9% | -6% / +7% | 16% | -16% | 64 | 52,10 |
-| Materie prime `SXRS.DE` | — | 9,02 EUR | +0,2% | -6% / +7% | 16% | -7% | 31 | 8,71 |
-| Oro `SGLD.MI` | — | 349,87 EUR | -0,8% | -7% / +9% | 20% | -20% | 49 | 335,90 |
+| Immobiliare Europa ex UK `XREA.DE` | — | 54,32 EUR | +0,9% | -6% / +7% | 16% | -15% | 73 | 52,99 |
+| Materie prime `SXRS.DE` | — | 8,97 EUR | -0,6% | -6% / +6% | 15% | -7% | 30 | 8,67 |
+| Oro `SGLD.MI` | — | 354,26 EUR | +1,1% | -7% / +9% | 20% | -19% | 54 | 339,84 |
 
 </details>
 
@@ -188,16 +159,16 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Comunicazioni `XWTS.DE` | — | 27,00 EUR | -1,1% | -7% / +8% | 19% | -11% | 32 | 25,78 |
-| Consumi di base `XDWS.DE` | — | 52,68 EUR | -2,6% | -6% / +7% | 16% | -3% | 62 | 50,61 |
-| Consumi discrezionali `XDWC.DE` | — | 61,13 EUR | -0,4% | -7% / +8% | 20% | -2% | 57 | 58,23 |
-| Energia `XDW0.DE` | — | 66,90 EUR | -3,0% | -10% / +11% | 27% | -11% | 36 | 62,22 |
-| Finanziari `XDWF.DE` | — | 42,41 EUR | -1,6% | -6% / +6% | 15% | -2% | 54 | 41,00 |
-| Industriali `XDWI.DE` | — | 71,48 EUR | -1,4% | -6% / +7% | 16% | -9% | 38 | 68,61 |
-| Materiali `XDWM.DE` | — | 68,72 EUR | -1,6% | -7% / +8% | 18% | -5% | 48 | 65,91 |
-| Salute `XDWH.DE` | — | 59,57 EUR | -2,9% | -7% / +8% | 19% | -3% | 58 | 56,77 |
-| Tecnologia `XDWT.DE` | — | 117,78 EUR | +0,1% | -10% / +12% | 27% | -16% | 28 | 109,78 |
-| Utilities `XDWU.DE` | — | 42,62 EUR | -0,7% | -4% / +5% | 12% | -3% | 67 | 41,61 |
+| Comunicazioni `XWTS.DE` | — | 27,55 EUR | +0,1% | -7% / +8% | 18% | -9% | 38 | 26,28 |
+| Consumi di base `XDWS.DE` | — | 53,06 EUR | -0,6% | -5% / +6% | 15% | -2% | 65 | 51,01 |
+| Consumi discrezionali `XDWC.DE` | — | 62,12 EUR | +0,4% | -7% / +8% | 19% | -1% | 62 | 59,13 |
+| Energia `XDW0.DE` | — | 66,82 EUR | -1,6% | -9% / +11% | 25% | -11% | 36 | 62,28 |
+| Finanziari `XDWF.DE` | — | 43,02 EUR | +0,5% | -5% / +6% | 15% | -1% | 60 | 41,64 |
+| Industriali `XDWI.DE` | — | 72,53 EUR | +1,0% | -6% / +6% | 15% | -8% | 44 | 69,72 |
+| Materiali `XDWM.DE` | — | 70,69 EUR | +1,4% | -7% / +8% | 18% | -3% | 59 | 67,87 |
+| Salute `XDWH.DE` | — | 61,05 EUR | +0,9% | -6% / +7% | 17% | -1% | 68 | 58,33 |
+| Tecnologia `XDWT.DE` | — | 116,92 EUR | -0,9% | -10% / +12% | 27% | -16% | 27 | 108,88 |
+| Utilities `XDWU.DE` | — | 43,22 EUR | +0,8% | -4% / +5% | 12% | -1% | 77 | 42,20 |
 
 </details>
 
@@ -205,24 +176,24 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| ASML `ASML.AS` | — | 1.299,20 EUR | +3,9% | -15% / +23% | 46% | -24% | 35 | 1.141,84 |
-| Airbus `AIR.PA` | — | 196,60 EUR | -1,1% | -9% / +13% | 26% | -9% | 53 | 182,75 |
-| Allianz `ALV.DE` | — | 446,40 EUR | -4,0% | -8% / +11% | 23% | -4% | 56 | 425,67 |
-| AstraZeneca `AZN.L` | — | 13.540,00 GBp | -3,6% | -10% / +15% | 31% | -13% | 60 | 12.632,86 |
-| BAE Systems `BA.L` | — | 1.845,00 GBp | -1,9% | -11% / +16% | 32% | -21% | 35 | 1.693,55 |
-| BNP Paribas `BNP.PA` | — | 91,40 EUR | -0,6% | -10% / +14% | 29% | -16% | 54 | 84,93 |
-| Hermès `RMS.PA` | — | 1.348,50 EUR | -2,8% | -11% / +16% | 32% | -39% | 53 | 1.221,45 |
-| L'Oréal `OR.PA` | — | 445,30 EUR | -2,3% | -9% / +13% | 27% | -2% | 68 | 420,54 |
-| LVMH `MC.PA` | — | 402,30 EUR | -3,9% | -10% / +14% | 29% | -37% | 54 | 374,82 |
-| Nestlé `NESN.SW` | — | 84,82 CHF | -2,8% | -7% / +10% | 20% | -3% | 62 | 81,02 |
-| Novo Nordisk `NOVO-B.CO` | — | 269,20 DKK | -0,8% | -14% / +21% | 41% | -30% | 53 | 251,91 |
-| Rheinmetall `RHM.DE` | — | 811,90 EUR | -3,5% | -20% / +33% | 62% | -57% | 26 | 697,35 |
-| SAP `SAP.DE` | — | 209,90 EUR | -2,7% | -10% / +15% | 31% | -3% | 58 | 193,75 |
-| Safran `SAF.PA` | — | 291,10 EUR | -2,2% | -12% / +18% | 36% | -20% | 44 | 261,94 |
-| Santander `SAN.MC` | — | 10,59 EUR | -2,2% | -12% / +17% | 35% | -17% | 38 | 9,58 |
-| Shell `SHEL.L` | — | 3.678,00 GBp | -2,8% | -8% / +11% | 23% | -9% | 39 | 3.445,95 |
-| Siemens `SIE.DE` | — | 265,10 EUR | -3,0% | -10% / +15% | 30% | -9% | 46 | 244,57 |
-| TotalEnergies `TTE.PA` | — | 78,58 EUR | -2,6% | -8% / +11% | 23% | -8% | 42 | 73,03 |
+| ASML `ASML.AS` | — | 1.326,20 EUR | +3,3% | -15% / +23% | 45% | -23% | 39 | 1.169,27 |
+| Airbus `AIR.PA` | — | 204,10 EUR | +3,9% | -10% / +14% | 28% | -6% | 61 | 189,81 |
+| Allianz `ALV.DE` | — | 454,20 EUR | +0,7% | -7% / +10% | 21% | -2% | 62 | 433,32 |
+| AstraZeneca `AZN.L` | — | 14.126,00 GBp | +1,4% | -10% / +14% | 29% | -9% | 72 | 13.214,21 |
+| BAE Systems `BA.L` | — | 1.898,00 GBp | +2,8% | -11% / +16% | 33% | -19% | 42 | 1.742,81 |
+| BNP Paribas `BNP.PA` | — | 93,94 EUR | +2,2% | -10% / +14% | 29% | -14% | 61 | 87,35 |
+| Hermès `RMS.PA` | — | 1.348,50 EUR | -1,0% | -11% / +15% | 31% | -39% | 53 | 1.219,66 |
+| L'Oréal `OR.PA` | — | 447,70 EUR | -0,5% | -9% / +13% | 26% | -2% | 70 | 422,76 |
+| LVMH `MC.PA` | — | 400,60 EUR | -2,0% | -9% / +13% | 27% | -38% | 52 | 372,15 |
+| Nestlé `NESN.SW` | — | 85,54 CHF | -0,4% | -7% / +9% | 19% | -2% | 66 | 81,80 |
+| Novo Nordisk `NOVO-B.CO` | — | 274,25 DKK | +1,8% | -14% / +21% | 41% | -28% | 57 | 256,38 |
+| Rheinmetall `RHM.DE` | — | 830,00 EUR | +2,1% | -20% / +32% | 61% | -56% | 30 | 714,23 |
+| SAP `SAP.DE` | — | 214,30 EUR | +1,7% | -10% / +15% | 31% | -1% | 63 | 197,93 |
+| Safran `SAF.PA` | — | 304,60 EUR | +3,1% | -12% / +18% | 36% | -16% | 52 | 275,69 |
+| Santander `SAN.MC` | — | 11,01 EUR | +2,9% | -12% / +17% | 35% | -14% | 46 | 9,98 |
+| Shell `SHEL.L` | — | 3.687,50 GBp | -0,9% | -8% / +11% | 22% | -9% | 39 | 3.461,19 |
+| Siemens `SIE.DE` | — | 268,15 EUR | +1,7% | -10% / +15% | 31% | -7% | 49 | 248,10 |
+| TotalEnergies `TTE.PA` | — | 78,61 EUR | -1,4% | -8% / +10% | 22% | -8% | 42 | 73,09 |
 
 </details>
 
@@ -230,19 +201,19 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| CAC 40 `^FCHI` | 3 | 8.062,16 EUR | -1,8% | -5% / +6% | 14% | -8% | 55 | 7.798,79 |
-| DAX `^GDAXI` | 3 | 25.721,47 EUR | -2,3% | -6% / +7% | 16% | -3% | 51 | 24.751,98 |
-| Dow Jones `^DJI` | 2 | 51.523,06 USD | -3,4% | -6% / +7% | 17% | -5% | 45 | 49.758,08 |
-| Euro Stoxx 50 `^STOXX50E` | 3 | 6.138,08 None | -1,5% | -6% / +6% | 15% | -6% | 46 | 5.914,05 |
-| FTSE 100 `^FTSE` | 3 | 10.556,95 GBP | -2,1% | -5% / +5% | 13% | -3% | 42 | 10.258,36 |
-| FTSE MIB `FTSEMIB.MI` | 3 | 49.887,26 EUR | -1,2% | -6% / +7% | 17% | -7% | 48 | 47.808,98 |
-| Hang Seng `^HSI` | 3 | 24.481,86 HKD | -1,3% | -8% / +10% | 23% | -12% | 58 | 23.430,14 |
-| Nasdaq 100 `^NDX` | 4 | 26.629,81 USD | -6,4% | -10% / +12% | 28% | -15% | 27 | 24.948,09 |
-| Nikkei 225 `^N225` | 4 | 57.434,77 JPY | -6,0% | -11% / +13% | 31% | -21% | 26 | 53.169,25 |
-| Russell 2000 `^RUT` | 2 | 2.729,89 USD | -4,5% | -8% / +9% | 22% | -11% | 39 | 2.620,97 |
-| S&P 500 `^GSPC` | 2 | 7.353,73 USD | -4,4% | -7% / +8% | 18% | -6% | 34 | 7.091,37 |
-| SMI (Svizzera) `^SSMI` | 3 | 14.643,68 CHF | -2,2% | -5% / +6% | 14% | -3% | 56 | 14.228,13 |
-| Sensex (India) `^BSESN` | 3 | 81.028,02 INR | +2,2% | -6% / +7% | 17% | -6% | 80 | 78.104,88 |
+| CAC 40 `^FCHI` | 3 | 8.219,67 EUR | +1,0% | -5% / +6% | 14% | -6% | 64 | 7.950,23 |
+| DAX `^GDAXI` | 3 | 26.137,02 EUR | +1,2% | -6% / +7% | 16% | -2% | 57 | 25.156,63 |
+| Dow Jones `^DJI` | 3 | 51.285,73 USD | -0,5% | -6% / +7% | 17% | -6% | 43 | 49.449,53 |
+| Euro Stoxx 50 `^STOXX50E` | 3 | 6.260,92 None | +1,5% | -6% / +6% | 15% | -4% | 54 | 6.030,25 |
+| FTSE 100 `^FTSE` | 3 | 10.760,03 GBP | +0,8% | -4% / +5% | 12% | -1% | 53 | 10.457,84 |
+| FTSE MIB `FTSEMIB.MI` | 3 | 51.165,75 EUR | +2,2% | -6% / +7% | 18% | -5% | 57 | 49.028,65 |
+| Hang Seng `^HSI` | 3 | 24.448,95 HKD | -0,1% | -8% / +9% | 22% | -13% | 57 | 23.401,17 |
+| Nasdaq 100 `^NDX` | 4 | 26.989,99 USD | +1,4% | -10% / +12% | 28% | -14% | 31 | 25.293,08 |
+| Nikkei 225 `^N225` | 3 | 58.775,50 JPY | +2,3% | -11% / +13% | 31% | -19% | 32 | 54.418,40 |
+| Russell 2000 `^RUT` | 3 | 2.754,11 USD | +0,9% | -8% / +9% | 22% | -10% | 43 | 2.641,70 |
+| S&P 500 `^GSPC` | 3 | 7.376,86 USD | +0,3% | -7% / +8% | 18% | -6% | 35 | 7.111,16 |
+| SMI (Svizzera) `^SSMI` | 3 | 14.900,74 CHF | +0,7% | -5% / +5% | 13% | -1% | 66 | 14.490,35 |
+| Sensex (India) `^BSESN` | 3 | 81.106,65 INR | +0,1% | -6% / +7% | 16% | -5% | 80 | 78.240,85 |
 
 </details>
 
@@ -250,24 +221,24 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Banca Mediolanum `BMED.MI` | — | 23,09 EUR | -1,0% | -8% / +11% | 24% | -5% | 52 | 21,73 |
-| Enel `ENEL.MI` | — | 9,59 EUR | -1,8% | -7% / +9% | 19% | -5% | 65 | 9,17 |
-| Eni `ENI.MI` | — | 24,84 EUR | -2,0% | -9% / +12% | 26% | -10% | 42 | 22,92 |
-| Ferrari `RACE.MI` | — | 369,85 EUR | -2,0% | -9% / +13% | 28% | -3% | 59 | 343,06 |
-| FinecoBank `FBK.MI` | — | 22,50 EUR | -1,0% | -10% / +14% | 28% | -9% | 61 | 21,06 |
-| Generali `G.MI` | — | 43,20 EUR | -3,0% | -7% / +10% | 21% | -6% | 52 | 41,32 |
-| Intesa Sanpaolo `ISP.MI` | — | 6,17 EUR | -1,5% | -9% / +13% | 26% | -11% | 50 | 5,79 |
-| Leonardo `LDO.MI` | — | 48,52 EUR | -1,7% | -11% / +17% | 34% | -24% | 44 | 44,86 |
-| Mediobanca `MB.MI` | — | 26,09 EUR | -0,2% | -9% / +13% | 27% | -10% | 50 | 24,56 |
-| Moncler `MONC.MI` | — | 45,05 EUR | -1,9% | -11% / +15% | 31% | -21% | 55 | 41,53 |
-| Poste Italiane `PST.MI` | — | 24,45 EUR | -1,5% | -7% / +10% | 21% | -16% | 48 | 23,27 |
-| Prysmian `PRY.MI` | — | 102,15 EUR | +1,9% | -16% / +25% | 48% | -35% | 39 | 87,47 |
-| STMicroelectronics `STMMI.MI` | — | 38,10 EUR | +2,7% | -18% / +29% | 56% | -45% | 37 | 32,29 |
-| Snam `SRG.MI` | — | 6,23 EUR | -0,8% | -5% / +7% | 16% | -6% | 73 | 5,97 |
-| Stellantis `STLAM.MI` | — | 3,93 EUR | -1,0% | -17% / +28% | 53% | -62% | 46 | 3,40 |
-| Telecom Italia `TIT.MI` | — | 5,67 EUR | -1,6% | -11% / +16% | 32% | -30% | 37 | 5,30 |
-| Terna `TRN.MI` | — | 9,75 EUR | -1,1% | -6% / +8% | 16% | -6% | 63 | 9,37 |
-| UniCredit `UCG.MI` | — | 76,50 EUR | -0,9% | -11% / +16% | 32% | -11% | 50 | 70,94 |
+| Banca Mediolanum `BMED.MI` | — | 23,73 EUR | +2,9% | -8% / +12% | 25% | -3% | 60 | 22,30 |
+| Enel `ENEL.MI` | — | 9,81 EUR | +1,3% | -6% / +9% | 19% | -2% | 75 | 9,39 |
+| Eni `ENI.MI` | — | 24,95 EUR | -0,4% | -8% / +12% | 25% | -10% | 42 | 23,13 |
+| Ferrari `RACE.MI` | — | 372,55 EUR | -0,4% | -9% / +13% | 27% | -3% | 61 | 346,71 |
+| FinecoBank `FBK.MI` | — | 22,72 EUR | +1,5% | -10% / +14% | 28% | -8% | 62 | 21,26 |
+| Generali `G.MI` | — | 44,10 EUR | +0,9% | -7% / +9% | 19% | -5% | 58 | 42,15 |
+| Intesa Sanpaolo `ISP.MI` | — | 6,31 EUR | +2,1% | -9% / +13% | 26% | -9% | 56 | 5,92 |
+| Leonardo `LDO.MI` | — | 49,83 EUR | +3,7% | -12% / +18% | 36% | -22% | 51 | 46,02 |
+| Mediobanca `MB.MI` | — | 26,65 EUR | +1,8% | -9% / +13% | 27% | -8% | 56 | 25,10 |
+| Moncler `MONC.MI` | — | 45,09 EUR | -0,6% | -10% / +15% | 31% | -21% | 55 | 41,51 |
+| Poste Italiane `PST.MI` | — | 24,94 EUR | +1,7% | -7% / +10% | 21% | -14% | 54 | 23,76 |
+| Prysmian `PRY.MI` | — | 105,55 EUR | +4,5% | -16% / +25% | 48% | -33% | 44 | 90,89 |
+| STMicroelectronics `STMMI.MI` | — | 38,50 EUR | +2,3% | -18% / +28% | 55% | -44% | 39 | 32,68 |
+| Snam `SRG.MI` | — | 6,21 EUR | +0,1% | -5% / +7% | 16% | -6% | 70 | 5,94 |
+| Stellantis `STLAM.MI` | — | 4,00 EUR | -0,6% | -17% / +27% | 52% | -62% | 49 | 3,48 |
+| Telecom Italia `TIT.MI` | — | 5,75 EUR | +0,9% | -11% / +16% | 32% | -29% | 41 | 5,39 |
+| Terna `TRN.MI` | — | 9,84 EUR | +0,7% | -5% / +7% | 16% | -5% | 67 | 9,45 |
+| UniCredit `UCG.MI` | — | 81,34 EUR | +5,9% | -12% / +17% | 35% | -6% | 62 | 75,43 |
 
 </details>
 
@@ -275,26 +246,26 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| AT&T `T` | — | 21,82 USD | -0,1% | -12% / +17% | 35% | -22% | 43 | 19,97 |
-| Alphabet Inc. (Class C) `GOOG` | — | 281,74 USD | -1,9% | -14% / +21% | 42% | -29% | 28 | 253,80 |
-| AppLovin `APP` | — | 356,10 USD | +31,0% | -31% / +61% | 105% | -51% | 72 | 310,28 |
-| Charter Communications `CHTR` | — | 125,86 USD | +4,7% | -16% / +26% | 50% | -49% | 64 | 112,91 |
-| Comcast `CMCSA` | — | 24,95 USD | +0,4% | -11% / +16% | 33% | -20% | 70 | 22,91 |
-| EchoStar `ECHO` | — | 89,92 USD | -8,8% | -22% / +38% | 70% | -37% | 46 | 77,16 |
-| Fox Corporation (Class A) `FOXA` | — | 67,67 USD | -2,8% | -12% / +18% | 35% | -10% | 57 | 61,25 |
-| Fox Corporation (Class B) `FOX` | — | 59,99 USD | -2,6% | -12% / +17% | 34% | -11% | 56 | 54,38 |
-| Live Nation Entertainment `LYV` | — | 181,25 USD | -1,1% | -9% / +12% | 25% | -4% | 64 | 170,44 |
-| Netflix `NFLX` | — | 65,56 USD | -1,2% | -12% / +17% | 35% | -43% | 45 | 60,17 |
-| News Corp (Class A) `NWSA` | — | 26,48 USD | -13,4% | -15% / +24% | 47% | -15% | 32 | 24,14 |
-| News Corp (Class B) `NWS` | — | 28,97 USD | -13,2% | -15% / +24% | 47% | -18% | 32 | 26,34 |
-| Omnicom Group `OMC` | — | 87,09 USD | -0,5% | -11% / +16% | 33% | -1% | 67 | 79,71 |
-| Reddit `RDDT` | — | 93,81 USD | -7,9% | -33% / +66% | 111% | -64% | 25 | 70,29 |
-| Skydance `SKYD` | — | 8,15 USD | -2,9% | -23% / +38% | 71% | -50% | 47 | 6,98 |
-| T-Mobile US `TMUS` | — | 160,59 USD | +0,9% | -14% / +21% | 42% | -27% | 53 | 144,99 |
-| TKO Group Holdings `TKO` | — | 189,14 USD | -2,2% | -10% / +15% | 30% | -15% | 61 | 175,51 |
-| Take-Two Interactive `TTWO` | — | 213,36 USD | +2,1% | -12% / +17% | 34% | -17% | 60 | 197,01 |
-| Verizon `VZ` | — | 46,12 USD | -0,1% | -10% / +14% | 29% | -9% | 56 | 42,86 |
-| Walt Disney Company (The) `DIS` | — | 117,22 USD | -1,5% | -9% / +13% | 26% | -1% | 68 | 111,36 |
+| AT&T `T` | — | 21,63 USD | -0,9% | -12% / +17% | 34% | -23% | 42 | 19,73 |
+| Alphabet Inc. (Class C) `GOOG` | — | 283,93 USD | +0,8% | -14% / +20% | 41% | -29% | 30 | 255,66 |
+| AppLovin `APP` | — | 391,22 USD | +9,9% | -32% / +62% | 106% | -47% | 76 | 338,04 |
+| Charter Communications `CHTR` | — | 118,07 USD | -6,2% | -17% / +27% | 52% | -52% | 54 | 102,81 |
+| Comcast `CMCSA` | — | 24,39 USD | -2,2% | -11% / +16% | 33% | -22% | 64 | 22,40 |
+| EchoStar `ECHO` | — | 94,62 USD | +5,2% | -22% / +38% | 71% | -33% | 52 | 81,24 |
+| Fox Corporation (Class A) `FOXA` | — | 66,64 USD | -1,5% | -12% / +17% | 35% | -12% | 54 | 59,96 |
+| Fox Corporation (Class B) `FOX` | — | 59,50 USD | -0,8% | -11% / +17% | 34% | -11% | 55 | 53,59 |
+| Live Nation Entertainment `LYV` | — | 175,25 USD | -3,3% | -9% / +13% | 27% | -7% | 51 | 163,27 |
+| Netflix `NFLX` | — | 63,41 USD | -3,3% | -12% / +17% | 35% | -45% | 40 | 57,89 |
+| News Corp (Class A) `NWSA` | — | 26,39 USD | -0,3% | -15% / +23% | 45% | -15% | 32 | 24,01 |
+| News Corp (Class B) `NWS` | — | 28,96 USD | -0,0% | -15% / +23% | 46% | -18% | 32 | 26,29 |
+| Omnicom Group `OMC` | — | 86,37 USD | -0,8% | -11% / +16% | 32% | -2% | 65 | 78,85 |
+| Reddit `RDDT` | — | 95,10 USD | +1,4% | -32% / +64% | 108% | -63% | 27 | 72,27 |
+| Skydance `SKYD` | — | 8,01 USD | -1,7% | -22% / +38% | 70% | -51% | 45 | 6,86 |
+| T-Mobile US `TMUS` | — | 162,01 USD | +0,9% | -14% / +21% | 41% | -26% | 54 | 145,69 |
+| TKO Group Holdings `TKO` | — | 191,00 USD | +1,0% | -10% / +15% | 30% | -14% | 63 | 176,70 |
+| Take-Two Interactive `TTWO` | — | 214,87 USD | +0,7% | -11% / +17% | 34% | -17% | 61 | 197,55 |
+| Verizon `VZ` | — | 45,69 USD | -0,9% | -10% / +14% | 28% | -10% | 54 | 42,33 |
+| Walt Disney Company (The) `DIS` | — | 116,75 USD | -0,4% | -9% / +13% | 26% | -2% | 66 | 110,46 |
 
 </details>
 
@@ -302,35 +273,35 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Altria `MO` | — | 77,58 USD | -0,5% | -8% / +12% | 24% | -1% | 65 | 72,99 |
-| Archer Daniels Midland `ADM` | — | 70,47 USD | -0,5% | -11% / +16% | 32% | -20% | 24 | 65,07 |
-| Brown–Forman `BF-B` | — | 30,96 USD | +0,9% | -13% / +20% | 40% | +0% | 65 | 28,38 |
-| Bunge Global `BG` | — | 98,54 USD | +1,6% | -10% / +15% | 30% | -25% | 40 | 90,82 |
-| Casey's `CASY` | — | 689,53 USD | +2,2% | -11% / +16% | 32% | -25% | 56 | 637,43 |
-| Church & Dwight `CHD` | — | 111,33 USD | -0,6% | -8% / +11% | 23% | -1% | 70 | 104,74 |
-| Clorox `CLX` | — | 99,70 USD | +0,5% | -11% / +16% | 33% | -19% | 75 | 91,79 |
-| Colgate-Palmolive `CL` | — | 98,69 USD | -0,1% | -8% / +12% | 25% | -0% | 66 | 92,49 |
-| Constellation Brands `STZ` | — | 144,56 USD | -0,6% | -12% / +17% | 35% | -11% | 70 | 133,65 |
-| Dollar General `DG` | — | 138,00 USD | -2,6% | -15% / +23% | 46% | -10% | 58 | 124,26 |
-| Dollar Tree `DLTR` | — | 137,94 USD | -6,2% | -16% / +26% | 50% | -6% | 61 | 123,22 |
-| Estée Lauder Companies (The) `EL` | — | 107,65 USD | -3,9% | -15% / +24% | 47% | -9% | 56 | 96,34 |
-| General Mills `GIS` | — | 36,46 USD | +1,7% | -11% / +17% | 34% | -22% | 63 | 33,46 |
-| Hershey Company (The) `HSY` | — | 177,43 USD | +1,7% | -10% / +15% | 31% | -24% | 61 | 164,44 |
-| Hormel Foods `HRL` | — | 22,60 USD | -0,7% | -11% / +15% | 31% | -12% | 70 | 21,25 |
-| J.M. Smucker Company (The) `SJM` | — | 133,25 USD | +0,6% | -10% / +14% | 29% | -0% | 62 | 124,01 |
-| Keurig Dr Pepper `KDP` | — | 36,89 USD | +0,3% | -11% / +16% | 32% | +0% | 66 | 34,29 |
-| Kimberly-Clark `KMB` | — | 110,46 USD | +1,5% | -10% / +14% | 29% | -3% | 61 | 101,90 |
-| Kraft Heinz `KHC` | — | 25,32 USD | -0,5% | -10% / +14% | 29% | -7% | 62 | 23,47 |
-| Kroger `KR` | — | 69,43 USD | +0,7% | -10% / +14% | 30% | -7% | 67 | 64,40 |
-| McCormick & Company `MKC` | — | 50,06 USD | -0,8% | -11% / +16% | 33% | -28% | 60 | 46,15 |
-| Mondelez International `MDLZ` | — | 66,82 USD | -0,8% | -9% / +12% | 26% | -1% | 63 | 62,74 |
-| Monster Beverage `MNST` | — | 47,83 USD | -1,9% | -9% / +12% | 26% | -4% | 60 | 44,89 |
-| PepsiCo `PEP` | — | 142,71 USD | +0,2% | -8% / +12% | 24% | -14% | 66 | 134,35 |
-| Philip Morris International `PM` | — | 201,50 USD | -4,6% | -9% / +13% | 27% | -5% | 50 | 187,28 |
-| Sysco `SYY` | — | 75,24 USD | -2,2% | -12% / +17% | 35% | -16% | 37 | 69,38 |
-| Target Corporation `TGT` | — | 157,95 USD | -3,2% | -12% / +18% | 36% | -7% | 54 | 144,90 |
-| Tyson Foods `TSN` | — | 60,11 USD | +0,1% | -9% / +12% | 26% | -11% | 76 | 56,95 |
-| Walmart `WMT` | — | 127,72 USD | -1,1% | -9% / +13% | 27% | -5% | 70 | 120,28 |
+| Altria `MO` | — | 76,12 USD | -1,9% | -8% / +12% | 24% | -2% | 58 | 71,29 |
+| Archer Daniels Midland `ADM` | — | 69,97 USD | -0,7% | -11% / +16% | 32% | -21% | 23 | 64,77 |
+| Brown–Forman `BF-B` | — | 30,58 USD | -1,2% | -13% / +20% | 39% | -1% | 62 | 27,92 |
+| Bunge Global `BG` | — | 99,10 USD | +0,6% | -10% / +15% | 30% | -24% | 41 | 91,62 |
+| Casey's `CASY` | — | 687,64 USD | -0,3% | -11% / +16% | 32% | -25% | 55 | 635,45 |
+| Church & Dwight `CHD` | — | 109,33 USD | -1,8% | -8% / +11% | 23% | -2% | 63 | 102,12 |
+| Clorox `CLX` | — | 99,96 USD | +0,3% | -11% / +16% | 32% | -18% | 76 | 91,73 |
+| Colgate-Palmolive `CL` | — | 96,56 USD | -2,2% | -9% / +12% | 25% | -2% | 59 | 89,98 |
+| Constellation Brands `STZ` | — | 141,97 USD | -1,8% | -12% / +17% | 34% | -13% | 65 | 130,37 |
+| Dollar General `DG` | — | 133,75 USD | -3,1% | -15% / +23% | 46% | -13% | 53 | 119,56 |
+| Dollar Tree `DLTR` | — | 131,14 USD | -4,9% | -17% / +26% | 51% | -11% | 53 | 115,62 |
+| Estée Lauder Companies (The) `EL` | — | 110,06 USD | +2,2% | -15% / +23% | 46% | -7% | 60 | 98,14 |
+| General Mills `GIS` | — | 35,51 USD | -2,6% | -11% / +17% | 34% | -24% | 57 | 32,37 |
+| Hershey Company (The) `HSY` | — | 178,08 USD | +0,4% | -10% / +15% | 30% | -23% | 62 | 164,28 |
+| Hormel Foods `HRL` | — | 21,95 USD | -2,9% | -11% / +16% | 32% | -15% | 61 | 20,51 |
+| J.M. Smucker Company (The) `SJM` | — | 130,55 USD | -2,0% | -10% / +14% | 29% | -2% | 57 | 120,85 |
+| Keurig Dr Pepper `KDP` | — | 36,63 USD | -0,7% | -11% / +15% | 31% | -1% | 64 | 33,92 |
+| Kimberly-Clark `KMB` | — | 108,43 USD | -1,8% | -10% / +14% | 29% | -4% | 56 | 99,59 |
+| Kraft Heinz `KHC` | — | 24,61 USD | -2,8% | -10% / +15% | 30% | -9% | 54 | 22,68 |
+| Kroger `KR` | — | 67,70 USD | -2,5% | -10% / +15% | 30% | -9% | 60 | 62,40 |
+| McCormick & Company `MKC` | — | 48,40 USD | -3,3% | -11% / +16% | 33% | -30% | 53 | 44,16 |
+| Mondelez International `MDLZ` | — | 66,02 USD | -1,2% | -9% / +12% | 25% | -2% | 60 | 61,68 |
+| Monster Beverage `MNST` | — | 45,72 USD | -4,4% | -10% / +14% | 28% | -9% | 49 | 42,45 |
+| PepsiCo `PEP` | — | 141,34 USD | -1,0% | -8% / +12% | 24% | -15% | 62 | 132,77 |
+| Philip Morris International `PM` | — | 197,88 USD | -1,8% | -9% / +13% | 27% | -6% | 46 | 183,02 |
+| Sysco `SYY` | — | 76,86 USD | +2,1% | -12% / +17% | 35% | -14% | 42 | 70,70 |
+| Target Corporation `TGT` | — | 158,41 USD | +0,3% | -12% / +18% | 36% | -7% | 54 | 144,99 |
+| Tyson Foods `TSN` | — | 59,68 USD | -0,7% | -9% / +12% | 25% | -12% | 72 | 56,34 |
+| Walmart `WMT` | — | 125,52 USD | -1,7% | -9% / +13% | 27% | -6% | 64 | 117,46 |
 
 </details>
 
@@ -338,51 +309,51 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Airbnb `ABNB` | — | 170,13 USD | -3,5% | -13% / +19% | 38% | -11% | 51 | 156,88 |
-| Aptiv `APTV` | — | 40,85 USD | -5,6% | -14% / +22% | 43% | -54% | 38 | 36,58 |
-| AutoZone `AZO` | — | 3.308,97 USD | -0,5% | -10% / +14% | 28% | -17% | 66 | 3.087,66 |
-| Best Buy `BBY` | — | 99,40 USD | -1,9% | -15% / +22% | 44% | -2% | 58 | 89,94 |
-| Booking Holdings `BKNG` | — | 168,72 USD | -1,3% | -13% / +20% | 40% | -23% | 58 | 152,17 |
-| Carnival Corporation `CCL` | — | 29,59 USD | -5,5% | -16% / +26% | 50% | -12% | 61 | 26,47 |
-| Carvana `CVNA` | — | 72,08 USD | -7,1% | -24% / +41% | 75% | -25% | 61 | 62,25 |
-| Chipotle Mexican Grill `CMG` | — | 35,40 USD | +0,6% | -15% / +22% | 44% | -13% | 70 | 32,34 |
-| D. R. Horton `DHI` | — | 157,63 USD | +0,4% | -14% / +22% | 43% | -5% | 64 | 142,57 |
-| Darden Restaurants `DRI` | — | 228,67 USD | -0,8% | -10% / +14% | 28% | -1% | 67 | 214,88 |
-| Deckers Brands `DECK` | — | 87,74 USD | -1,5% | -14% / +21% | 42% | -27% | 60 | 79,18 |
-| Domino's `DPZ` | — | 341,63 USD | +0,3% | -11% / +15% | 31% | -21% | 71 | 318,20 |
-| DoorDash `DASH` | — | 179,92 USD | -9,4% | -19% / +30% | 58% | -24% | 46 | 150,93 |
-| Expedia Group `EXPE` | — | 272,48 USD | -13,7% | -21% / +36% | 67% | -20% | 46 | 230,70 |
-| Ford Motor Company `F` | — | 12,53 USD | -1,1% | -11% / +16% | 33% | -27% | 53 | 11,56 |
-| Garmin `GRMN` | — | 286,40 USD | -0,9% | -12% / +18% | 37% | -8% | 53 | 260,82 |
-| General Motors `GM` | — | 89,33 USD | -3,4% | -13% / +20% | 40% | -3% | 60 | 80,66 |
-| Genuine Parts Company `GPC` | — | 124,44 USD | -1,6% | -10% / +15% | 30% | -14% | 47 | 113,60 |
-| Hasbro `HAS` | — | 119,54 USD | -1,7% | -12% / +17% | 35% | -2% | 77 | 110,03 |
-| Hilton Worldwide `HLT` | — | 369,64 USD | -1,8% | -9% / +12% | 26% | -2% | 67 | 344,81 |
-| Home Depot (The) `HD` | — | 349,94 USD | -1,6% | -11% / +16% | 32% | -9% | 70 | 325,85 |
-| Las Vegas Sands `LVS` | — | 40,92 USD | +0,4% | -12% / +17% | 35% | -40% | 68 | 38,10 |
-| Lennar `LEN` | — | 91,59 USD | -0,7% | -15% / +23% | 46% | -30% | 64 | 82,33 |
-| Lowe's `LOW` | — | 227,24 USD | -0,9% | -12% / +17% | 35% | -20% | 73 | 211,10 |
-| Lululemon Athletica `LULU` | — | 111,77 USD | -0,3% | -16% / +24% | 48% | -48% | 64 | 100,56 |
-| MGM Resorts `MGM` | — | 32,54 USD | -0,9% | -14% / +21% | 42% | -36% | 58 | 29,29 |
-| Marriott International `MAR` | — | 417,28 USD | -1,8% | -9% / +13% | 26% | -2% | 70 | 390,52 |
-| McDonald's `MCD` | — | 278,04 USD | -0,8% | -9% / +13% | 27% | -17% | 76 | 262,61 |
-| NVR, Inc. `NVR` | — | 6.414,18 USD | +0,6% | -12% / +18% | 36% | -21% | 60 | 5.780,08 |
-| Nike, Inc. `NKE` | — | 39,56 USD | -2,3% | -12% / +18% | 36% | -40% | 61 | 36,67 |
-| Norwegian Cruise Line Holdings `NCLH` | — | 17,76 USD | -4,5% | -19% / +30% | 58% | -29% | 61 | 15,45 |
-| O'Reilly Automotive `ORLY` | — | 91,49 USD | -0,9% | -8% / +11% | 24% | -10% | 58 | 85,54 |
-| PulteGroup `PHM` | — | 135,15 USD | -0,6% | -13% / +20% | 40% | -5% | 68 | 122,28 |
-| Ralph Lauren Corporation `RL` | — | 381,78 USD | -7,3% | -13% / +19% | 39% | -7% | 50 | 349,98 |
-| Ross Stores `ROST` | — | 235,23 USD | -4,3% | -10% / +15% | 31% | -8% | 52 | 216,89 |
-| Royal Caribbean Group `RCL` | — | 322,73 USD | -3,1% | -15% / +23% | 45% | -6% | 65 | 288,98 |
-| Starbucks `SBUX` | — | 106,16 USD | -3,2% | -11% / +16% | 32% | -3% | 62 | 99,14 |
-| TJX Companies `TJX` | — | 138,59 USD | -4,3% | -9% / +13% | 27% | -17% | 47 | 129,46 |
-| Tapestry, Inc. `TPR` | — | 134,17 USD | +7,1% | -14% / +22% | 43% | -18% | 73 | 122,84 |
-| Tractor Supply `TSCO` | — | 36,61 USD | +0,1% | -12% / +18% | 36% | -33% | 66 | 32,51 |
-| Ulta Beauty `ULTA` | — | 649,80 USD | -1,7% | -12% / +17% | 35% | -8% | 66 | 601,86 |
-| Williams-Sonoma, Inc. `WSM` | — | 258,61 USD | -4,2% | -14% / +21% | 42% | -4% | 57 | 235,26 |
-| Wynn Resorts `WYNN` | — | 79,32 USD | -3,7% | -13% / +19% | 38% | -40% | 54 | 71,97 |
-| Yum! Brands `YUM` | — | 166,09 USD | -0,1% | -9% / +13% | 27% | -0% | 77 | 155,23 |
-| eBay Inc. `EBAY` | — | 123,35 USD | -1,4% | -11% / +16% | 33% | -1% | 62 | 113,77 |
+| Airbnb `ABNB` | — | 189,99 USD | +11,7% | -16% / +25% | 49% | -0% | 66 | 173,34 |
+| Aptiv `APTV` | — | 39,44 USD | -3,5% | -14% / +22% | 43% | -56% | 34 | 34,99 |
+| AutoZone `AZO` | — | 3.216,35 USD | -2,8% | -10% / +14% | 29% | -19% | 58 | 2.985,17 |
+| Best Buy `BBY` | — | 99,63 USD | +0,2% | -14% / +22% | 43% | -2% | 59 | 89,89 |
+| Booking Holdings `BKNG` | — | 160,67 USD | -4,8% | -14% / +21% | 42% | -26% | 50 | 143,40 |
+| Carnival Corporation `CCL` | — | 29,58 USD | -0,0% | -16% / +25% | 49% | -11% | 62 | 26,45 |
+| Carvana `CVNA` | — | 73,57 USD | +2,1% | -23% / +40% | 74% | -23% | 63 | 63,49 |
+| Chipotle Mexican Grill `CMG` | — | 34,43 USD | -2,7% | -15% / +22% | 44% | -16% | 63 | 31,24 |
+| D. R. Horton `DHI` | — | 152,28 USD | -3,4% | -14% / +22% | 44% | -9% | 58 | 136,90 |
+| Darden Restaurants `DRI` | — | 226,35 USD | -1,0% | -10% / +14% | 28% | -2% | 63 | 211,81 |
+| Deckers Brands `DECK` | — | 86,71 USD | -1,2% | -14% / +21% | 42% | -28% | 57 | 78,21 |
+| Domino's `DPZ` | — | 334,28 USD | -2,1% | -11% / +15% | 31% | -22% | 64 | 310,30 |
+| DoorDash `DASH` | — | 179,67 USD | -0,1% | -18% / +29% | 57% | -24% | 46 | 150,51 |
+| Expedia Group `EXPE` | — | 259,24 USD | -4,9% | -21% / +35% | 67% | -23% | 42 | 216,41 |
+| Ford Motor Company `F` | — | 12,44 USD | -0,7% | -11% / +16% | 33% | -28% | 52 | 11,46 |
+| Garmin `GRMN` | — | 285,57 USD | -0,3% | -12% / +18% | 36% | -8% | 52 | 259,16 |
+| General Motors `GM` | — | 86,16 USD | -3,5% | -14% / +20% | 41% | -7% | 54 | 77,20 |
+| Genuine Parts Company `GPC` | — | 122,80 USD | -1,3% | -10% / +15% | 30% | -15% | 44 | 112,10 |
+| Hasbro `HAS` | — | 118,91 USD | -0,5% | -12% / +17% | 35% | -2% | 75 | 109,22 |
+| Hilton Worldwide `HLT` | — | 370,45 USD | +0,2% | -9% / +12% | 25% | -2% | 68 | 344,80 |
+| Home Depot (The) `HD` | — | 343,47 USD | -1,8% | -11% / +16% | 32% | -10% | 64 | 318,26 |
+| Las Vegas Sands `LVS` | — | 40,73 USD | -0,5% | -12% / +17% | 35% | -40% | 66 | 37,76 |
+| Lennar `LEN` | — | 88,74 USD | -3,1% | -15% / +23% | 46% | -32% | 58 | 79,27 |
+| Lowe's `LOW` | — | 224,55 USD | -1,2% | -12% / +17% | 34% | -20% | 69 | 207,66 |
+| Lululemon Athletica `LULU` | — | 110,79 USD | -0,9% | -15% / +24% | 47% | -49% | 62 | 98,96 |
+| MGM Resorts `MGM` | — | 32,34 USD | -0,6% | -14% / +21% | 42% | -36% | 57 | 29,18 |
+| Marriott International `MAR` | — | 416,47 USD | -0,2% | -9% / +12% | 26% | -2% | 70 | 388,26 |
+| McDonald's `MCD` | — | 276,52 USD | -0,5% | -9% / +13% | 26% | -17% | 74 | 260,07 |
+| NVR, Inc. `NVR` | — | 6.298,29 USD | -1,8% | -12% / +18% | 35% | -22% | 56 | 5.654,60 |
+| Nike, Inc. `NKE` | — | 38,59 USD | -2,5% | -12% / +18% | 36% | -42% | 55 | 35,53 |
+| Norwegian Cruise Line Holdings `NCLH` | — | 17,92 USD | +0,9% | -18% / +30% | 57% | -28% | 62 | 15,61 |
+| O'Reilly Automotive `ORLY` | — | 89,89 USD | -1,8% | -8% / +12% | 24% | -12% | 53 | 83,72 |
+| PulteGroup `PHM` | — | 132,49 USD | -2,0% | -13% / +20% | 40% | -6% | 64 | 119,44 |
+| Ralph Lauren Corporation `RL` | — | 376,56 USD | -1,4% | -13% / +19% | 38% | -9% | 48 | 344,49 |
+| Ross Stores `ROST` | — | 231,09 USD | -1,8% | -10% / +15% | 30% | -9% | 49 | 212,50 |
+| Royal Caribbean Group `RCL` | — | 327,16 USD | +1,4% | -15% / +22% | 44% | -4% | 67 | 293,15 |
+| Starbucks `SBUX` | — | 105,41 USD | -0,7% | -11% / +15% | 31% | -4% | 60 | 97,99 |
+| TJX Companies `TJX` | — | 135,30 USD | -2,4% | -9% / +13% | 28% | -19% | 43 | 125,88 |
+| Tapestry, Inc. `TPR` | — | 132,80 USD | -1,0% | -14% / +21% | 42% | -19% | 70 | 121,38 |
+| Tractor Supply `TSCO` | — | 36,35 USD | -0,7% | -12% / +18% | 36% | -34% | 64 | 32,17 |
+| Ulta Beauty `ULTA` | — | 644,76 USD | -0,8% | -12% / +17% | 34% | -9% | 64 | 596,06 |
+| Williams-Sonoma, Inc. `WSM` | — | 254,06 USD | -1,8% | -14% / +21% | 42% | -6% | 53 | 230,28 |
+| Wynn Resorts `WYNN` | — | 83,11 USD | +4,8% | -13% / +20% | 40% | -37% | 60 | 74,89 |
+| Yum! Brands `YUM` | — | 161,14 USD | -3,0% | -9% / +13% | 28% | -3% | 65 | 149,79 |
+| eBay Inc. `EBAY` | — | 121,96 USD | -1,1% | -11% / +16% | 32% | -3% | 59 | 112,26 |
 
 </details>
 
@@ -390,26 +361,26 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| APA Corporation `APA` | — | 43,48 USD | -2,3% | -16% / +25% | 48% | -18% | 37 | 38,36 |
-| Baker Hughes `BKR` | — | 46,20 USD | -7,4% | -15% / +23% | 46% | -33% | 27 | 40,38 |
-| Chevron Corporation `CVX` | — | 212,93 USD | -1,9% | -9% / +12% | 26% | -10% | 41 | 198,97 |
-| ConocoPhillips `COP` | — | 135,46 USD | -1,1% | -11% / +17% | 34% | -12% | 41 | 124,15 |
-| Devon Energy `DVN` | — | 42,88 USD | -2,8% | -14% / +21% | 42% | -18% | 29 | 38,46 |
-| Diamondback Energy `FANG` | — | 179,58 USD | -1,8% | -13% / +19% | 38% | -15% | 34 | 161,99 |
-| EOG Resources `EOG` | — | 144,89 USD | -1,5% | -11% / +16% | 32% | -12% | 38 | 133,20 |
-| EQT Corporation `EQT` | — | 50,62 USD | -3,6% | -11% / +16% | 33% | -25% | 38 | 45,92 |
-| Expand Energy `EXE` | — | 85,34 USD | -2,3% | -9% / +13% | 28% | -29% | 33 | 78,50 |
-| Halliburton `HAL` | — | 31,92 USD | -3,3% | -12% / +17% | 35% | -25% | 37 | 28,87 |
-| Kinder Morgan `KMI` | — | 30,19 USD | -4,2% | -9% / +13% | 28% | -12% | 34 | 27,57 |
-| Marathon Petroleum `MPC` | — | 377,32 USD | -3,9% | -15% / +23% | 45% | -22% | 31 | 321,95 |
-| Occidental Petroleum `OXY` | — | 56,36 USD | -1,7% | -12% / +17% | 34% | -14% | 33 | 51,64 |
-| Oneok `OKE` | — | 86,25 USD | -2,6% | -10% / +14% | 28% | -11% | 36 | 79,43 |
-| Phillips 66 `PSX` | — | 247,04 USD | -4,9% | -13% / +19% | 39% | -17% | 34 | 217,81 |
-| Schlumberger `SLB` | — | 49,64 USD | -3,7% | -12% / +17% | 35% | -17% | 42 | 45,16 |
-| Targa Resources `TRGP` | — | 271,82 USD | -4,6% | -13% / +19% | 38% | -14% | 38 | 245,84 |
-| Texas Pacific Land Corporation `TPL` | — | 272,18 USD | -5,4% | -19% / +30% | 57% | -49% | 22 | 232,72 |
-| Valero Energy `VLO` | — | 351,23 USD | -3,9% | -15% / +23% | 46% | -24% | 32 | 299,50 |
-| Williams Companies `WMB` | — | 64,25 USD | -5,3% | -12% / +18% | 37% | -18% | 33 | 56,91 |
+| APA Corporation `APA` | — | 44,63 USD | +2,6% | -16% / +24% | 48% | -16% | 41 | 39,26 |
+| Baker Hughes `BKR` | — | 47,87 USD | +3,6% | -15% / +23% | 46% | -31% | 33 | 41,85 |
+| Chevron Corporation `CVX` | — | 212,61 USD | -0,1% | -9% / +12% | 25% | -10% | 41 | 198,26 |
+| ConocoPhillips `COP` | — | 136,27 USD | +0,6% | -11% / +16% | 33% | -12% | 43 | 124,64 |
+| Devon Energy `DVN` | — | 42,21 USD | -1,6% | -14% / +21% | 41% | -19% | 28 | 37,48 |
+| Diamondback Energy `FANG` | — | 178,96 USD | -0,4% | -13% / +19% | 38% | -16% | 34 | 161,17 |
+| EOG Resources `EOG` | — | 147,13 USD | +1,6% | -11% / +16% | 32% | -11% | 42 | 134,91 |
+| EQT Corporation `EQT` | — | 49,40 USD | -2,4% | -11% / +16% | 33% | -27% | 34 | 44,50 |
+| Expand Energy `EXE` | — | 84,60 USD | -0,9% | -9% / +13% | 27% | -30% | 31 | 77,70 |
+| Halliburton `HAL` | — | 31,84 USD | -0,2% | -12% / +17% | 34% | -25% | 37 | 28,82 |
+| Kinder Morgan `KMI` | — | 29,96 USD | -0,8% | -9% / +13% | 27% | -12% | 33 | 27,43 |
+| Marathon Petroleum `MPC` | — | 372,74 USD | -1,2% | -15% / +22% | 44% | -23% | 30 | 319,04 |
+| Occidental Petroleum `OXY` | — | 56,38 USD | +0,0% | -11% / +17% | 34% | -14% | 34 | 51,57 |
+| Oneok `OKE` | — | 85,19 USD | -1,2% | -10% / +14% | 28% | -12% | 34 | 78,40 |
+| Phillips 66 `PSX` | — | 245,72 USD | -0,5% | -13% / +19% | 38% | -17% | 33 | 217,11 |
+| Schlumberger `SLB` | — | 49,92 USD | +0,6% | -12% / +17% | 34% | -17% | 43 | 45,26 |
+| Targa Resources `TRGP` | — | 264,59 USD | -2,7% | -13% / +19% | 38% | -16% | 35 | 237,55 |
+| Texas Pacific Land Corporation `TPL` | — | 272,36 USD | +0,1% | -18% / +29% | 56% | -49% | 22 | 232,14 |
+| Valero Energy `VLO` | — | 346,45 USD | -1,4% | -15% / +23% | 45% | -25% | 31 | 296,84 |
+| Williams Companies `WMB` | — | 64,08 USD | -0,3% | -12% / +18% | 36% | -18% | 33 | 56,77 |
 
 </details>
 
@@ -417,80 +388,80 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Aflac `AFL` | — | 126,24 USD | +0,8% | -6% / +9% | 19% | -2% | 71 | 120,10 |
-| Allstate `ALL` | — | 266,72 USD | -0,9% | -9% / +13% | 26% | -3% | 67 | 250,63 |
-| American Express `AXP` | — | 324,97 USD | -2,3% | -9% / +13% | 26% | -15% | 56 | 303,83 |
-| American International Group `AIG` | — | 80,93 USD | -0,9% | -8% / +10% | 22% | -5% | 56 | 76,68 |
-| Ameriprise Financial `AMP` | — | 509,32 USD | -3,4% | -10% / +14% | 28% | -11% | 53 | 474,01 |
-| Aon plc `AON` | — | 344,40 USD | -0,1% | -10% / +15% | 31% | -9% | 76 | 321,95 |
-| Apollo Global Management `APO` | — | 117,27 USD | -4,5% | -14% / +22% | 43% | -22% | 50 | 105,04 |
-| Arch Capital Group `ACGL` | — | 110,57 USD | -0,1% | -8% / +12% | 24% | -0% | 73 | 104,10 |
-| Ares Management `ARES` | — | 133,72 USD | -2,3% | -13% / +20% | 40% | -22% | 64 | 121,58 |
-| Arthur J. Gallagher & Co. `AJG` | — | 288,11 USD | -0,1% | -11% / +16% | 33% | -0% | 72 | 266,92 |
-| Assurant `AIZ` | — | 306,87 USD | -0,5% | -8% / +12% | 24% | -1% | 73 | 290,62 |
-| BNY Mellon `BNY` | — | 147,49 USD | -3,4% | -8% / +11% | 22% | -10% | 50 | 139,68 |
-| Bank of America `BAC` | — | 49,76 USD | -3,6% | -9% / +13% | 27% | -23% | 36 | 46,66 |
-| Berkshire Hathaway `BRK-B` | — | 572,33 USD | -1,2% | -6% / +9% | 19% | -1% | 75 | 548,62 |
-| BlackRock `BLK` | — | 1.170,67 USD | -4,4% | -10% / +15% | 30% | -4% | 57 | 1.089,51 |
-| Blackstone Inc. `BX` | — | 119,82 USD | -4,6% | -14% / +21% | 42% | -24% | 54 | 108,02 |
-| Block, Inc. `XYZ` | — | 84,04 USD | -4,1% | -18% / +30% | 57% | -4% | 62 | 75,99 |
-| Brown & Brown `BRO` | — | 74,38 USD | +0,7% | -12% / +17% | 35% | -9% | 64 | 67,89 |
-| CME Group `CME` | — | 307,24 USD | -0,3% | -8% / +11% | 23% | -3% | 66 | 289,16 |
-| Capital One `COF` | — | 203,84 USD | -1,2% | -10% / +14% | 28% | -20% | 50 | 187,75 |
-| Cboe Global Markets `CBOE` | — | 353,07 USD | +2,3% | -12% / +18% | 37% | -3% | 68 | 319,42 |
-| Charles Schwab Corporation `SCHW` | — | 92,58 USD | -0,9% | -9% / +13% | 27% | -19% | 47 | 87,59 |
-| Chubb Limited `CB` | — | 371,63 USD | -0,7% | -7% / +9% | 20% | -1% | 67 | 354,36 |
-| Cincinnati Financial `CINF` | — | 188,31 USD | -1,1% | -8% / +11% | 23% | -1% | 72 | 177,88 |
-| Citigroup `C` | — | 118,45 USD | -5,0% | -10% / +15% | 31% | -18% | 38 | 109,69 |
-| Citizens Financial Group `CFG` | — | 63,83 USD | -3,1% | -9% / +13% | 28% | -14% | 46 | 59,85 |
-| Coinbase `COIN` | — | 136,82 USD | -9,7% | -24% / +43% | 79% | -57% | 34 | 110,91 |
-| Corpay `CPAY` | — | 447,00 USD | +6,8% | -11% / +17% | 34% | +0% | 74 | 414,33 |
-| Erie Indemnity `ERIE` | — | 285,63 USD | +2,0% | -12% / +18% | 37% | -2% | 75 | 262,17 |
-| Everest Group `EG` | — | 417,79 USD | -0,8% | -9% / +13% | 26% | -1% | 66 | 389,53 |
-| FactSet `FDS` | — | 340,47 USD | -0,5% | -13% / +20% | 39% | -1% | 65 | 308,02 |
-| Fidelity National Information Services `FIS` | — | 29,39 USD | -1,2% | -25% / +44% | 80% | -55% | 31 | 24,38 |
-| Fifth Third Bancorp `FITB` | — | 53,45 USD | -2,3% | -9% / +12% | 25% | -9% | 54 | 49,94 |
-| Fiserv `FISV` | — | 62,74 USD | +1,1% | -18% / +28% | 54% | -10% | 82 | 57,30 |
-| Franklin Resources `BEN` | — | 32,21 USD | -4,9% | -11% / +16% | 32% | -9% | 51 | 29,93 |
-| Global Payments `GPN` | — | 94,98 USD | -1,2% | -15% / +23% | 46% | -5% | 63 | 85,40 |
-| Globe Life `GL` | — | 159,21 USD | -1,6% | -14% / +21% | 43% | -14% | 42 | 147,73 |
-| Goldman Sachs `GS` | — | 868,95 USD | -6,4% | -11% / +17% | 34% | -24% | 41 | 798,37 |
-| Hartford (The) `HIG` | — | 137,09 USD | -0,7% | -8% / +11% | 22% | -5% | 58 | 129,16 |
-| Huntington Bancshares `HBAN` | — | 15,61 USD | -2,8% | -9% / +12% | 25% | -17% | 48 | 14,68 |
-| Interactive Brokers `IBKR` | — | 72,73 USD | -6,6% | -14% / +22% | 44% | -26% | 32 | 64,25 |
-| Intercontinental Exchange `ICE` | — | 174,00 USD | -0,5% | -9% / +13% | 26% | -1% | 68 | 162,46 |
-| Invesco `IVZ` | — | 27,08 USD | -8,0% | -14% / +20% | 41% | -19% | 38 | 24,34 |
-| Jack Henry & Associates `JKHY` | — | 180,26 USD | +0,6% | -13% / +19% | 37% | -5% | 77 | 166,52 |
-| KKR & Co. `KKR` | — | 98,30 USD | -3,0% | -13% / +20% | 39% | -31% | 58 | 89,62 |
-| KeyCorp `KEY` | — | 20,96 USD | -2,7% | -9% / +13% | 27% | -12% | 51 | 19,71 |
-| Loews Corporation `L` | — | 111,13 USD | -0,5% | -6% / +8% | 16% | -7% | 55 | 106,22 |
-| M&T Bank `MTB` | — | 219,78 USD | -2,2% | -8% / +11% | 23% | -13% | 47 | 207,65 |
-| MSCI `MSCI` | — | 655,91 USD | -2,7% | -11% / +16% | 32% | -3% | 70 | 607,94 |
-| Marsh McLennan `MRSH` | — | 209,43 USD | -0,4% | -9% / +12% | 25% | -0% | 74 | 196,87 |
-| Mastercard `MA` | — | 655,92 USD | -2,5% | -9% / +12% | 26% | -2% | 66 | 617,93 |
-| MetLife `MET` | — | 99,75 USD | -3,0% | -9% / +12% | 25% | -3% | 52 | 93,32 |
-| Moody's Corporation `MCO` | — | 515,34 USD | -2,5% | -10% / +14% | 29% | -4% | 64 | 476,14 |
-| Morgan Stanley `MS` | — | 182,44 USD | -5,9% | -11% / +16% | 34% | -19% | 44 | 167,17 |
-| Nasdaq, Inc. `NDAQ` | — | 106,83 USD | -2,6% | -10% / +14% | 28% | -3% | 66 | 99,95 |
-| Northern Trust `NTRS` | — | 171,39 USD | -3,7% | -9% / +13% | 26% | -10% | 50 | 160,41 |
-| PNC Financial Services `PNC` | — | 226,75 USD | -2,9% | -8% / +11% | 23% | -11% | 51 | 214,50 |
-| PayPal `PYPL` | — | 58,96 USD | -2,1% | -12% / +17% | 35% | -12% | 61 | 54,99 |
-| Principal Financial Group `PFG` | — | 112,82 USD | -3,8% | -9% / +13% | 27% | -5% | 53 | 105,19 |
-| Progressive Corporation `PGR` | — | 233,18 USD | -0,7% | -9% / +12% | 25% | -1% | 62 | 220,87 |
-| Prudential Financial `PRU` | — | 122,46 USD | -3,3% | -10% / +14% | 29% | -3% | 61 | 114,25 |
-| Raymond James Financial `RJF` | — | 164,82 USD | -2,3% | -9% / +13% | 27% | -9% | 56 | 154,00 |
-| Regions Financial Corporation `RF` | — | 28,41 USD | -2,1% | -8% / +12% | 24% | -11% | 52 | 26,86 |
-| Robinhood Markets `HOOD` | — | 78,39 USD | -10,3% | -22% / +37% | 69% | -45% | 28 | 65,13 |
-| S&P Global `SPGI` | — | 472,41 USD | -1,9% | -9% / +13% | 26% | -8% | 68 | 440,12 |
-| State Street Corporation `STT` | — | 165,23 USD | -4,7% | -9% / +13% | 26% | -15% | 37 | 155,23 |
-| Synchrony Financial `SYF` | — | 74,07 USD | -1,3% | -10% / +15% | 30% | -15% | 49 | 68,44 |
-| T. Rowe Price `TROW` | — | 108,71 USD | -3,4% | -10% / +14% | 29% | -10% | 58 | 101,23 |
-| Travelers Companies (The) `TRV` | — | 402,89 USD | -1,6% | -8% / +11% | 22% | -2% | 62 | 381,48 |
-| Truist Financial `TFC` | — | 49,84 USD | -2,0% | -9% / +13% | 26% | -8% | 58 | 46,98 |
-| U.S. Bancorp `USB` | — | 59,75 USD | -2,1% | -8% / +12% | 24% | -8% | 52 | 56,28 |
-| W. R. Berkley Corporation `WRB` | — | 76,98 USD | +0,4% | -8% / +11% | 22% | +0% | 66 | 72,72 |
-| Wells Fargo `WFC` | — | 84,80 USD | -3,0% | -9% / +13% | 27% | -11% | 53 | 79,59 |
-| Willis Towers Watson `WTW` | — | 336,51 USD | -0,2% | -9% / +12% | 25% | -4% | 69 | 314,78 |
+| Aflac `AFL` | — | 124,06 USD | -1,7% | -7% / +9% | 19% | -4% | 61 | 117,67 |
+| Allstate `ALL` | — | 254,81 USD | -4,5% | -10% / +14% | 28% | -7% | 53 | 237,22 |
+| American Express `AXP` | — | 320,99 USD | -1,2% | -9% / +13% | 26% | -16% | 52 | 299,53 |
+| American International Group `AIG` | — | 77,75 USD | -3,9% | -8% / +12% | 24% | -8% | 44 | 73,12 |
+| Ameriprise Financial `AMP` | — | 501,49 USD | -1,5% | -10% / +14% | 28% | -12% | 49 | 467,37 |
+| Aon plc `AON` | — | 334,81 USD | -2,8% | -11% / +15% | 31% | -12% | 67 | 311,12 |
+| Apollo Global Management `APO` | — | 116,75 USD | -0,4% | -14% / +21% | 42% | -23% | 50 | 104,60 |
+| Arch Capital Group `ACGL` | — | 107,28 USD | -3,0% | -9% / +12% | 25% | -3% | 62 | 100,30 |
+| Ares Management `ARES` | — | 133,98 USD | +0,2% | -13% / +19% | 39% | -22% | 64 | 121,56 |
+| Arthur J. Gallagher & Co. `AJG` | — | 281,61 USD | -2,3% | -11% / +16% | 33% | -2% | 65 | 259,00 |
+| Assurant `AIZ` | — | 307,00 USD | +0,0% | -8% / +11% | 24% | -0% | 73 | 289,79 |
+| BNY Mellon `BNY` | — | 147,72 USD | +0,2% | -8% / +11% | 22% | -10% | 51 | 139,71 |
+| Bank of America `BAC` | — | 49,42 USD | -0,7% | -9% / +13% | 26% | -23% | 34 | 46,35 |
+| Berkshire Hathaway `BRK-B` | — | 570,89 USD | -0,2% | -6% / +9% | 18% | -1% | 74 | 545,19 |
+| BlackRock `BLK` | — | 1.178,87 USD | +0,7% | -10% / +15% | 30% | -4% | 58 | 1.094,21 |
+| Blackstone Inc. `BX` | — | 119,50 USD | -0,3% | -14% / +21% | 41% | -24% | 54 | 107,44 |
+| Block, Inc. `XYZ` | — | 85,48 USD | +1,7% | -18% / +29% | 56% | -2% | 64 | 77,01 |
+| Brown & Brown `BRO` | — | 72,12 USD | -3,0% | -12% / +17% | 35% | -12% | 58 | 65,37 |
+| CME Group `CME` | — | 305,89 USD | -0,4% | -8% / +11% | 23% | -3% | 64 | 286,97 |
+| Capital One `COF` | — | 201,87 USD | -1,0% | -10% / +14% | 28% | -21% | 48 | 185,32 |
+| Cboe Global Markets `CBOE` | — | 353,27 USD | +0,1% | -12% / +18% | 36% | -3% | 68 | 319,63 |
+| Charles Schwab Corporation `SCHW` | — | 91,49 USD | -1,2% | -9% / +13% | 26% | -20% | 44 | 86,69 |
+| Chubb Limited `CB` | — | 365,02 USD | -1,8% | -7% / +9% | 20% | -2% | 59 | 346,90 |
+| Cincinnati Financial `CINF` | — | 185,48 USD | -1,5% | -8% / +11% | 23% | -3% | 66 | 174,79 |
+| Citigroup `C` | — | 119,05 USD | +0,5% | -10% / +15% | 30% | -17% | 39 | 110,21 |
+| Citizens Financial Group `CFG` | — | 63,24 USD | -0,9% | -9% / +13% | 27% | -15% | 44 | 59,23 |
+| Coinbase `COIN` | — | 134,76 USD | -1,5% | -24% / +42% | 77% | -58% | 33 | 109,03 |
+| Corpay `CPAY` | — | 455,16 USD | +1,8% | -11% / +16% | 33% | +0% | 76 | 418,10 |
+| Erie Indemnity `ERIE` | — | 273,07 USD | -4,4% | -13% / +19% | 38% | -7% | 63 | 248,17 |
+| Everest Group `EG` | — | 411,11 USD | -1,6% | -9% / +13% | 26% | -2% | 61 | 382,08 |
+| FactSet `FDS` | — | 327,89 USD | -3,7% | -13% / +20% | 40% | -5% | 57 | 293,59 |
+| Fidelity National Information Services `FIS` | — | 28,73 USD | -2,2% | -24% / +43% | 78% | -56% | 30 | 23,62 |
+| Fifth Third Bancorp `FITB` | — | 53,04 USD | -0,8% | -9% / +12% | 25% | -10% | 51 | 49,63 |
+| Fiserv `FISV` | — | 62,88 USD | +0,2% | -17% / +27% | 53% | -10% | 82 | 57,02 |
+| Franklin Resources `BEN` | — | 33,73 USD | +4,7% | -11% / +17% | 34% | -5% | 60 | 31,07 |
+| Global Payments `GPN` | — | 97,40 USD | +2,5% | -15% / +23% | 45% | -2% | 66 | 87,13 |
+| Globe Life `GL` | — | 157,18 USD | -1,3% | -14% / +21% | 42% | -15% | 38 | 145,78 |
+| Goldman Sachs `GS` | — | 865,82 USD | -0,4% | -11% / +16% | 33% | -24% | 40 | 794,09 |
+| Hartford (The) `HIG` | — | 133,99 USD | -2,3% | -8% / +11% | 23% | -8% | 51 | 125,70 |
+| Huntington Bancshares `HBAN` | — | 15,47 USD | -0,9% | -9% / +12% | 25% | -17% | 45 | 14,52 |
+| Interactive Brokers `IBKR` | — | 75,82 USD | +4,2% | -15% / +22% | 44% | -23% | 39 | 67,08 |
+| Intercontinental Exchange `ICE` | — | 172,27 USD | -1,0% | -9% / +12% | 26% | -2% | 65 | 160,36 |
+| Invesco `IVZ` | — | 27,08 USD | +0,0% | -13% / +20% | 40% | -19% | 38 | 24,32 |
+| Jack Henry & Associates `JKHY` | — | 173,23 USD | -3,9% | -13% / +19% | 38% | -9% | 65 | 158,65 |
+| KKR & Co. `KKR` | — | 96,48 USD | -1,8% | -13% / +20% | 39% | -32% | 54 | 87,69 |
+| KeyCorp `KEY` | — | 20,85 USD | -0,5% | -9% / +13% | 27% | -12% | 49 | 19,57 |
+| Loews Corporation `L` | — | 109,71 USD | -1,3% | -6% / +8% | 16% | -8% | 49 | 104,31 |
+| M&T Bank `MTB` | — | 217,75 USD | -0,9% | -8% / +11% | 23% | -14% | 44 | 205,59 |
+| MSCI `MSCI` | — | 641,01 USD | -2,3% | -11% / +16% | 32% | -5% | 63 | 591,58 |
+| Marsh McLennan `MRSH` | — | 204,82 USD | -2,2% | -9% / +12% | 25% | -3% | 66 | 191,50 |
+| Mastercard `MA` | — | 652,70 USD | -0,5% | -9% / +12% | 25% | -3% | 64 | 612,53 |
+| MetLife `MET` | — | 98,27 USD | -1,5% | -9% / +12% | 25% | -5% | 48 | 91,77 |
+| Moody's Corporation `MCO` | — | 505,67 USD | -1,9% | -10% / +14% | 29% | -6% | 59 | 465,19 |
+| Morgan Stanley `MS` | — | 181,44 USD | -0,5% | -11% / +16% | 33% | -20% | 43 | 166,14 |
+| Nasdaq, Inc. `NDAQ` | — | 107,12 USD | +0,3% | -9% / +13% | 28% | -2% | 66 | 99,93 |
+| Northern Trust `NTRS` | — | 172,76 USD | +0,8% | -9% / +12% | 26% | -9% | 53 | 161,37 |
+| PNC Financial Services `PNC` | — | 225,38 USD | -0,6% | -8% / +11% | 23% | -11% | 49 | 212,88 |
+| PayPal `PYPL` | — | 59,24 USD | +0,5% | -12% / +17% | 35% | -11% | 62 | 55,15 |
+| Principal Financial Group `PFG` | — | 110,91 USD | -1,7% | -9% / +13% | 27% | -6% | 48 | 103,30 |
+| Progressive Corporation `PGR` | — | 227,77 USD | -2,3% | -9% / +12% | 26% | -3% | 54 | 214,90 |
+| Prudential Financial `PRU` | — | 119,24 USD | -2,6% | -10% / +14% | 30% | -6% | 54 | 110,98 |
+| Raymond James Financial `RJF` | — | 162,81 USD | -1,2% | -9% / +13% | 27% | -10% | 53 | 151,78 |
+| Regions Financial Corporation `RF` | — | 28,31 USD | -0,4% | -8% / +11% | 24% | -12% | 51 | 26,75 |
+| Robinhood Markets `HOOD` | — | 80,91 USD | +3,2% | -22% / +37% | 69% | -41% | 32 | 67,85 |
+| S&P Global `SPGI` | — | 467,80 USD | -1,0% | -9% / +13% | 26% | -9% | 64 | 434,59 |
+| State Street Corporation `STT` | — | 165,56 USD | +0,2% | -9% / +12% | 26% | -14% | 38 | 155,27 |
+| Synchrony Financial `SYF` | — | 73,74 USD | -0,4% | -10% / +15% | 30% | -15% | 48 | 68,01 |
+| T. Rowe Price `TROW` | — | 108,41 USD | -0,3% | -10% / +14% | 29% | -10% | 57 | 100,84 |
+| Travelers Companies (The) `TRV` | — | 395,20 USD | -1,9% | -8% / +11% | 23% | -3% | 55 | 372,56 |
+| Truist Financial `TFC` | — | 49,38 USD | -0,9% | -9% / +13% | 26% | -9% | 55 | 46,49 |
+| U.S. Bancorp `USB` | — | 59,45 USD | -0,5% | -8% / +12% | 24% | -8% | 50 | 55,97 |
+| W. R. Berkley Corporation `WRB` | — | 75,23 USD | -2,3% | -8% / +11% | 23% | -2% | 58 | 70,95 |
+| Wells Fargo `WFC` | — | 83,94 USD | -1,0% | -9% / +13% | 27% | -11% | 52 | 78,78 |
+| Willis Towers Watson `WTW` | — | 328,86 USD | -2,3% | -9% / +12% | 26% | -6% | 60 | 305,94 |
 
 </details>
 
@@ -498,36 +469,36 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Alexandria Real Estate Equities `ARE` | — | 45,17 USD | -1,8% | -15% / +24% | 47% | -21% | 54 | 39,98 |
-| American Tower `AMT` | — | 193,99 USD | -0,4% | -10% / +15% | 30% | -0% | 67 | 178,25 |
-| BXP, Inc. `BXP` | — | 65,24 USD | -1,1% | -11% / +16% | 33% | -10% | 62 | 60,65 |
-| CBRE Group `CBRE` | — | 136,35 USD | -3,4% | -13% / +19% | 38% | -21% | 55 | 123,63 |
-| Camden Property Trust `CPT` | — | 103,71 USD | -0,7% | -7% / +10% | 22% | -11% | 61 | 98,06 |
-| CoStar Group `CSGP` | — | 32,05 USD | -1,6% | -19% / +31% | 59% | -55% | 54 | 27,15 |
-| Crown Castle `CCI` | — | 90,95 USD | -1,3% | -14% / +21% | 42% | -1% | 71 | 81,87 |
-| Digital Realty `DLR` | — | 174,67 USD | -5,5% | -11% / +16% | 32% | -13% | 46 | 159,87 |
-| Equinix `EQIX` | — | 997,35 USD | -5,4% | -11% / +16% | 33% | -10% | 48 | 901,57 |
-| Essex Property Trust `ESS` | — | 271,34 USD | -0,1% | -8% / +11% | 24% | -8% | 51 | 254,00 |
-| Extra Space Storage `EXR` | — | 160,12 USD | -0,6% | -9% / +13% | 26% | -1% | 82 | 151,11 |
-| Federal Realty Investment Trust `FRT` | — | 113,24 USD | -1,2% | -7% / +10% | 20% | -11% | 61 | 107,78 |
-| Healthpeak Properties `DOC` | — | 20,12 USD | -0,2% | -9% / +13% | 27% | -10% | 61 | 18,74 |
-| Host Hotels & Resorts `HST` | — | 24,63 USD | -5,7% | -10% / +14% | 28% | -6% | 53 | 23,14 |
-| Invitation Homes `INVH` | — | 27,56 USD | -0,0% | -7% / +10% | 21% | -9% | 58 | 26,08 |
-| Iron Mountain `IRM` | — | 105,50 USD | -11,1% | -14% / +22% | 44% | -20% | 37 | 94,69 |
-| Kimco Realty `KIM` | — | 25,63 USD | -1,0% | -8% / +12% | 24% | -2% | 75 | 24,31 |
-| Mid-America Apartment Communities `MAA` | — | 121,69 USD | -0,4% | -8% / +11% | 22% | -12% | 59 | 115,12 |
-| Prologis `PLD` | — | 128,55 USD | -2,1% | -8% / +11% | 24% | -14% | 48 | 122,35 |
-| Public Storage `PSA` | — | 340,50 USD | -0,7% | -8% / +12% | 25% | -1% | 77 | 321,12 |
-| Realty Income `O` | — | 59,50 USD | +0,5% | -7% / +9% | 19% | -9% | 69 | 56,94 |
-| Regency Centers `REG` | — | 76,28 USD | -0,7% | -6% / +9% | 19% | -7% | 62 | 72,78 |
-| SBA Communications `SBAC` | — | 193,08 USD | -1,2% | -11% / +17% | 34% | -13% | 63 | 173,71 |
-| Simon Property Group `SPG` | — | 226,55 USD | -0,9% | -8% / +11% | 22% | -3% | 74 | 216,09 |
-| UDR, Inc. `UDR` | — | 37,01 USD | -0,6% | -8% / +11% | 22% | -9% | 67 | 34,89 |
-| Ventas `VTR` | — | 89,04 USD | -0,2% | -9% / +13% | 26% | -11% | 60 | 82,79 |
-| Vici Properties `VICI` | — | 25,21 USD | -0,2% | -8% / +12% | 24% | -13% | 63 | 23,72 |
-| Vivmark Residential `VMRK` | — | 65,25 USD | +2,4% | -8% / +11% | 22% | -6% | 67 | 61,97 |
-| Welltower `WELL` | — | 245,43 USD | -1,0% | -9% / +12% | 25% | -2% | 62 | 228,81 |
-| Weyerhaeuser `WY` | — | 21,63 USD | -0,5% | -11% / +17% | 34% | -18% | 63 | 19,91 |
+| Alexandria Real Estate Equities `ARE` | — | 44,80 USD | -0,8% | -15% / +23% | 46% | -22% | 52 | 39,70 |
+| American Tower `AMT` | — | 188,79 USD | -2,7% | -10% / +15% | 30% | -3% | 58 | 172,81 |
+| BXP, Inc. `BXP` | — | 65,01 USD | -0,4% | -11% / +16% | 32% | -10% | 61 | 60,42 |
+| CBRE Group `CBRE` | — | 135,51 USD | -0,6% | -13% / +19% | 38% | -21% | 54 | 122,60 |
+| Camden Property Trust `CPT` | — | 99,44 USD | -4,1% | -8% / +12% | 24% | -15% | 47 | 92,97 |
+| CoStar Group `CSGP` | — | 30,55 USD | -4,7% | -19% / +31% | 59% | -56% | 49 | 25,54 |
+| Crown Castle `CCI` | — | 88,60 USD | -2,6% | -14% / +21% | 41% | -4% | 64 | 79,35 |
+| Digital Realty `DLR` | — | 174,20 USD | -0,3% | -11% / +15% | 32% | -13% | 45 | 159,27 |
+| Equinix `EQIX` | — | 1.012,71 USD | +1,5% | -11% / +16% | 32% | -9% | 51 | 916,21 |
+| Essex Property Trust `ESS` | — | 272,18 USD | +0,3% | -8% / +11% | 23% | -8% | 52 | 253,77 |
+| Extra Space Storage `EXR` | — | 159,19 USD | -0,6% | -9% / +12% | 26% | -1% | 79 | 149,84 |
+| Federal Realty Investment Trust `FRT` | — | 112,58 USD | -0,6% | -7% / +10% | 20% | -10% | 59 | 107,11 |
+| Healthpeak Properties `DOC` | — | 20,26 USD | +0,7% | -9% / +13% | 27% | -10% | 62 | 18,89 |
+| Host Hotels & Resorts `HST` | — | 24,62 USD | -0,0% | -9% / +14% | 28% | -6% | 53 | 23,08 |
+| Invitation Homes `INVH` | — | 27,10 USD | -1,7% | -7% / +10% | 21% | -10% | 51 | 25,58 |
+| Iron Mountain `IRM` | — | 106,52 USD | +1,0% | -14% / +22% | 43% | -19% | 39 | 95,56 |
+| Kimco Realty `KIM` | — | 25,52 USD | -0,4% | -8% / +11% | 24% | -2% | 73 | 24,16 |
+| Mid-America Apartment Communities `MAA` | — | 118,93 USD | -2,3% | -8% / +11% | 23% | -14% | 51 | 112,03 |
+| Prologis `PLD` | — | 126,96 USD | -1,2% | -8% / +11% | 24% | -15% | 44 | 120,70 |
+| Public Storage `PSA` | — | 337,46 USD | -0,9% | -8% / +12% | 24% | -2% | 73 | 317,08 |
+| Realty Income `O` | — | 59,04 USD | -0,8% | -7% / +9% | 19% | -9% | 65 | 56,37 |
+| Regency Centers `REG` | — | 74,84 USD | -1,9% | -7% / +9% | 19% | -9% | 54 | 71,22 |
+| SBA Communications `SBAC` | — | 189,42 USD | -1,9% | -11% / +17% | 34% | -14% | 58 | 170,20 |
+| Simon Property Group `SPG` | — | 228,42 USD | +0,8% | -8% / +11% | 22% | -2% | 75 | 217,18 |
+| UDR, Inc. `UDR` | — | 36,58 USD | -1,2% | -8% / +11% | 22% | -10% | 62 | 34,39 |
+| Ventas `VTR` | — | 88,75 USD | -0,3% | -9% / +12% | 26% | -11% | 59 | 82,41 |
+| Vici Properties `VICI` | — | 24,79 USD | -1,7% | -8% / +12% | 24% | -14% | 58 | 23,30 |
+| Vivmark Residential `VMRK` | — | 65,51 USD | +0,4% | -8% / +11% | 22% | -6% | 68 | 62,01 |
+| Welltower `WELL` | — | 245,01 USD | -0,2% | -8% / +12% | 25% | -2% | 61 | 228,35 |
+| Weyerhaeuser `WY` | — | 20,98 USD | -3,0% | -12% / +17% | 34% | -21% | 56 | 19,20 |
 
 </details>
 
@@ -535,84 +506,84 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| 3M `MMM` | — | 187,77 USD | -3,2% | -13% / +19% | 38% | -3% | 66 | 172,88 |
-| A. O. Smith `AOS` | — | 66,57 USD | -0,8% | -11% / +15% | 31% | -16% | 69 | 61,43 |
-| Allegion `ALLE` | — | 187,14 USD | -2,9% | -11% / +17% | 34% | -3% | 70 | 173,65 |
-| Ametek `AME` | — | 222,99 USD | -5,9% | -11% / +16% | 33% | -14% | 33 | 201,56 |
-| Automatic Data Processing `ADP` | — | 307,14 USD | +1,2% | -9% / +12% | 26% | -0% | 66 | 286,41 |
-| Axon Enterprise `AXON` | — | 382,56 USD | -9,8% | -18% / +29% | 55% | -41% | 35 | 332,66 |
-| Bloom Energy `BE` | — | 167,52 USD | -16,4% | -32% / +64% | 108% | -52% | 34 | 113,62 |
-| Boeing `BA` | — | 172,50 USD | -2,5% | -14% / +20% | 41% | -32% | 37 | 156,83 |
-| Broadridge Financial Solutions `BR` | — | 193,92 USD | +2,5% | -9% / +13% | 27% | -15% | 74 | 181,17 |
-| C.H. Robinson `CHRW` | — | 128,31 USD | -4,1% | -16% / +25% | 48% | -38% | 39 | 114,32 |
-| CSX Corporation `CSX` | — | 50,83 USD | -2,3% | -9% / +12% | 25% | -4% | 55 | 47,30 |
-| Carrier Global `CARR` | — | 53,21 USD | -4,4% | -11% / +16% | 32% | -29% | 39 | 48,54 |
-| Caterpillar Inc. `CAT` | — | 553,64 USD | -6,4% | -15% / +24% | 47% | -48% | 20 | 476,47 |
-| Cintas `CTAS` | — | 226,41 USD | -1,1% | -9% / +12% | 25% | -1% | 65 | 211,61 |
-| Comfort Systems USA `FIX` | — | 964,94 USD | -11,6% | -26% / +46% | 84% | -53% | 27 | 704,80 |
-| Copart `CPRT` | — | 32,48 USD | -0,4% | -12% / +18% | 36% | -23% | 69 | 29,94 |
-| Cummins `CMI` | — | 448,58 USD | -4,9% | -12% / +18% | 36% | -38% | 23 | 402,51 |
-| Deere & Company `DE` | — | 663,31 USD | -1,9% | -10% / +14% | 28% | -6% | 53 | 616,37 |
-| Delta Air Lines `DAL` | — | 85,36 USD | -4,3% | -14% / +22% | 43% | -8% | 58 | 76,52 |
-| Dover Corporation `DOV` | — | 202,56 USD | -4,8% | -9% / +13% | 27% | -13% | 52 | 188,57 |
-| DuPont `DD` | — | 144,93 USD | -3,9% | -12% / +17% | 35% | -6% | 62 | 134,57 |
-| Eaton Corporation `ETN` | — | 327,02 USD | -7,4% | -18% / +29% | 55% | -29% | 32 | 276,40 |
-| Emcor `EME` | — | 595,32 USD | -6,9% | -17% / +26% | 51% | -37% | 29 | 509,41 |
-| Emerson Electric `EMR` | — | 162,61 USD | -4,6% | -10% / +15% | 30% | -5% | 50 | 148,64 |
-| Equifax `EFX` | — | 193,84 USD | +0,9% | -14% / +22% | 44% | -14% | 70 | 174,65 |
-| Expeditors International `EXPD` | — | 188,87 USD | -4,5% | -9% / +13% | 27% | -8% | 40 | 174,51 |
-| Fastenal `FAST` | — | 52,90 USD | -0,6% | -8% / +11% | 22% | -1% | 60 | 49,68 |
-| FedEx `FDX` | — | 316,80 USD | -3,8% | -10% / +15% | 30% | -6% | 60 | 294,77 |
-| Ferguson Enterprises `FERG` | — | 235,65 USD | -5,2% | -11% / +15% | 31% | -11% | 55 | 218,10 |
-| Fortive `FTV` | — | 65,42 USD | -4,3% | -10% / +14% | 28% | -4% | 65 | 60,37 |
-| GE Aerospace `GE` | — | 314,73 USD | -4,5% | -12% / +18% | 36% | -17% | 52 | 283,90 |
-| GE Vernova `GEV` | — | 770,51 USD | -7,5% | -21% / +34% | 64% | -34% | 35 | 624,20 |
-| Generac `GNRC` | — | 172,33 USD | -9,0% | -20% / +33% | 62% | -42% | 36 | 140,47 |
-| General Dynamics `GD` | — | 356,35 USD | -2,3% | -8% / +11% | 23% | -10% | 53 | 334,98 |
-| Honeywell Technologies `HON` | — | 215,78 USD | -5,5% | -9% / +13% | 27% | -16% | 49 | 198,68 |
-| Howmet Aerospace `HWM` | — | 200,90 USD | -5,9% | -16% / +25% | 49% | -31% | 43 | 172,58 |
-| Hubbell Incorporated `HUBB` | — | 418,79 USD | -4,4% | -12% / +17% | 35% | -24% | 36 | 373,54 |
-| Huntington Ingalls Industries `HII` | — | 289,41 USD | -4,8% | -15% / +23% | 46% | -36% | 52 | 259,61 |
-| IDEX Corporation `IEX` | — | 222,60 USD | -4,8% | -9% / +13% | 26% | -7% | 38 | 204,43 |
-| Illinois Tool Works `ITW` | — | 285,41 USD | -2,7% | -8% / +11% | 23% | -3% | 59 | 266,32 |
-| Ingersoll Rand `IR` | — | 81,85 USD | -2,8% | -11% / +17% | 34% | -17% | 60 | 74,72 |
-| J.B. Hunt `JBHT` | — | 218,99 USD | -3,5% | -12% / +17% | 35% | -26% | 40 | 200,72 |
-| Jacobs Solutions `J` | — | 147,54 USD | -7,8% | -12% / +17% | 34% | -8% | 50 | 135,59 |
-| Johnson Controls `JCI` | — | 131,46 USD | -6,5% | -14% / +22% | 43% | -17% | 34 | 115,21 |
-| L3Harris `LHX` | — | 258,11 USD | -0,6% | -11% / +16% | 32% | -31% | 52 | 238,06 |
-| Leidos `LDOS` | — | 135,81 USD | +0,1% | -11% / +17% | 34% | -31% | 56 | 123,24 |
-| Lennox International `LII` | — | 348,79 USD | -2,8% | -15% / +22% | 44% | -39% | 45 | 306,52 |
-| Masco `MAS` | — | 83,83 USD | -3,4% | -12% / +18% | 37% | -3% | 68 | 75,97 |
-| Nordson Corporation `NDSN` | — | 310,49 USD | -6,1% | -10% / +14% | 29% | -7% | 38 | 287,09 |
-| Norfolk Southern `NSC` | — | 329,25 USD | -4,3% | -8% / +12% | 25% | -7% | 48 | 309,85 |
-| Old Dominion `ODFL` | — | 170,56 USD | -4,9% | -13% / +19% | 38% | -31% | 38 | 152,66 |
-| Otis Worldwide `OTIS` | — | 79,49 USD | -0,4% | -9% / +13% | 27% | -14% | 70 | 74,56 |
-| Paccar `PCAR` | — | 104,50 USD | -1,6% | -9% / +13% | 26% | -24% | 40 | 96,53 |
-| Parker Hannifin `PH` | — | 892,29 USD | -2,0% | -11% / +16% | 32% | -17% | 41 | 803,11 |
-| Paychex `PAYX` | — | 119,50 USD | +0,7% | -11% / +16% | 32% | -5% | 66 | 110,17 |
-| Pentair `PNR` | — | 69,77 USD | -3,1% | -14% / +22% | 43% | -35% | 75 | 63,38 |
-| Quanta Services `PWR` | — | 509,06 USD | -12,3% | -21% / +36% | 67% | -35% | 34 | 412,66 |
-| Republic Services `RSG` | — | 249,42 USD | +1,6% | -8% / +11% | 22% | +0% | 70 | 234,11 |
-| Rockwell Automation `ROK` | — | 381,05 USD | -14,1% | -17% / +26% | 51% | -23% | 30 | 339,25 |
-| Rollins, Inc. `ROL` | — | 38,76 USD | +1,0% | -11% / +16% | 32% | -40% | 74 | 35,48 |
-| Snap-on `SNA` | — | 366,44 USD | -0,6% | -7% / +10% | 21% | -12% | 52 | 342,48 |
-| Southwest Airlines `LUV` | — | 44,44 USD | -4,3% | -14% / +22% | 43% | -18% | 58 | 39,50 |
-| Stanley Black & Decker `SWK` | — | 115,27 USD | -2,6% | -16% / +24% | 48% | -3% | 76 | 104,29 |
-| Textron `TXT` | — | 85,23 USD | -1,6% | -12% / +18% | 36% | -15% | 62 | 77,73 |
-| Trane Technologies `TT` | — | 392,43 USD | -4,4% | -11% / +16% | 33% | -22% | 29 | 348,98 |
-| TransDigm Group `TDG` | — | 1.189,19 USD | -2,3% | -10% / +14% | 29% | -18% | 59 | 1.096,64 |
-| Uber `UBER` | — | 68,78 USD | -1,6% | -12% / +17% | 34% | -27% | 51 | 63,82 |
-| Union Pacific Corporation `UNP` | — | 297,95 USD | -3,4% | -8% / +11% | 23% | -4% | 55 | 280,03 |
-| United Airlines Holdings `UAL` | — | 110,49 USD | -4,5% | -17% / +26% | 51% | -19% | 55 | 95,98 |
-| United Parcel Service `UPS` | — | 111,04 USD | -2,9% | -11% / +15% | 32% | -4% | 69 | 104,03 |
-| United Rentals `URI` | — | 1.043,78 USD | -7,1% | -14% / +21% | 42% | -13% | 42 | 917,29 |
-| Veralto `VLTO` | — | 116,55 USD | -0,4% | -9% / +13% | 27% | -0% | 84 | 109,08 |
-| Verisk Analytics `VRSK` | — | 211,47 USD | +6,9% | -12% / +19% | 37% | -5% | 70 | 190,88 |
-| Vertiv `VRT` | — | 176,73 USD | -14,0% | -27% / +50% | 89% | -53% | 34 | 130,79 |
-| W. W. Grainger `GWW` | — | 1.451,39 USD | -2,5% | -9% / +13% | 28% | -3% | 69 | 1.356,08 |
-| Wabtec `WAB` | — | 278,48 USD | -5,6% | -10% / +14% | 30% | -9% | 45 | 255,26 |
-| Waste Management `WM` | — | 241,27 USD | +1,2% | -8% / +12% | 25% | -1% | 65 | 225,92 |
-| Xylem Inc. `XYL` | — | 100,05 USD | -1,0% | -15% / +24% | 47% | -33% | 48 | 89,04 |
+| 3M `MMM` | — | 185,15 USD | -1,4% | -12% / +18% | 37% | -5% | 62 | 170,03 |
+| A. O. Smith `AOS` | — | 64,55 USD | -3,0% | -11% / +16% | 32% | -18% | 61 | 59,20 |
+| Allegion `ALLE` | — | 185,39 USD | -0,9% | -11% / +16% | 33% | -4% | 67 | 171,66 |
+| Ametek `AME` | — | 228,67 USD | +2,5% | -11% / +16% | 33% | -11% | 39 | 206,73 |
+| Automatic Data Processing `ADP` | — | 303,35 USD | -1,2% | -9% / +12% | 25% | -1% | 62 | 281,17 |
+| Axon Enterprise `AXON` | — | 313,00 USD | -18,2% | -24% / +43% | 78% | -52% | 24 | 253,52 |
+| Bloom Energy `BE` | — | 173,24 USD | +3,4% | -32% / +62% | 106% | -50% | 36 | 118,16 |
+| Boeing `BA` | — | 173,40 USD | +0,5% | -13% / +20% | 40% | -31% | 38 | 157,59 |
+| Broadridge Financial Solutions `BR` | — | 190,40 USD | -1,8% | -9% / +13% | 27% | -16% | 68 | 176,71 |
+| C.H. Robinson `CHRW` | — | 125,33 USD | -2,3% | -16% / +24% | 48% | -40% | 36 | 110,89 |
+| CSX Corporation `CSX` | — | 49,12 USD | -3,4% | -9% / +13% | 27% | -7% | 46 | 45,49 |
+| Carrier Global `CARR` | — | 52,38 USD | -1,6% | -11% / +15% | 31% | -31% | 36 | 47,64 |
+| Caterpillar Inc. `CAT` | — | 558,63 USD | +0,9% | -15% / +23% | 46% | -47% | 21 | 482,03 |
+| Cintas `CTAS` | — | 222,36 USD | -1,8% | -9% / +12% | 25% | -3% | 59 | 206,58 |
+| Comfort Systems USA `FIX` | — | 1.017,50 USD | +5,5% | -26% / +46% | 83% | -51% | 31 | 752,39 |
+| Copart `CPRT` | — | 31,95 USD | -1,6% | -12% / +17% | 35% | -23% | 65 | 29,31 |
+| Cummins `CMI` | — | 450,07 USD | +0,3% | -12% / +17% | 35% | -38% | 24 | 404,69 |
+| Deere & Company `DE` | — | 671,65 USD | +1,3% | -9% / +14% | 28% | -5% | 56 | 624,37 |
+| Delta Air Lines `DAL` | — | 87,20 USD | +2,2% | -14% / +21% | 43% | -6% | 61 | 78,34 |
+| Dover Corporation `DOV` | — | 203,85 USD | +0,6% | -9% / +13% | 27% | -12% | 53 | 189,31 |
+| DuPont `DD` | — | 146,52 USD | +1,1% | -12% / +17% | 34% | -5% | 64 | 135,82 |
+| Eaton Corporation `ETN` | — | 341,72 USD | +4,5% | -18% / +29% | 55% | -26% | 37 | 289,10 |
+| Emcor `EME` | — | 608,45 USD | +2,2% | -16% / +26% | 50% | -35% | 32 | 521,44 |
+| Emerson Electric `EMR` | — | 162,35 USD | -0,2% | -10% / +14% | 30% | -5% | 50 | 148,30 |
+| Equifax `EFX` | — | 189,59 USD | -2,2% | -14% / +22% | 43% | -16% | 64 | 169,93 |
+| Expeditors International `EXPD` | — | 184,61 USD | -2,3% | -9% / +13% | 27% | -10% | 36 | 169,82 |
+| Fastenal `FAST` | — | 52,99 USD | +0,2% | -8% / +10% | 22% | -0% | 60 | 49,70 |
+| FedEx `FDX` | — | 308,14 USD | -2,7% | -10% / +15% | 30% | -9% | 52 | 285,03 |
+| Ferguson Enterprises `FERG` | — | 233,70 USD | -0,8% | -11% / +15% | 31% | -12% | 52 | 216,49 |
+| Fortive `FTV` | — | 65,37 USD | -0,1% | -9% / +14% | 28% | -4% | 65 | 60,21 |
+| GE Aerospace `GE` | — | 323,24 USD | +2,7% | -12% / +18% | 36% | -15% | 57 | 291,38 |
+| GE Vernova `GEV` | — | 774,11 USD | +0,5% | -20% / +33% | 63% | -34% | 35 | 621,52 |
+| Generac `GNRC` | — | 176,78 USD | +2,6% | -20% / +32% | 61% | -40% | 38 | 144,42 |
+| General Dynamics `GD` | — | 354,06 USD | -0,6% | -8% / +11% | 23% | -10% | 50 | 331,60 |
+| Honeywell Technologies `HON` | — | 220,05 USD | +2,0% | -9% / +13% | 27% | -15% | 54 | 201,88 |
+| Howmet Aerospace `HWM` | — | 205,81 USD | +2,4% | -16% / +24% | 48% | -30% | 46 | 177,02 |
+| Hubbell Incorporated `HUBB` | — | 429,45 USD | +2,5% | -12% / +17% | 35% | -23% | 42 | 383,98 |
+| Huntington Ingalls Industries `HII` | — | 288,74 USD | -0,2% | -15% / +23% | 45% | -36% | 52 | 258,11 |
+| IDEX Corporation `IEX` | — | 226,99 USD | +2,0% | -9% / +13% | 26% | -5% | 44 | 208,52 |
+| Illinois Tool Works `ITW` | — | 280,95 USD | -1,6% | -8% / +11% | 23% | -5% | 54 | 261,57 |
+| Ingersoll Rand `IR` | — | 82,99 USD | +1,4% | -11% / +16% | 33% | -16% | 62 | 75,57 |
+| J.B. Hunt `JBHT` | — | 217,55 USD | -0,7% | -12% / +17% | 34% | -27% | 39 | 199,97 |
+| Jacobs Solutions `J` | — | 148,90 USD | +0,9% | -11% / +17% | 34% | -7% | 52 | 136,96 |
+| Johnson Controls `JCI` | — | 135,03 USD | +2,7% | -14% / +22% | 43% | -15% | 38 | 118,39 |
+| L3Harris `LHX` | — | 259,89 USD | +0,7% | -11% / +16% | 32% | -30% | 53 | 238,93 |
+| Leidos `LDOS` | — | 132,68 USD | -2,3% | -11% / +17% | 34% | -32% | 51 | 119,66 |
+| Lennox International `LII` | — | 341,97 USD | -2,0% | -14% / +22% | 44% | -40% | 42 | 299,08 |
+| Masco `MAS` | — | 82,22 USD | -1,9% | -12% / +18% | 36% | -5% | 64 | 74,11 |
+| Nordson Corporation `NDSN` | — | 309,86 USD | -0,2% | -10% / +14% | 28% | -7% | 37 | 286,36 |
+| Norfolk Southern `NSC` | — | 319,94 USD | -2,8% | -9% / +12% | 25% | -9% | 42 | 299,67 |
+| Old Dominion `ODFL` | — | 164,92 USD | -3,3% | -13% / +19% | 39% | -34% | 33 | 146,57 |
+| Otis Worldwide `OTIS` | — | 78,96 USD | -0,7% | -9% / +13% | 26% | -15% | 68 | 73,87 |
+| Paccar `PCAR` | — | 101,98 USD | -2,4% | -9% / +13% | 27% | -26% | 35 | 94,01 |
+| Parker Hannifin `PH` | — | 917,79 USD | +2,9% | -11% / +16% | 33% | -14% | 47 | 825,74 |
+| Paychex `PAYX` | — | 117,06 USD | -2,0% | -11% / +15% | 32% | -7% | 60 | 107,32 |
+| Pentair `PNR` | — | 68,12 USD | -2,4% | -14% / +22% | 43% | -36% | 69 | 61,64 |
+| Quanta Services `PWR` | — | 540,90 USD | +6,2% | -21% / +36% | 68% | -31% | 40 | 441,88 |
+| Republic Services `RSG` | — | 246,85 USD | -1,0% | -8% / +11% | 22% | -1% | 66 | 230,87 |
+| Rockwell Automation `ROK` | — | 375,86 USD | -1,4% | -16% / +26% | 50% | -24% | 29 | 331,65 |
+| Rollins, Inc. `ROL` | — | 37,95 USD | -2,1% | -11% / +16% | 32% | -41% | 68 | 34,47 |
+| Snap-on `SNA` | — | 367,22 USD | +0,2% | -7% / +10% | 20% | -12% | 53 | 342,78 |
+| Southwest Airlines `LUV` | — | 44,45 USD | +0,0% | -14% / +21% | 42% | -18% | 58 | 39,51 |
+| Stanley Black & Decker `SWK` | — | 114,85 USD | -0,4% | -15% / +24% | 47% | -3% | 75 | 103,39 |
+| Textron `TXT` | — | 83,54 USD | -2,0% | -12% / +18% | 36% | -17% | 57 | 75,96 |
+| Trane Technologies `TT` | — | 401,76 USD | +2,4% | -11% / +16% | 33% | -20% | 34 | 357,43 |
+| TransDigm Group `TDG` | — | 1.197,01 USD | +0,7% | -10% / +14% | 29% | -17% | 60 | 1.103,37 |
+| Uber `UBER` | — | 68,59 USD | -0,3% | -11% / +17% | 34% | -27% | 50 | 63,43 |
+| Union Pacific Corporation `UNP` | — | 290,16 USD | -2,6% | -8% / +11% | 23% | -6% | 47 | 271,25 |
+| United Airlines Holdings `UAL` | — | 112,74 USD | +2,0% | -17% / +26% | 50% | -17% | 58 | 98,19 |
+| United Parcel Service `UPS` | — | 108,30 USD | -2,5% | -11% / +16% | 32% | -7% | 61 | 100,93 |
+| United Rentals `URI` | — | 1.055,57 USD | +1,1% | -14% / +21% | 41% | -12% | 44 | 930,91 |
+| Veralto `VLTO` | — | 117,09 USD | +0,5% | -9% / +13% | 27% | +0% | 84 | 109,02 |
+| Verisk Analytics `VRSK` | — | 204,59 USD | -3,2% | -13% / +19% | 38% | -8% | 62 | 182,94 |
+| Vertiv `VRT` | — | 182,86 USD | +3,5% | -27% / +49% | 88% | -51% | 37 | 135,83 |
+| W. W. Grainger `GWW` | — | 1.440,70 USD | -0,7% | -9% / +13% | 27% | -3% | 66 | 1.345,05 |
+| Wabtec `WAB` | — | 283,59 USD | +1,8% | -10% / +14% | 30% | -7% | 49 | 259,86 |
+| Waste Management `WM` | — | 236,26 USD | -2,1% | -9% / +12% | 25% | -3% | 59 | 220,35 |
+| Xylem Inc. `XYL` | — | 97,83 USD | -2,2% | -15% / +23% | 46% | -34% | 45 | 86,60 |
 
 </details>
 
@@ -620,30 +591,30 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Air Products `APD` | — | 309,49 USD | -2,9% | -8% / +12% | 25% | -3% | 58 | 295,46 |
-| Albemarle Corporation `ALB` | — | 98,37 USD | +3,6% | -17% / +26% | 51% | -54% | 49 | 89,19 |
-| Amcor `AMCR` | — | 45,84 USD | -5,5% | -11% / +16% | 33% | -6% | 53 | 42,30 |
-| Avery Dennison `AVY` | — | 189,70 USD | -1,5% | -8% / +11% | 24% | -2% | 67 | 177,52 |
-| Ball Corporation `BALL` | — | 66,91 USD | -0,7% | -12% / +18% | 36% | -2% | 61 | 61,46 |
-| CF Industries `CF` | — | 118,57 USD | +6,2% | -13% / +19% | 39% | -15% | 49 | 106,77 |
-| CRH plc `CRH` | — | 95,45 USD | -3,4% | -13% / +19% | 38% | -27% | 64 | 87,05 |
-| Dow Inc. `DOW` | — | 31,98 USD | -2,2% | -12% / +18% | 36% | -22% | 53 | 28,96 |
-| Ecolab `ECL` | — | 305,83 USD | -2,9% | -8% / +11% | 23% | -3% | 63 | 287,92 |
-| Freeport-McMoRan `FCX` | — | 57,90 USD | -7,5% | -15% / +24% | 46% | -27% | 26 | 50,85 |
-| International Flavors & Fragrances `IFF` | — | 86,36 USD | -1,5% | -10% / +15% | 30% | -9% | 41 | 79,90 |
-| International Paper `IP` | — | 34,24 USD | -4,0% | -13% / +19% | 38% | -28% | 49 | 30,81 |
-| Linde plc `LIN` | — | 521,23 USD | -0,7% | -6% / +9% | 18% | -4% | 66 | 497,63 |
-| LyondellBasell `LYB` | — | 61,63 USD | -2,1% | -12% / +18% | 36% | -24% | 43 | 55,35 |
-| Martin Marietta Materials `MLM` | — | 527,83 USD | -5,2% | -10% / +15% | 31% | -25% | 56 | 484,47 |
-| Mosaic Company (The) `MOS` | — | 22,33 USD | +3,3% | -19% / +31% | 59% | -27% | 65 | 20,03 |
-| Newmont `NEM` | — | 119,71 USD | +1,4% | -15% / +24% | 47% | -11% | 57 | 108,03 |
-| Nucor `NUE` | — | 245,68 USD | -8,3% | -13% / +20% | 40% | -12% | 39 | 217,21 |
-| PPG Industries `PPG` | — | 123,27 USD | -3,1% | -11% / +16% | 33% | -5% | 65 | 112,61 |
-| Packaging Corporation of America `PKG` | — | 248,80 USD | -4,0% | -9% / +13% | 27% | -4% | 54 | 231,51 |
-| Sherwin-Williams `SHW` | — | 349,01 USD | -4,0% | -12% / +18% | 36% | -6% | 57 | 318,20 |
-| Smurfit Westrock `SW` | — | 44,51 USD | -1,5% | -13% / +19% | 39% | -12% | 58 | 40,13 |
-| Steel Dynamics `STLD` | — | 221,90 USD | -7,6% | -13% / +20% | 39% | -21% | 35 | 193,01 |
-| Vulcan Materials Company `VMC` | — | 285,51 USD | -4,1% | -11% / +16% | 33% | -13% | 64 | 262,62 |
+| Air Products `APD` | — | 304,84 USD | -1,5% | -8% / +12% | 25% | -4% | 53 | 289,95 |
+| Albemarle Corporation `ALB` | — | 99,25 USD | +0,9% | -17% / +26% | 51% | -54% | 51 | 89,62 |
+| Amcor `AMCR` | — | 44,87 USD | -2,1% | -11% / +16% | 33% | -8% | 48 | 41,19 |
+| Avery Dennison `AVY` | — | 186,78 USD | -1,5% | -8% / +11% | 24% | -4% | 61 | 174,28 |
+| Ball Corporation `BALL` | — | 65,92 USD | -1,5% | -12% / +17% | 35% | -3% | 57 | 60,34 |
+| CF Industries `CF` | — | 119,39 USD | +0,7% | -13% / +19% | 38% | -14% | 51 | 107,67 |
+| CRH plc `CRH` | — | 94,81 USD | -0,7% | -12% / +18% | 37% | -27% | 62 | 86,13 |
+| Dow Inc. `DOW` | — | 31,40 USD | -1,8% | -12% / +18% | 36% | -23% | 49 | 28,32 |
+| Ecolab `ECL` | — | 300,68 USD | -1,7% | -8% / +11% | 23% | -5% | 57 | 282,25 |
+| Freeport-McMoRan `FCX` | — | 59,42 USD | +2,6% | -15% / +24% | 46% | -25% | 31 | 52,17 |
+| International Flavors & Fragrances `IFF` | — | 82,62 USD | -4,3% | -11% / +16% | 32% | -13% | 34 | 75,63 |
+| International Paper `IP` | — | 34,53 USD | +0,9% | -13% / +19% | 37% | -27% | 51 | 31,01 |
+| Linde plc `LIN` | — | 515,25 USD | -1,1% | -6% / +9% | 18% | -5% | 60 | 490,77 |
+| LyondellBasell `LYB` | — | 60,72 USD | -1,5% | -12% / +18% | 36% | -25% | 41 | 54,42 |
+| Martin Marietta Materials `MLM` | — | 518,15 USD | -1,8% | -10% / +15% | 30% | -27% | 51 | 474,02 |
+| Mosaic Company (The) `MOS` | — | 22,36 USD | +0,1% | -19% / +30% | 58% | -27% | 65 | 20,05 |
+| Newmont `NEM` | — | 120,91 USD | +1,0% | -15% / +23% | 46% | -10% | 58 | 108,68 |
+| Nucor `NUE` | — | 244,97 USD | -0,3% | -13% / +19% | 39% | -12% | 38 | 216,73 |
+| PPG Industries `PPG` | — | 122,38 USD | -0,7% | -11% / +16% | 32% | -5% | 63 | 111,41 |
+| Packaging Corporation of America `PKG` | — | 249,70 USD | +0,4% | -9% / +13% | 26% | -4% | 55 | 232,13 |
+| Sherwin-Williams `SHW` | — | 344,10 USD | -1,4% | -12% / +18% | 36% | -7% | 54 | 312,29 |
+| Smurfit Westrock `SW` | — | 44,09 USD | -0,9% | -13% / +19% | 38% | -13% | 56 | 39,73 |
+| Steel Dynamics `STLD` | — | 222,90 USD | +0,4% | -13% / +19% | 39% | -21% | 36 | 194,05 |
+| Vulcan Materials Company `VMC` | — | 282,72 USD | -1,0% | -11% / +16% | 32% | -14% | 61 | 259,11 |
 
 </details>
 
@@ -651,63 +622,63 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| AbbVie `ABBV` | — | 288,24 USD | -2,2% | -8% / +12% | 25% | -2% | 58 | 269,26 |
-| Abbott Laboratories `ABT` | — | 113,60 USD | -1,7% | -10% / +14% | 28% | -11% | 68 | 104,76 |
-| Agilent Technologies `A` | — | 171,78 USD | -3,0% | -10% / +15% | 30% | -5% | 50 | 157,57 |
-| Align Technology `ALGN` | — | 159,37 USD | -3,4% | -15% / +23% | 45% | -19% | 59 | 145,17 |
-| Amgen `AMGN` | — | 460,28 USD | -3,8% | -10% / +15% | 30% | -4% | 60 | 428,30 |
-| Baxter International `BAX` | — | 25,65 USD | -3,2% | -15% / +22% | 44% | -9% | 55 | 22,68 |
-| Becton Dickinson `BDX` | — | 213,55 USD | +2,1% | -10% / +14% | 28% | +0% | 78 | 202,74 |
-| Bio-Techne `TECH` | — | 72,66 USD | -0,1% | -10% / +14% | 29% | -0% | 56 | 72,35 |
-| Biogen `BIIB` | — | 243,93 USD | -4,1% | -11% / +16% | 33% | -4% | 54 | 221,94 |
-| Boston Scientific `BSX` | — | 44,64 USD | -2,6% | -12% / +18% | 37% | -57% | 52 | 39,86 |
-| Bristol Myers Squibb `BMY` | — | 63,13 USD | -1,7% | -10% / +15% | 31% | -7% | 55 | 58,73 |
-| CVS Health `CVS` | — | 81,33 USD | +1,7% | -15% / +24% | 47% | -25% | 34 | 73,35 |
-| Cardinal Health `CAH` | — | 267,82 USD | +2,2% | -9% / +13% | 26% | +0% | 72 | 249,91 |
-| Cencora `COR` | — | 339,68 USD | -4,0% | -9% / +13% | 27% | -9% | 56 | 316,38 |
-| Centene Corporation `CNC` | — | 74,17 USD | -2,4% | -17% / +27% | 52% | -2% | 63 | 65,09 |
-| Charles River Laboratories `CRL` | — | 313,02 USD | -4,1% | -18% / +28% | 54% | -17% | 45 | 266,02 |
-| Cigna `CI` | — | 301,48 USD | -1,3% | -10% / +14% | 29% | -5% | 57 | 280,69 |
-| Cooper Companies (The) `COO` | — | 63,51 USD | -1,4% | -12% / +18% | 36% | -25% | 63 | 58,97 |
-| DaVita `DVA` | — | 194,82 USD | +1,1% | -13% / +20% | 41% | -19% | 60 | 173,18 |
-| Danaher Corporation `DHR` | — | 226,34 USD | -3,7% | -10% / +15% | 30% | -6% | 50 | 207,45 |
-| Dexcom `DXCM` | — | 84,46 USD | -4,5% | -16% / +24% | 48% | -9% | 52 | 76,40 |
-| Edwards Lifesciences `EW` | — | 100,82 USD | +1,5% | -11% / +16% | 32% | +0% | 75 | 93,27 |
-| Elevance Health `ELV` | — | 432,00 USD | -0,5% | -10% / +15% | 31% | -3% | 57 | 395,23 |
-| GE HealthCare `GEHC` | — | 83,75 USD | -2,4% | -13% / +19% | 38% | -5% | 77 | 76,73 |
-| Gilead Sciences `GILD` | — | 167,57 USD | -4,0% | -11% / +15% | 31% | -4% | 61 | 153,90 |
-| HCA Healthcare `HCA` | — | 507,48 USD | -0,6% | -13% / +19% | 38% | -6% | 69 | 460,94 |
-| Henry Schein `HSIC` | — | 85,31 USD | -3,3% | -11% / +16% | 33% | -6% | 50 | 78,62 |
-| Humana `HUM` | — | 411,79 USD | -1,4% | -13% / +20% | 40% | -5% | 50 | 376,80 |
-| IQVIA `IQV` | — | 264,88 USD | +0,4% | -11% / +16% | 33% | -5% | 48 | 239,52 |
-| Idexx Laboratories `IDXX` | — | 670,71 USD | -4,0% | -19% / +32% | 61% | -13% | 70 | 602,11 |
-| Illumina, Inc. `ILMN` | — | 208,00 USD | -8,2% | -23% / +40% | 74% | -29% | 33 | 162,14 |
-| Incyte `INCY` | — | 118,01 USD | -3,9% | -12% / +17% | 34% | -9% | 51 | 107,52 |
-| Insulet Corporation `PODD` | — | 156,12 USD | -5,4% | -14% / +22% | 43% | -55% | 61 | 140,40 |
-| Intuitive Surgical `ISRG` | — | 468,52 USD | -2,8% | -13% / +20% | 40% | -21% | 65 | 425,34 |
-| Labcorp `LH` | — | 363,30 USD | -1,2% | -10% / +15% | 31% | -1% | 69 | 333,61 |
-| McKesson `MCK` | — | 1.072,00 USD | +0,2% | -10% / +15% | 31% | +0% | 74 | 999,37 |
-| Medtronic `MDT` | — | 104,84 USD | -0,1% | -10% / +14% | 29% | -0% | 73 | 98,44 |
-| Merck & Co. `MRK` | — | 146,94 USD | -2,3% | -11% / +15% | 31% | -6% | 52 | 133,91 |
-| Mettler Toledo `MTD` | — | 1.679,08 USD | -2,6% | -10% / +14% | 29% | -3% | 61 | 1.567,73 |
-| Moderna `MRNA` | — | 241,46 USD | -6,6% | -33% / +65% | 110% | -7% | 60 | 183,91 |
-| Pfizer `PFE` | — | 29,88 USD | -3,0% | -8% / +12% | 25% | -3% | 54 | 28,03 |
-| Quest Diagnostics `DGX` | — | 254,74 USD | -0,4% | -8% / +11% | 23% | -0% | 66 | 236,19 |
-| Regeneron Pharmaceuticals `REGN` | — | 902,90 USD | -3,0% | -15% / +23% | 45% | -7% | 63 | 819,48 |
-| ResMed `RMD` | — | 239,31 USD | -0,5% | -13% / +19% | 39% | -13% | 52 | 217,31 |
-| Revvity `RVTY` | — | 150,83 USD | -5,4% | -14% / +22% | 44% | -9% | 46 | 130,50 |
-| Solventum `SOLV` | — | 87,18 USD | -2,4% | -11% / +16% | 33% | -6% | 53 | 80,57 |
-| Steris `STE` | — | 254,12 USD | +2,5% | -11% / +15% | 31% | -5% | 76 | 236,81 |
-| Stryker Corporation `SYK` | — | 335,08 USD | -1,4% | -14% / +20% | 41% | -13% | 67 | 302,96 |
-| Thermo Fisher Scientific `TMO` | — | 676,94 USD | -4,1% | -10% / +14% | 29% | -5% | 49 | 621,21 |
-| Universal Health Services `UHS` | — | 198,59 USD | +1,1% | -14% / +21% | 41% | -18% | 66 | 177,98 |
-| Veeva Systems `VEEV` | — | 310,10 USD | -0,2% | -12% / +17% | 34% | -4% | 57 | 288,52 |
-| Vertex Pharmaceuticals `VRTX` | — | 542,50 USD | -1,2% | -11% / +16% | 32% | -3% | 56 | 495,99 |
-| Viatris `VTRS` | — | 18,97 USD | -1,3% | -10% / +15% | 30% | -1% | 60 | 17,67 |
-| Waters Corporation `WAT` | — | 453,08 USD | -3,1% | -11% / +17% | 34% | -6% | 52 | 410,67 |
-| West Pharmaceutical Services `WST` | — | 392,48 USD | -4,0% | -12% / +18% | 37% | -6% | 52 | 363,99 |
-| Zimmer Biomet `ZBH` | — | 106,85 USD | -3,0% | -15% / +23% | 45% | -3% | 67 | 97,98 |
-| Zoetis `ZTS` | — | 82,11 USD | -8,0% | -14% / +22% | 43% | -36% | 57 | 75,59 |
+| AbbVie `ABBV` | — | 291,31 USD | +1,1% | -8% / +12% | 24% | -1% | 60 | 271,38 |
+| Abbott Laboratories `ABT` | — | 109,93 USD | -3,2% | -10% / +14% | 29% | -14% | 59 | 100,65 |
+| Agilent Technologies `A` | — | 174,76 USD | +1,7% | -10% / +15% | 30% | -4% | 53 | 160,60 |
+| Align Technology `ALGN` | — | 166,00 USD | +4,2% | -15% / +23% | 46% | -16% | 65 | 151,00 |
+| Amgen `AMGN` | — | 460,42 USD | +0,0% | -10% / +15% | 30% | -4% | 60 | 427,35 |
+| Baxter International `BAX` | — | 25,79 USD | +0,5% | -14% / +22% | 44% | -9% | 56 | 22,73 |
+| Becton Dickinson `BDX` | — | 211,88 USD | -0,8% | -9% / +13% | 28% | -1% | 75 | 200,44 |
+| Bio-Techne `TECH` | — | 72,78 USD | +0,2% | -10% / +14% | 29% | +0% | 61 | 72,46 |
+| Biogen `BIIB` | — | 248,35 USD | +1,8% | -11% / +16% | 33% | -2% | 57 | 225,45 |
+| Boston Scientific `BSX` | — | 42,75 USD | -4,2% | -13% / +19% | 38% | -59% | 45 | 37,83 |
+| Bristol Myers Squibb `BMY` | — | 62,14 USD | -1,6% | -10% / +15% | 30% | -8% | 52 | 57,67 |
+| CVS Health `CVS` | — | 83,85 USD | +3,1% | -15% / +24% | 47% | -23% | 40 | 75,51 |
+| Cardinal Health `CAH` | — | 271,72 USD | +1,5% | -9% / +13% | 26% | +0% | 74 | 253,07 |
+| Cencora `COR` | — | 333,56 USD | -1,8% | -9% / +13% | 27% | -10% | 52 | 310,03 |
+| Centene Corporation `CNC` | — | 69,74 USD | -6,0% | -18% / +28% | 54% | -8% | 52 | 60,28 |
+| Charles River Laboratories `CRL` | — | 337,52 USD | +7,8% | -18% / +30% | 57% | -10% | 54 | 287,21 |
+| Cigna `CI` | — | 293,59 USD | -2,6% | -10% / +15% | 30% | -7% | 50 | 272,24 |
+| Cooper Companies (The) `COO` | — | 62,36 USD | -1,8% | -12% / +18% | 36% | -26% | 58 | 57,70 |
+| DaVita `DVA` | — | 191,35 USD | -1,8% | -13% / +20% | 40% | -21% | 56 | 169,24 |
+| Danaher Corporation `DHR` | — | 230,25 USD | +1,7% | -10% / +15% | 30% | -4% | 54 | 211,29 |
+| Dexcom `DXCM` | — | 79,41 USD | -6,0% | -16% / +26% | 50% | -14% | 43 | 70,63 |
+| Edwards Lifesciences `EW` | — | 102,14 USD | +1,3% | -11% / +15% | 31% | +0% | 77 | 94,15 |
+| Elevance Health `ELV` | — | 425,62 USD | -1,5% | -10% / +15% | 31% | -4% | 53 | 388,84 |
+| GE HealthCare `GEHC` | — | 82,38 USD | -1,6% | -13% / +19% | 37% | -6% | 72 | 75,14 |
+| Gilead Sciences `GILD` | — | 166,89 USD | -0,4% | -10% / +15% | 31% | -4% | 60 | 153,08 |
+| HCA Healthcare `HCA` | — | 494,99 USD | -2,5% | -13% / +19% | 38% | -9% | 62 | 446,89 |
+| Henry Schein `HSIC` | — | 86,05 USD | +0,9% | -11% / +16% | 33% | -5% | 51 | 79,16 |
+| Humana `HUM` | — | 433,74 USD | +5,3% | -14% / +21% | 42% | +0% | 61 | 395,74 |
+| IQVIA `IQV` | — | 271,83 USD | +2,6% | -11% / +16% | 33% | -3% | 54 | 245,32 |
+| Idexx Laboratories `IDXX` | — | 676,04 USD | +0,8% | -19% / +31% | 59% | -12% | 71 | 603,84 |
+| Illumina, Inc. `ILMN` | — | 213,13 USD | +2,5% | -23% / +39% | 73% | -27% | 36 | 167,31 |
+| Incyte `INCY` | — | 119,65 USD | +1,4% | -11% / +17% | 34% | -8% | 54 | 108,60 |
+| Insulet Corporation `PODD` | — | 146,51 USD | -6,2% | -15% / +23% | 46% | -58% | 50 | 129,02 |
+| Intuitive Surgical `ISRG` | — | 452,80 USD | -3,4% | -13% / +20% | 40% | -24% | 57 | 407,82 |
+| Labcorp `LH` | — | 366,57 USD | +0,9% | -10% / +15% | 30% | -0% | 70 | 335,43 |
+| McKesson `MCK` | — | 1.060,84 USD | -1,0% | -10% / +15% | 30% | -1% | 70 | 989,88 |
+| Medtronic `MDT` | — | 101,80 USD | -2,9% | -10% / +14% | 29% | -3% | 64 | 95,06 |
+| Merck & Co. `MRK` | — | 146,73 USD | -0,1% | -10% / +15% | 31% | -6% | 51 | 133,55 |
+| Mettler Toledo `MTD` | — | 1.722,15 USD | +2,6% | -10% / +14% | 30% | -0% | 66 | 1.591,96 |
+| Moderna `MRNA` | — | 254,19 USD | +5,3% | -32% / +64% | 109% | -2% | 64 | 195,06 |
+| Pfizer `PFE` | — | 29,39 USD | -1,6% | -8% / +12% | 24% | -3% | 54 | 27,38 |
+| Quest Diagnostics `DGX` | — | 255,63 USD | +0,4% | -8% / +11% | 23% | -0% | 67 | 236,02 |
+| Regeneron Pharmaceuticals `REGN` | — | 904,35 USD | +0,2% | -15% / +22% | 44% | -7% | 63 | 819,96 |
+| ResMed `RMD` | — | 235,30 USD | -1,7% | -13% / +19% | 38% | -14% | 48 | 212,85 |
+| Revvity `RVTY` | — | 155,11 USD | +2,8% | -14% / +22% | 43% | -6% | 51 | 134,17 |
+| Solventum `SOLV` | — | 90,38 USD | +3,7% | -12% / +17% | 34% | -2% | 59 | 82,55 |
+| Steris `STE` | — | 252,30 USD | -0,7% | -10% / +15% | 30% | -5% | 73 | 234,55 |
+| Stryker Corporation `SYK` | — | 325,87 USD | -2,8% | -13% / +20% | 41% | -15% | 61 | 293,50 |
+| Thermo Fisher Scientific `TMO` | — | 694,76 USD | +2,6% | -10% / +14% | 30% | -2% | 55 | 636,06 |
+| Universal Health Services `UHS` | — | 195,50 USD | -1,6% | -14% / +20% | 41% | -20% | 62 | 174,50 |
+| Veeva Systems `VEEV` | — | 303,73 USD | -2,1% | -12% / +17% | 34% | -6% | 51 | 280,87 |
+| Vertex Pharmaceuticals `VRTX` | — | 547,09 USD | +0,9% | -11% / +16% | 32% | -2% | 58 | 498,64 |
+| Viatris `VTRS` | — | 19,91 USD | +5,0% | -11% / +16% | 32% | +0% | 68 | 18,51 |
+| Waters Corporation `WAT` | — | 457,60 USD | +1,0% | -11% / +16% | 33% | -5% | 54 | 414,25 |
+| West Pharmaceutical Services `WST` | — | 399,81 USD | +1,9% | -12% / +19% | 37% | -4% | 58 | 369,23 |
+| Zimmer Biomet `ZBH` | — | 105,59 USD | -1,2% | -15% / +22% | 44% | -4% | 64 | 96,34 |
+| Zoetis `ZTS` | — | 79,40 USD | -3,3% | -14% / +22% | 43% | -38% | 52 | 72,53 |
 
 </details>
 
@@ -715,76 +686,76 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| Accenture `ACN` | — | 265,16 USD | +0,3% | -15% / +24% | 47% | -5% | 70 | 235,64 |
-| Adobe Inc. `ADBE` | — | 246,44 USD | -0,8% | -12% / +18% | 37% | -31% | 48 | 223,65 |
-| Akamai Technologies `AKAM` | — | 77,84 USD | -9,4% | -19% / +31% | 59% | -52% | 28 | 66,02 |
-| Amphenol `APH` | — | 71,64 USD | -9,3% | -17% / +27% | 52% | -19% | 37 | 60,75 |
-| Analog Devices `ADI` | — | 361,01 USD | -11,1% | -16% / +25% | 49% | -19% | 35 | 311,39 |
-| Applied Materials `AMAT` | — | 319,25 USD | -13,6% | -22% / +36% | 68% | -56% | 26 | 263,44 |
-| Arista Networks `ANET` | — | 159,16 USD | -10,8% | -20% / +34% | 63% | -27% | 36 | 132,97 |
-| Autodesk `ADSK` | — | 269,16 USD | -0,3% | -13% / +20% | 39% | -13% | 68 | 246,00 |
-| CDW Corporation `CDW` | — | 158,39 USD | -6,1% | -18% / +28% | 54% | -6% | 54 | 137,83 |
-| Cadence Design Systems `CDNS` | — | 311,43 USD | -5,5% | -14% / +21% | 43% | -25% | 42 | 273,38 |
-| Ciena `CIEN` | — | 230,81 USD | -15,2% | -29% / +54% | 94% | -63% | 30 | 162,91 |
-| Cisco `CSCO` | — | 95,72 USD | -7,6% | -12% / +18% | 37% | -26% | 30 | 87,06 |
-| Cognizant `CTSH` | — | 66,54 USD | +1,2% | -14% / +20% | 41% | -22% | 55 | 59,15 |
-| Coherent Corp. `COHR` | — | 169,76 USD | -13,0% | -28% / +52% | 92% | -60% | 28 | 121,42 |
-| Corning Inc. `GLW` | — | 103,43 USD | -12,9% | -21% / +36% | 67% | -59% | 27 | 84,08 |
-| CrowdStrike `CRWD` | — | 217,20 USD | -9,9% | -19% / +31% | 60% | -22% | 35 | 181,05 |
-| Datadog `DDOG` | — | 174,60 USD | -7,5% | -25% / +44% | 80% | -40% | 26 | 128,08 |
-| Dell Technologies `DELL` | — | 316,91 USD | -14,9% | -27% / +49% | 88% | -46% | 26 | 232,62 |
-| Everpure `P` | — | 93,44 USD | -16,4% | -27% / +49% | 87% | -40% | 31 | 69,56 |
-| F5, Inc. `FFIV` | — | 311,74 USD | -5,5% | -21% / +35% | 65% | -35% | 22 | 256,21 |
-| Fair Isaac `FICO` | — | 707,40 USD | +0,9% | -22% / +38% | 70% | -62% | 41 | 597,52 |
-| First Solar `FSLR` | — | 195,76 USD | +0,6% | -16% / +26% | 50% | -38% | 64 | 171,07 |
-| Flex Ltd. `FLEX` | — | 66,73 USD | -13,6% | -26% / +48% | 86% | -59% | 29 | 48,26 |
-| Fortinet `FTNT` | — | 122,51 USD | -5,3% | -23% / +39% | 72% | -37% | 24 | 97,75 |
-| Gartner `IT` | — | 198,07 USD | -4,4% | -19% / +31% | 60% | -22% | 44 | 167,28 |
-| Gen Digital `GEN` | — | 30,60 USD | -0,9% | -17% / +27% | 52% | -3% | 73 | 27,88 |
-| GoDaddy `GDDY` | — | 120,12 USD | +1,5% | -16% / +25% | 48% | -10% | 66 | 106,97 |
-| HP Inc. `HPQ` | — | 29,44 USD | -1,6% | -16% / +25% | 49% | -17% | 43 | 25,35 |
-| Hewlett Packard Enterprise `HPE` | — | 44,16 USD | -11,8% | -22% / +37% | 69% | -40% | 30 | 35,17 |
-| IBM `IBM` | — | 247,11 USD | -2,8% | -11% / +16% | 33% | -24% | 54 | 226,35 |
-| Intel `INTC` | — | 52,25 USD | -10,3% | -32% / +65% | 109% | -63% | 21 | 35,90 |
-| Intuit `INTU` | — | 354,84 USD | -0,5% | -13% / +20% | 40% | -47% | 64 | 319,14 |
-| Jabil `JBL` | — | 236,36 USD | -8,6% | -17% / +27% | 53% | -39% | 30 | 202,73 |
-| KLA Corporation `KLAC` | — | 129,80 USD | -13,4% | -21% / +36% | 67% | -57% | 28 | 107,11 |
-| Keysight Technologies `KEYS` | — | 260,61 USD | -8,8% | -17% / +27% | 53% | -33% | 26 | 219,06 |
-| Lam Research `LRCX` | — | 185,20 USD | -16,4% | -24% / +42% | 77% | -57% | 23 | 144,57 |
-| Lumentum `LITE` | — | 509,70 USD | -18,7% | -33% / +67% | 113% | -55% | 26 | 306,10 |
-| Marvell Technology `MRVL` | — | 133,55 USD | -16,4% | -30% / +57% | 99% | -58% | 23 | 85,71 |
-| Microchip Technology `MCHP` | — | 64,85 USD | -13,9% | -20% / +33% | 62% | -36% | 33 | 54,37 |
-| Micron Technology `MU` | — | 656,39 USD | -17,5% | -26% / +47% | 84% | -46% | 27 | 512,91 |
-| Monolithic Power Systems `MPWR` | — | 1.131,43 USD | -10,3% | -21% / +34% | 64% | -33% | 39 | 934,56 |
-| Motorola Solutions `MSI` | — | 517,01 USD | +4,0% | -8% / +11% | 23% | +0% | 80 | 488,21 |
-| NXP Semiconductors `NXPI` | — | 244,43 USD | -7,8% | -15% / +24% | 47% | -26% | 50 | 212,72 |
-| NetApp `NTAP` | — | 169,38 USD | -9,8% | -18% / +30% | 57% | -29% | 30 | 142,00 |
-| ON Semiconductor `ON` | — | 63,01 USD | -11,6% | -20% / +34% | 64% | -53% | 34 | 52,40 |
-| Okta, Inc. `OKTA` | — | 171,16 USD | -10,4% | -23% / +39% | 72% | -26% | 36 | 135,20 |
-| Oracle Corporation `ORCL` | — | 115,16 USD | -6,9% | -21% / +34% | 65% | -53% | 38 | 94,23 |
-| PTC Inc. `PTC` | — | 194,60 USD | -0,3% | -16% / +25% | 48% | -0% | 74 | 192,13 |
-| Palantir Technologies `PLTR` | — | 154,99 USD | -9,7% | -20% / +33% | 62% | -26% | 25 | 129,75 |
-| Palo Alto Networks `PANW` | — | 314,67 USD | -9,6% | -18% / +30% | 57% | -25% | 33 | 264,62 |
-| Qualcomm `QCOM` | — | 156,75 USD | -9,5% | -19% / +30% | 58% | -37% | 38 | 134,87 |
-| Roper Technologies `ROP` | — | 490,96 USD | -0,3% | -11% / +17% | 34% | -0% | 82 | 451,07 |
-| Salesforce `CRM` | — | 222,41 USD | -2,1% | -13% / +19% | 39% | -16% | 39 | 199,61 |
-| Sandisk `SNDK` | — | 806,43 USD | -22,3% | -35% / +73% | 121% | -65% | 24 | 537,74 |
-| Seagate Technology `STX` | — | 466,53 USD | -16,2% | -26% / +46% | 83% | -57% | 25 | 334,40 |
-| ServiceNow `NOW` | — | 102,36 USD | -5,9% | -27% / +49% | 88% | -42% | 28 | 82,48 |
-| Skyworks Solutions `SWKS` | — | 81,21 USD | -2,1% | -15% / +23% | 45% | -11% | 46 | 71,23 |
-| Supermicro `SMCI` | — | 27,08 USD | -8,5% | -28% / +53% | 93% | -46% | 31 | 20,82 |
-| Synopsys `SNPS` | — | 440,31 USD | -4,9% | -16% / +26% | 50% | -18% | 44 | 391,96 |
-| TE Connectivity `TEL` | — | 206,36 USD | -6,3% | -12% / +18% | 36% | -16% | 42 | 184,76 |
-| Teledyne Technologies `TDY` | — | 591,72 USD | -6,4% | -11% / +16% | 32% | -14% | 36 | 535,25 |
-| Teradyne `TER` | — | 212,74 USD | -15,2% | -25% / +45% | 82% | -56% | 22 | 154,87 |
-| Texas Instruments `TXN` | — | 278,15 USD | -10,7% | -15% / +24% | 47% | -15% | 43 | 245,68 |
-| Trimble Inc. `TRMB` | — | 53,64 USD | -1,1% | -19% / +31% | 58% | -36% | 31 | 47,21 |
-| Twilio `TWLO` | — | 200,96 USD | -5,9% | -22% / +38% | 71% | -33% | 31 | 159,11 |
-| Tyler Technologies `TYL` | — | 430,37 USD | +1,7% | -13% / +19% | 39% | -9% | 75 | 389,41 |
-| Verisign `VRSN` | — | 312,06 USD | -1,9% | -8% / +11% | 23% | -2% | 60 | 287,11 |
-| Western Digital `WDC` | — | 267,63 USD | -17,3% | -27% / +48% | 86% | -64% | 29 | 199,18 |
-| Workday, Inc. `WDAY` | — | 200,17 USD | -0,8% | -13% / +19% | 39% | -14% | 54 | 180,99 |
-| Zebra Technologies `ZBRA` | — | 321,64 USD | -3,2% | -15% / +22% | 44% | -18% | 26 | 280,00 |
+| Accenture `ACN` | — | 260,50 USD | -1,8% | -15% / +23% | 46% | -7% | 66 | 231,16 |
+| Adobe Inc. `ADBE` | — | 239,30 USD | -2,9% | -13% / +19% | 38% | -33% | 42 | 215,89 |
+| Akamai Technologies `AKAM` | — | 83,09 USD | +6,7% | -19% / +32% | 60% | -48% | 36 | 70,64 |
+| Amphenol `APH` | — | 74,59 USD | +4,1% | -17% / +27% | 52% | -16% | 42 | 63,43 |
+| Analog Devices `ADI` | — | 363,56 USD | +0,7% | -16% / +24% | 48% | -18% | 36 | 313,22 |
+| Applied Materials `AMAT` | — | 332,72 USD | +4,2% | -21% / +36% | 67% | -54% | 30 | 274,93 |
+| Arista Networks `ANET` | — | 170,80 USD | +7,3% | -21% / +35% | 65% | -21% | 43 | 143,63 |
+| Autodesk `ADSK` | — | 261,72 USD | -2,8% | -13% / +20% | 39% | -16% | 62 | 237,60 |
+| CDW Corporation `CDW` | — | 157,00 USD | -0,9% | -17% / +27% | 53% | -7% | 53 | 135,77 |
+| Cadence Design Systems `CDNS` | — | 319,92 USD | +2,7% | -14% / +21% | 42% | -23% | 46 | 281,29 |
+| Ciena `CIEN` | — | 243,39 USD | +5,5% | -28% / +53% | 93% | -61% | 33 | 174,78 |
+| Cisco `CSCO` | — | 93,85 USD | -1,9% | -12% / +18% | 37% | -27% | 28 | 84,99 |
+| Cognizant `CTSH` | — | 64,72 USD | -2,7% | -14% / +20% | 41% | -24% | 51 | 57,13 |
+| Coherent Corp. `COHR` | — | 192,81 USD | +13,6% | -29% / +56% | 97% | -55% | 37 | 142,06 |
+| Corning Inc. `GLW` | — | 106,13 USD | +2,6% | -21% / +35% | 66% | -58% | 30 | 86,70 |
+| CrowdStrike `CRWD` | — | 216,90 USD | -0,1% | -19% / +31% | 59% | -22% | 35 | 179,99 |
+| Datadog `DDOG` | — | 179,04 USD | +2,5% | -25% / +43% | 79% | -39% | 28 | 134,00 |
+| Dell Technologies `DELL` | — | 328,53 USD | +3,7% | -27% / +48% | 86% | -44% | 29 | 242,42 |
+| Everpure `P` | — | 96,75 USD | +3,5% | -26% / +48% | 86% | -38% | 34 | 72,43 |
+| F5, Inc. `FFIV` | — | 310,84 USD | -0,3% | -20% / +34% | 64% | -35% | 21 | 256,28 |
+| Fair Isaac `FICO` | — | 704,55 USD | -0,4% | -22% / +37% | 68% | -62% | 41 | 591,89 |
+| First Solar `FSLR` | — | 201,14 USD | +2,8% | -16% / +26% | 50% | -37% | 67 | 174,98 |
+| Flex Ltd. `FLEX` | — | 69,78 USD | +4,6% | -26% / +47% | 84% | -57% | 32 | 51,45 |
+| Fortinet `FTNT` | — | 118,84 USD | -3,0% | -22% / +38% | 71% | -39% | 23 | 93,43 |
+| Gartner `IT` | — | 190,10 USD | -4,0% | -19% / +31% | 60% | -25% | 40 | 158,22 |
+| Gen Digital `GEN` | — | 29,79 USD | -2,6% | -17% / +26% | 51% | -5% | 67 | 27,02 |
+| GoDaddy `GDDY` | — | 114,38 USD | -4,8% | -16% / +25% | 49% | -14% | 57 | 100,51 |
+| HP Inc. `HPQ` | — | 28,46 USD | -3,3% | -16% / +25% | 49% | -20% | 39 | 24,22 |
+| Hewlett Packard Enterprise `HPE` | — | 44,77 USD | +1,4% | -22% / +36% | 68% | -39% | 31 | 35,62 |
+| IBM `IBM` | — | 245,00 USD | -0,9% | -11% / +16% | 33% | -25% | 52 | 224,66 |
+| Intel `INTC` | — | 56,28 USD | +7,7% | -32% / +64% | 108% | -60% | 26 | 40,01 |
+| Intuit `INTU` | — | 341,50 USD | -3,8% | -14% / +21% | 41% | -49% | 56 | 303,89 |
+| Jabil `JBL` | — | 239,09 USD | +1,2% | -17% / +27% | 52% | -38% | 31 | 205,06 |
+| KLA Corporation `KLAC` | — | 138,49 USD | +6,7% | -22% / +36% | 68% | -54% | 35 | 114,81 |
+| Keysight Technologies `KEYS` | — | 272,13 USD | +4,4% | -17% / +28% | 53% | -30% | 32 | 229,61 |
+| Lam Research `LRCX` | — | 200,44 USD | +8,2% | -24% / +43% | 78% | -54% | 30 | 158,38 |
+| Lumentum `LITE` | — | 538,59 USD | +5,7% | -33% / +66% | 111% | -52% | 30 | 335,16 |
+| Marvell Technology `MRVL` | — | 141,20 USD | +5,7% | -29% / +56% | 98% | -55% | 26 | 94,43 |
+| Microchip Technology `MCHP` | — | 58,35 USD | -10,0% | -21% / +36% | 67% | -43% | 27 | 46,50 |
+| Micron Technology `MU` | — | 690,00 USD | +5,1% | -26% / +46% | 83% | -43% | 31 | 542,87 |
+| Monolithic Power Systems `MPWR` | — | 1.190,44 USD | +5,2% | -21% / +34% | 65% | -29% | 45 | 991,23 |
+| Motorola Solutions `MSI` | — | 514,51 USD | -0,5% | -8% / +11% | 22% | -0% | 77 | 484,97 |
+| NXP Semiconductors `NXPI` | — | 248,29 USD | +1,6% | -15% / +23% | 46% | -25% | 52 | 216,13 |
+| NetApp `NTAP` | — | 169,19 USD | -0,1% | -18% / +29% | 55% | -29% | 30 | 141,62 |
+| ON Semiconductor `ON` | — | 63,31 USD | +0,5% | -20% / +33% | 63% | -53% | 34 | 52,36 |
+| Okta, Inc. `OKTA` | — | 168,69 USD | -1,4% | -22% / +38% | 71% | -27% | 35 | 131,37 |
+| Oracle Corporation `ORCL` | — | 116,10 USD | +0,8% | -20% / +34% | 64% | -53% | 39 | 93,86 |
+| PTC Inc. `PTC` | — | 195,07 USD | +0,2% | -16% / +24% | 47% | -0% | 74 | 192,57 |
+| Palantir Technologies `PLTR` | — | 160,38 USD | +3,5% | -20% / +33% | 62% | -23% | 31 | 135,50 |
+| Palo Alto Networks `PANW` | — | 313,84 USD | -0,3% | -18% / +29% | 56% | -25% | 33 | 262,86 |
+| Qualcomm `QCOM` | — | 165,41 USD | +5,5% | -19% / +30% | 58% | -34% | 44 | 142,67 |
+| Roper Technologies `ROP` | — | 476,60 USD | -2,9% | -11% / +17% | 34% | -3% | 72 | 434,35 |
+| Salesforce `CRM` | — | 213,65 USD | -3,9% | -13% / +20% | 40% | -19% | 34 | 189,91 |
+| Sandisk `SNDK` | — | 835,06 USD | +3,5% | -35% / +72% | 119% | -64% | 26 | 566,74 |
+| Seagate Technology `STX` | — | 460,99 USD | -1,2% | -25% / +45% | 81% | -58% | 24 | 324,93 |
+| ServiceNow `NOW` | — | 101,97 USD | -0,4% | -26% / +48% | 86% | -41% | 28 | 82,37 |
+| Skyworks Solutions `SWKS` | — | 82,19 USD | +1,2% | -15% / +22% | 44% | -10% | 48 | 72,08 |
+| Supermicro `SMCI` | — | 28,76 USD | +6,2% | -28% / +53% | 93% | -43% | 36 | 22,35 |
+| Synopsys `SNPS` | — | 450,46 USD | +2,3% | -16% / +26% | 50% | -16% | 48 | 401,01 |
+| TE Connectivity `TEL` | — | 207,01 USD | +0,3% | -12% / +17% | 35% | -16% | 43 | 185,28 |
+| Teledyne Technologies `TDY` | — | 618,60 USD | +4,5% | -11% / +17% | 34% | -11% | 46 | 559,12 |
+| Teradyne `TER` | — | 218,22 USD | +2,6% | -25% / +44% | 81% | -55% | 24 | 160,49 |
+| Texas Instruments `TXN` | — | 277,36 USD | -0,3% | -15% / +23% | 46% | -16% | 43 | 244,39 |
+| Trimble Inc. `TRMB` | — | 54,11 USD | +0,9% | -18% / +30% | 57% | -35% | 32 | 47,59 |
+| Twilio `TWLO` | — | 202,02 USD | +0,5% | -22% / +37% | 69% | -33% | 32 | 161,39 |
+| Tyler Technologies `TYL` | — | 420,56 USD | -2,3% | -13% / +19% | 39% | -11% | 69 | 377,92 |
+| Verisign `VRSN` | — | 308,67 USD | -1,1% | -8% / +11% | 23% | -3% | 55 | 283,16 |
+| Western Digital `WDC` | — | 263,78 USD | -1,4% | -26% / +47% | 85% | -65% | 28 | 194,41 |
+| Workday, Inc. `WDAY` | — | 192,90 USD | -3,6% | -13% / +20% | 40% | -17% | 46 | 173,15 |
+| Zebra Technologies `ZBRA` | — | 322,02 USD | +0,1% | -14% / +22% | 43% | -18% | 26 | 281,01 |
 
 </details>
 
@@ -792,37 +763,37 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| AES Corporation `AES` | — | 14,89 USD | -0,1% | -10% / +14% | 28% | -11% | 63 | 14,73 |
-| Alliant Energy `LNT` | — | 73,44 USD | -0,4% | -7% / +10% | 20% | -4% | 70 | 69,67 |
-| Ameren `AEE` | — | 112,81 USD | -0,2% | -7% / +9% | 19% | -4% | 70 | 107,92 |
-| American Electric Power `AEP` | — | 126,77 USD | -1,9% | -6% / +9% | 19% | -8% | 50 | 119,58 |
-| American Water Works `AWK` | — | 152,42 USD | +1,9% | -8% / +12% | 25% | +0% | 76 | 143,32 |
-| Atmos Energy `ATO` | — | 175,00 USD | -0,8% | -6% / +8% | 17% | -8% | 66 | 166,56 |
-| CMS Energy `CMS` | — | 70,68 USD | -0,4% | -6% / +9% | 18% | -10% | 63 | 67,20 |
-| CenterPoint Energy `CNP` | — | 39,97 USD | -2,6% | -7% / +10% | 22% | -11% | 46 | 37,70 |
-| Consolidated Edison `ED` | — | 121,44 USD | +0,9% | -7% / +10% | 21% | +0% | 74 | 115,34 |
-| Constellation Energy `CEG` | — | 239,65 USD | -2,5% | -17% / +28% | 54% | -36% | 37 | 209,21 |
-| DTE Energy `DTE` | — | 134,87 USD | -1,9% | -7% / +9% | 19% | -12% | 59 | 128,98 |
-| Dominion Energy `D` | — | 69,64 USD | -0,2% | -9% / +12% | 25% | -2% | 71 | 65,74 |
-| Duke Energy `DUK` | — | 130,08 USD | +0,4% | -7% / +9% | 19% | -1% | 70 | 124,23 |
-| Edison International `EIX` | — | 60,88 USD | -1,0% | -11% / +16% | 33% | -23% | 67 | 57,42 |
-| Entergy `ETR` | — | 110,30 USD | -1,4% | -7% / +10% | 21% | -5% | 62 | 105,18 |
-| Evergy `EVRG` | — | 87,41 USD | +1,4% | -6% / +8% | 17% | +0% | 68 | 83,45 |
-| Eversource Energy `ES` | — | 71,92 USD | +2,1% | -8% / +11% | 24% | -3% | 70 | 68,33 |
-| Exelon `EXC` | — | 46,53 USD | +0,6% | -7% / +10% | 21% | -6% | 69 | 44,12 |
-| FirstEnergy `FE` | — | 47,10 USD | -0,2% | -6% / +8% | 16% | -7% | 62 | 45,08 |
-| NRG Energy `NRG` | — | 80,55 USD | -3,2% | -19% / +31% | 59% | -56% | 28 | 68,99 |
-| NextEra Energy `NEE` | — | 88,25 USD | -0,2% | -9% / +13% | 27% | -8% | 73 | 83,32 |
-| NiSource `NI` | — | 44,44 USD | -1,9% | -7% / +9% | 19% | -8% | 65 | 42,26 |
-| PG&E Corporation `PCG` | — | 13,23 USD | -1,3% | -11% / +15% | 31% | -30% | 51 | 12,37 |
-| PPL Corporation `PPL` | — | 36,00 USD | +0,8% | -6% / +8% | 17% | -8% | 65 | 34,47 |
-| Pinnacle West Capital `PNW` | — | 103,83 USD | -1,7% | -7% / +9% | 20% | -4% | 56 | 98,17 |
-| Public Service Enterprise Group `PEG` | — | 73,10 USD | -0,2% | -7% / +9% | 20% | -14% | 56 | 69,71 |
-| Sempra `SRE` | — | 79,83 USD | -3,7% | -8% / +12% | 25% | -19% | 38 | 75,51 |
-| Southern Company `SO` | — | 93,34 USD | +0,2% | -6% / +9% | 18% | -4% | 62 | 88,61 |
-| Vistra Corp. `VST` | — | 112,89 USD | -6,2% | -22% / +38% | 71% | -41% | 29 | 92,21 |
-| WEC Energy Group `WEC` | — | 118,32 USD | +0,2% | -7% / +10% | 21% | +0% | 74 | 112,47 |
-| Xcel Energy `XEL` | — | 80,37 USD | -0,2% | -7% / +10% | 20% | -2% | 67 | 76,22 |
+| AES Corporation `AES` | — | 14,87 USD | -0,1% | -10% / +14% | 28% | -11% | 60 | 14,71 |
+| Alliant Energy `LNT` | — | 72,67 USD | -1,1% | -7% / +10% | 20% | -5% | 66 | 68,93 |
+| Ameren `AEE` | — | 112,85 USD | +0,0% | -6% / +9% | 19% | -4% | 70 | 107,85 |
+| American Electric Power `AEP` | — | 126,53 USD | -0,2% | -6% / +9% | 18% | -8% | 49 | 119,37 |
+| American Water Works `AWK` | — | 150,29 USD | -1,4% | -8% / +12% | 25% | -1% | 70 | 140,60 |
+| Atmos Energy `ATO` | — | 173,22 USD | -1,0% | -6% / +8% | 17% | -9% | 60 | 164,66 |
+| CMS Energy `CMS` | — | 69,18 USD | -2,1% | -6% / +9% | 18% | -11% | 57 | 65,54 |
+| CenterPoint Energy `CNP` | — | 40,66 USD | +1,7% | -7% / +10% | 22% | -9% | 51 | 38,28 |
+| Consolidated Edison `ED` | — | 118,56 USD | -2,4% | -7% / +10% | 21% | -2% | 64 | 112,49 |
+| Constellation Energy `CEG` | — | 249,95 USD | +4,3% | -18% / +28% | 54% | -34% | 43 | 219,91 |
+| DTE Energy `DTE` | — | 135,08 USD | +0,2% | -7% / +9% | 19% | -12% | 59 | 128,77 |
+| Dominion Energy `D` | — | 68,60 USD | -1,5% | -9% / +12% | 25% | -3% | 65 | 64,66 |
+| Duke Energy `DUK` | — | 127,78 USD | -1,8% | -7% / +9% | 19% | -3% | 62 | 121,78 |
+| Edison International `EIX` | — | 59,37 USD | -2,5% | -11% / +16% | 33% | -25% | 57 | 55,83 |
+| Entergy `ETR` | — | 110,55 USD | +0,2% | -7% / +10% | 20% | -5% | 63 | 105,32 |
+| Evergy `EVRG` | — | 87,54 USD | +0,1% | -6% / +8% | 17% | +0% | 68 | 83,58 |
+| Eversource Energy `ES` | — | 69,84 USD | -2,9% | -8% / +12% | 25% | -6% | 59 | 66,36 |
+| Exelon `EXC` | — | 45,62 USD | -2,0% | -7% / +10% | 22% | -8% | 60 | 43,21 |
+| FirstEnergy `FE` | — | 46,43 USD | -1,4% | -6% / +8% | 16% | -8% | 59 | 44,37 |
+| NRG Energy `NRG` | — | 88,29 USD | +9,6% | -20% / +33% | 63% | -51% | 40 | 76,49 |
+| NextEra Energy `NEE` | — | 86,95 USD | -1,5% | -9% / +13% | 27% | -10% | 67 | 81,89 |
+| NiSource `NI` | — | 44,15 USD | -0,7% | -7% / +9% | 19% | -9% | 62 | 42,03 |
+| PG&E Corporation `PCG` | — | 12,97 USD | -2,0% | -11% / +15% | 31% | -31% | 45 | 12,10 |
+| PPL Corporation `PPL` | — | 35,80 USD | -0,6% | -6% / +8% | 17% | -9% | 62 | 34,30 |
+| Pinnacle West Capital `PNW` | — | 104,22 USD | +0,4% | -7% / +9% | 19% | -3% | 57 | 98,57 |
+| Public Service Enterprise Group `PEG` | — | 72,61 USD | -0,7% | -7% / +9% | 19% | -14% | 53 | 69,27 |
+| Sempra `SRE` | — | 78,17 USD | -2,1% | -9% / +12% | 25% | -20% | 33 | 73,88 |
+| Southern Company `SO` | — | 92,34 USD | -1,1% | -6% / +9% | 18% | -5% | 57 | 87,56 |
+| Vistra Corp. `VST` | — | 124,80 USD | +10,5% | -23% / +41% | 75% | -34% | 40 | 103,51 |
+| WEC Energy Group `WEC` | — | 115,87 USD | -2,1% | -7% / +10% | 21% | -2% | 64 | 109,90 |
+| Xcel Energy `XEL` | — | 79,67 USD | -0,9% | -7% / +10% | 20% | -3% | 63 | 75,43 |
 
 </details>
 
@@ -830,28 +801,28 @@ Livello: **5 Panico forte** +3,8% a 1 mese, 66% rialzi · **4 Panico** +2,7% a 1
 
 | Strumento | Liv. | Prezzo | Giorno | Forchetta 45 gg | Vol. | Dal max | RSI | Stop |
 |---|---|---|---|---|---|---|---|---|
-| AMD `AMD` | — | 404,40 USD | -17,3% | -26% / +47% | 84% | -38% | 30 | 314,66 |
-| ASML (ADR) `ASML` | — | 1.356,65 USD | -9,3% | -17% / +27% | 52% | -32% | 27 | 1.187,53 |
-| Alphabet `GOOGL` | — | 282,57 USD | -2,2% | -14% / +21% | 43% | -30% | 28 | 254,67 |
-| Amazon `AMZN` | — | 260,21 USD | -2,2% | -12% / +18% | 36% | -8% | 55 | 234,36 |
-| Apple `AAPL` | — | 344,17 USD | -1,5% | -9% / +13% | 27% | -2% | 53 | 321,91 |
-| Broadcom `AVGO` | — | 291,53 USD | -10,4% | -18% / +29% | 55% | -39% | 32 | 255,53 |
-| Coca-Cola `KO` | — | 95,73 USD | -0,1% | -6% / +9% | 19% | -0% | 65 | 91,16 |
-| Costco `COST` | — | 1.065,59 USD | +1,8% | -8% / +11% | 22% | -2% | 72 | 1.015,65 |
-| Eli Lilly `LLY` | — | 1.364,73 USD | -3,8% | -12% / +18% | 36% | -4% | 63 | 1.236,88 |
-| Exxon Mobil `XOM` | — | 165,30 USD | -2,4% | -10% / +14% | 29% | -12% | 38 | 152,53 |
-| JPMorgan `JPM` | — | 337,34 USD | -4,2% | -9% / +12% | 26% | -7% | 49 | 317,82 |
-| Johnson & Johnson `JNJ` | — | 272,32 USD | -1,5% | -8% / +12% | 24% | -2% | 56 | 253,89 |
-| Lockheed Martin `LMT` | — | 576,16 USD | -3,2% | -12% / +18% | 36% | -14% | 49 | 516,85 |
-| Meta `META` | — | 605,08 USD | -4,0% | -14% / +20% | 41% | -22% | 35 | 546,41 |
-| Microsoft `MSFT` | — | 535,93 USD | -3,6% | -11% / +16% | 32% | -4% | 54 | 497,37 |
-| Northrop Grumman `NOC` | — | 525,25 USD | -0,0% | -10% / +14% | 29% | -31% | 48 | 483,40 |
-| Nvidia `NVDA` | — | 181,60 USD | -9,3% | -16% / +25% | 49% | -24% | 25 | 162,94 |
-| Procter & Gamble `PG` | — | 167,10 USD | -0,1% | -8% / +11% | 22% | -0% | 69 | 158,05 |
-| RTX `RTX` | — | 191,88 USD | -3,3% | -9% / +12% | 26% | -15% | 46 | 177,12 |
-| Tesla `TSLA` | — | 343,69 USD | -10,8% | -19% / +30% | 58% | -30% | 36 | 299,63 |
-| UnitedHealth `UNH` | — | 395,72 USD | -3,3% | -11% / +16% | 33% | -9% | 47 | 365,70 |
-| Visa `V` | — | 422,59 USD | -3,2% | -8% / +12% | 25% | -3% | 63 | 399,44 |
+| AMD `AMD` | — | 449,04 USD | +11,0% | -27% / +49% | 87% | -31% | 38 | 353,99 |
+| ASML (ADR) `ASML` | — | 1.424,75 USD | +5,0% | -17% / +27% | 53% | -28% | 35 | 1.246,59 |
+| Alphabet `GOOGL` | — | 284,78 USD | +0,8% | -14% / +21% | 42% | -29% | 30 | 256,54 |
+| Amazon `AMZN` | — | 259,30 USD | -0,4% | -12% / +18% | 36% | -9% | 54 | 234,89 |
+| Apple `AAPL` | — | 342,37 USD | -0,5% | -9% / +13% | 27% | -2% | 52 | 319,83 |
+| Broadcom `AVGO` | — | 293,69 USD | +0,7% | -18% / +28% | 54% | -39% | 33 | 255,85 |
+| Coca-Cola `KO` | — | 95,67 USD | -0,1% | -6% / +9% | 18% | -0% | 64 | 90,76 |
+| Costco `COST` | — | 1.053,56 USD | -1,1% | -8% / +11% | 22% | -3% | 68 | 1.001,80 |
+| Eli Lilly `LLY` | — | 1.354,00 USD | -0,8% | -12% / +18% | 36% | -5% | 61 | 1.221,97 |
+| Exxon Mobil `XOM` | — | 165,87 USD | +0,3% | -10% / +14% | 28% | -11% | 39 | 152,88 |
+| JPMorgan `JPM` | — | 334,49 USD | -0,8% | -9% / +12% | 25% | -8% | 47 | 314,79 |
+| Johnson & Johnson `JNJ` | — | 276,22 USD | +1,4% | -8% / +12% | 24% | -1% | 59 | 256,58 |
+| Lockheed Martin `LMT` | — | 567,08 USD | -1,6% | -12% / +18% | 36% | -15% | 46 | 507,85 |
+| Meta `META` | — | 610,15 USD | +0,8% | -13% / +20% | 40% | -22% | 37 | 550,58 |
+| Microsoft `MSFT` | — | 530,61 USD | -1,0% | -11% / +15% | 32% | -5% | 52 | 490,92 |
+| Northrop Grumman `NOC` | — | 525,01 USD | -0,1% | -10% / +14% | 28% | -31% | 48 | 481,45 |
+| Nvidia `NVDA` | — | 186,64 USD | +2,8% | -16% / +25% | 49% | -22% | 31 | 166,59 |
+| Procter & Gamble `PG` | — | 165,40 USD | -1,0% | -8% / +11% | 22% | -1% | 65 | 155,88 |
+| RTX `RTX` | — | 189,53 USD | -1,2% | -9% / +12% | 26% | -16% | 44 | 174,43 |
+| Tesla `TSLA` | — | 358,22 USD | +4,2% | -19% / +30% | 58% | -27% | 42 | 313,26 |
+| UnitedHealth `UNH` | — | 394,15 USD | -0,4% | -11% / +16% | 33% | -9% | 46 | 364,19 |
+| Visa `V` | — | 422,65 USD | +0,0% | -8% / +12% | 24% | -3% | 63 | 398,50 |
 
 </details>
 
