@@ -23,3 +23,7 @@ per tutti gli indici e gli ETF azionari per area; poi prova sui dati futuri nel 
 | 31 sedute | +0,86% (t 1,06) | +2,32% | 69% | +1,14% |
 | 63 sedute | +2,22% (t 1,17) | +2,62% | 59% | +2,01% |
 **SUPERATO** (273 casi su 66 date). Il segnale Panico entra in Oracolo per indici ed ETF azionari per area, orizzonte 1 mese.
+
+## Verifica del 12/11/2026 (vedi PREREG_RENDIMENTO.md)
+Il test sopra usava dati da giugno 2008, non dal 1993 come dichiarato. Dal 1993, su tutte le 21 griglie di origini:
++0,06% (t 0,09). **Esito rivisto: NON superato.** Il livello Panico resta solo come descrizione.

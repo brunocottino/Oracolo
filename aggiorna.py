@@ -176,7 +176,10 @@ def scrivi_oggi(path=os.path.join(ROOT, "OGGI.md")):
     json.dump(st, open(os.path.join(OUT, "stato.json"), "w", encoding="utf-8"), ensure_ascii=False)
     out += ["## Indici ed ETF azionari per livello", "",
            "Livello: " + " · ".join(f"**{l['livello']} {l['nome']}** {_p(l['rend'])} a 1 mese, {l['rialzo'] * 100:.0f}% rialzi"
-                                   for l in livelli), "", head]
+                                   for l in livelli),
+           "", "_Verifica del 12/11/2026: sul campione completo dal 1993 (crollo del 2008 compreso) il vantaggio del panico "
+           "sul rendimento normale non è significativo (+0,1%, t 0,1). I numeri qui sopra descrivono il passato, "
+           "non sono un segnale di acquisto._", "", head]
     out += [_riga(r) for r in sorted((r for r in rows if r["livello"]), key=lambda r: (-r["livello"], r["breve"]))]
     iper = sorted((r for r in rows if r["avviso"]), key=lambda r: -r["rsi"])
     out += ["", f"## Ipercomprati ({len(iper)}): RSI 14 sopra 70, meglio aspettare prima di comprare", "", head]

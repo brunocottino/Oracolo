@@ -67,3 +67,9 @@ ETF paese, settori, a 45 e 90 giorni. Anno peggiore (crisi): 33-65%. In app: sch
 ### 2026-10-26: RSI (`PREREG_RSI.md`): indici ipervenduti (RSI14<30) +2,2% a 1 mese (t 3,1, 72% rialzi); S&P 500 ipercomprato -0,3% a 1 settimana. Primi segnali che superano il criterio; campione indici piccolo.
 
 ### 2026-10-26: Indice di Panico (`PREREG_PANICO.md`): fuori campione su 15 indici mai usati, +1,6% sul normale a 21 sedute (t 2,9), 66% rialzi. Primo segnale validato fuori campione.
+
+### 2026-11-12: motore di rendimento (`PREREG_RENDIMENTO.md`, `python -m lab.return_test`)
+Scambio di panico (vendo il mondo, compro l'area in panico): +0,34% e +0,43% a 21 sedute (t 1,1 e 1,0), respinto.
+Beta nel panico (Nasdaq, Russell): nullo. Simulazione +0,2 punti annui prima delle imposte (t 0,4).
+**Correzione:** il Panico del 26/10 partiva dal 2008 e non dal 1993; sul campione dichiarato vale +0,06% (t 0,09). Torna descrittivo.
+Bilancio dopo ~2.050 prove: nessun segnale di timing o di selezione attivo. Il rendimento viene dal restare investiti.
