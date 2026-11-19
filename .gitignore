@@ -7,3 +7,6 @@ __pycache__/
 data/sec_insider/
 data/oracolo.nuovo/
 data/aggiorna.log
+
+# Dati personali (portafoglio, certificati, diario): solo sul tuo PC, mai su GitHub
+/privato/

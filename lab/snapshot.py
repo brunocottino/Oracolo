@@ -78,7 +78,7 @@ def row(t, grp, breve, prod):
     stop = f["price"] - config.SIGNAL_RULES["atr_stop_mult"] * engine.atr(df)
     px = df["adj"].astype(float)
     r14 = float(rsi(px.to_frame(t), 14).iloc[-1, 0])
-    out = {"ticker": t, "breve": breve, "prodotto": prod, "gruppo": grp, "valuta": meta.get("currency", ""),
+    out = {"ticker": t, "breve": breve, "prodotto": prod, "gruppo": grp, "valuta": meta.get("currency") or "",
            "data": str(df.index[-1].date()), "prezzo": round(f["price"], 4), "mov45": round(f["move_45"], 4),
            "chg1": round(float(df["close"].iloc[-1] / df["close"].iloc[-2] - 1), 4),
            "vol": round(bands.sigma_daily(np.diff(np.log(px.values))) * math.sqrt(252), 4),

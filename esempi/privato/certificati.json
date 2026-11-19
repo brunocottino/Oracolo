@@ -1,0 +1,5 @@
+{"certificati": [
+  {"isin": "CH0000000000", "nome": "Esempio Leonteq", "quantita": 2, "carico": 900.0, "nominale": 1000},
+  {"isin": "IT0000000000", "nome": "Esempio con termini corretti a mano", "quantita": 3, "carico": 850.0, "nominale": 1000,
+   "termini": {"sottostanti": ["RACE.MI", "UCG.MI"], "fissazione": "2025-11-18", "trigger": 40, "barriera": 40}}
+ ]}

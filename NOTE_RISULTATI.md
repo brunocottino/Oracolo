@@ -67,3 +67,7 @@ ETF paese, settori, a 45 e 90 giorni. Anno peggiore (crisi): 33-65%. In app: sch
 ### 2026-10-26: RSI (`PREREG_RSI.md`): indici ipervenduti (RSI14<30) +2,2% a 1 mese (t 3,1, 72% rialzi); S&P 500 ipercomprato -0,3% a 1 settimana. Primi segnali che superano il criterio; campione indici piccolo.
 
 ### 2026-10-26: Indice di Panico (`PREREG_PANICO.md`): fuori campione su 15 indici mai usati, +1,6% sul normale a 21 sedute (t 2,9), 66% rialzi. Primo segnale validato fuori campione.
+
+### 2026-11-19: Panico con tassi in salita (`PREREG_PANICO_TASSI.md`, `lab/panic_rates_test.py`)
+Con Treasury 10 anni salito di almeno 0,50 punti in 3 mesi: +0,72% sul normale a 21 sedute (t 0,56, 12 date); negli altri
+casi +1,38% (t 2,29). Il segnale sembra più debole con tassi in salita, ma non è dimostrato. Nessun avviso aggiunto.

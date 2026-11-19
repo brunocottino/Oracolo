@@ -1,0 +1,4 @@
+{"avvisi": [
+  {"nome": "MSCI World sotto 4.700", "ticker": "URTH", "sotto": 198.29},
+  {"nome": "Switch oltre -4%", "ticker": "QQQ", "contro": "RSP", "base": 600.0, "base_contro": 200.0, "sotto_rel": -0.04}
+ ]}
