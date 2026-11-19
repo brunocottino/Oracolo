@@ -38,8 +38,9 @@ Si usano solo download pubblici senza login.
 - [x] Peso della posizione a rischio fisso: stop a 2,5 ATR costa lo 0,5% del portafoglio (max 10%).
 - [ ] Classifica dei titoli con scostamenti di peso al massimo di ±2%, non segnali singoli.
 - [ ] Veto: niente nuovi acquisti se crescita implicita o probabilità implicita sono nel decile alto.
-- [ ] Diario: decisione registrata prima dell'esecuzione e non modificabile, più portafoglio paper contro ACWI (yfinance: `ACWI`). Scheda "Diario".
-- [ ] Schermata da 10 secondi: semaforo, 3 avvisi, risultato contro l'ETF. Fatti semaforo e 3 avvisi in cima a OGGI.md; manca il risultato contro l'ETF (serve il Diario).
+- [x] Diario: decisione registrata prima dell'esecuzione e non modificabile, più portafoglio paper contro ACWI (yfinance: `ACWI`). Fatto in `diario.py` (catena di hash, piano obbligatorio, confronto con ACWI in euro) e nella pagina privata `privato/OGGI_PRIVATO.md`. Manca la scheda "Diario" nell'app.
+- [x] Schermata da 10 secondi: semaforo, 3 avvisi, risultato contro l'ETF. Semaforo e avvisi in cima a OGGI.md; il risultato contro ACWI è nel Diario della pagina privata (non su GitHub).
+- [x] Parte personale (solo sul PC, cartella `privato/` esclusa da Git): portafoglio reale per tema, certificati con distanza dal livello della cedola (termini dai documenti di Borsa Italiana), avvisi su livelli e sullo switch. `personale.py`, lanciato da `aggiorna.py`.
 - [ ] Dati europei marcati "qualità bassa", esclusi dalla classifica.
 
 ## Da NON fare

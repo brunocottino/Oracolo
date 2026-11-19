@@ -3,6 +3,7 @@
 Lancio:  python aggiorna.py            fotografia di oggi (forchetta, livelli 1-5, RSI) in data/oracolo/
          python aggiorna.py --lab      anche il Laboratorio rapido (lo fa da solo se l'ultimo ha più di 7 giorni)
          python aggiorna.py --oggi     solo fotografia, più la pagina OGGI.md (GitHub Actions, oracolo-giornaliero.yml)
+Se esiste la cartella privato/ (solo sul tuo PC, mai su GitHub) aggiorna anche la parte personale: personale.py.
 Lo lancia il pianificatore del computer (installa_aggiornamento_windows.bat / setup_mac.sh) o GitHub Actions.
 Se Yahoo non risponde o escono pochi strumenti, la fotografia precedente resta com'è.
 """
@@ -40,11 +41,17 @@ def stato():
 
 
 def fotografia():
+    import config
     from lab import snapshot
     tmp = OUT + ".nuovo"
     shutil.rmtree(tmp, ignore_errors=True)
     t0 = time.time()
-    snapshot.main(tmp)
+    # Prezzi sempre freschi: una fotografia rifatta in giornata non deve riusare la cache di 6 ore.
+    ttl, config.PRICE_CACHE_TTL = config.PRICE_CACHE_TTL, min(config.PRICE_CACHE_TTL, 900)
+    try:
+        snapshot.main(tmp)
+    finally:
+        config.PRICE_CACHE_TTL = ttl
     rows = json.load(open(os.path.join(tmp, "forchetta.json"), encoding="utf-8"))
     if len(rows) < MIN_STRUMENTI:
         shutil.rmtree(tmp, ignore_errors=True)
@@ -53,6 +60,13 @@ def fotografia():
     st.update({"aggiornato": datetime.now(timezone.utc).isoformat(timespec="minutes"), "strumenti": len(rows),
                "panico": sum(1 for r in rows if (r.get("livello") or 0) >= 4),
                "ipercomprati": sum(1 for r in rows if r.get("avviso")), "secondi": round(time.time() - t0)})
+    # Semaforo e avvisi ricalcolati sui dati nuovi (prima restavano quelli della fotografia precedente).
+    try:
+        livelli = json.load(open(os.path.join(tmp, "livelli.json"), encoding="utf-8"))
+        _, info = cruscotto(rows, livelli, st.get("mercati") or {}, (0, []))
+        st.update({"semaforo": info["semaforo"], "avvisi": info["avvisi"]})
+    except Exception as e:
+        log(f"semaforo non ricalcolato: {str(e)[:120]}")
     json.dump(st, open(os.path.join(tmp, "stato.json"), "w", encoding="utf-8"), ensure_ascii=False)
     shutil.rmtree(OUT, ignore_errors=True)
     os.replace(tmp, OUT)
@@ -68,7 +82,7 @@ def _n(x):
 
 
 def _riga(r):
-    return (f"| {r['breve']} `{r['ticker']}` | {r['livello'] or '—'} | {_n(r['prezzo'])} {r.get('valuta', '')} | "
+    return (f"| {r['breve']} `{r['ticker']}` | {r['livello'] or '—'} | {_n(r['prezzo'])} {r.get('valuta') or ''} | "
             f"{_p(r['chg1'])} | {_p(r['lo45'], 0)} / {_p(r['hi45'], 0)} | {r['vol'] * 100:.0f}% | {_p(r['dd'], 0)} | "
             f"{r['rsi']:.0f} | {_n(r['stop'])} |")
 
@@ -221,6 +235,14 @@ def main(argv):
         if ok:
             scrivi_oggi()
         return 0 if ok else 1
+    if ok and os.path.isdir(os.path.join(ROOT, "privato")):
+        # Parte personale (portafoglio, certificati, avvisi, diario): solo sul PC, i file restano in privato/
+        try:
+            import personale
+            r = personale.esegui()
+            log(f"parte personale ok: {r}")
+        except Exception as e:
+            log(f"parte personale NON aggiornata: {str(e)[:200]}")
     if ok and ("--lab" in argv or laboratorio_dovuto()):
         try:
             laboratorio()

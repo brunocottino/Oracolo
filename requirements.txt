@@ -11,3 +11,5 @@ lxml>=5.0
 yfinance>=0.2.40
 # motore "ufficiale" GARCH del modello di base (facoltativo: altrimenti MLE in scipy)
 arch>=6.3
+# condizioni definitive dei certificati in PDF (facoltativo: se c'è pdftotext usa quello)
+pypdf>=4.0

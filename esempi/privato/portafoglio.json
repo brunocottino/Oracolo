@@ -1,0 +1,5 @@
+{"data_estratto": "2026-10-06", "liquidita": 1000.0,
+ "posizioni": [
+  {"nome": "ASML", "isin": "NL0010273215", "ticker": "ASML.AS", "tema": "Tecnologia", "quantita": 2, "carico": 800.0, "prezzo_rif": 1650.0},
+  {"nome": "ETF esempio senza ticker", "isin": "IE00B5MTWD60", "tema": "Banche", "quantita": 10, "carico": 190.0, "prezzo_rif": 240.0}
+ ]}
