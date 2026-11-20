@@ -205,7 +205,7 @@ def esegui(rete=True):
     cert = certificati(rete=rete)
     allarmi = [f"**{a['nome']}**: ora {a['valore'] * 100:+.1f}%" if "contro" in a else f"**{a['nome']}**: ultimo prezzo {a['valore']:.2f}"
                for a in scattati]
-    if cert:
+    if cert and (leggi("avvisi.json") or {}).get("avvisi_certificati", True):
         for r in cert:
             if r.get("metodo") == "livelli" and r["paga"] and r["dist_trigger"] < 0.05:
                 allarmi.append(f"**{r['nome']}**: cedola a rischio, {r['peggiore']} solo {_p(r['dist_trigger'])} sopra il livello")
